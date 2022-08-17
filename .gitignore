@@ -12,3 +12,12 @@ Cargo.lock
 /target
 .mypy_cache
 tags*
+
+.vscode
+
+#simnow files
+TradingDay.con
+QueryRsp.con
+Public.con
+Private.con
+DialogRsp.con
