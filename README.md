@@ -4,7 +4,7 @@ CTP sdk version: `v6.6.1_P1_20210406`
 windows 环境下：
 编译时需要安装 
 1. LLVM-14.0.6-win64.exe
-2. windows visual studio 2022 c++
+2. visual studio 2022 c++
 
 运行 examples 里的 mdapi 或 tdapi 命令如下：
 
