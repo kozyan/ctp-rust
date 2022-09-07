@@ -1262,140 +1262,140 @@ pub type THOST_TE_RESUME_TYPE = ::std::os::raw::c_int;
 #[doc = ""]
 #[doc = "TFtdcTraderIDType是一个交易所交易员代码类型"]
 #[doc = ""]
-pub type TThostFtdcTraderIDType = [::std::os::raw::c_char; 21usize];
+pub type TThostFtdcTraderIDType = [::std::os::raw::c_uchar; 21usize];
 #[doc = ""]
 #[doc = "TFtdcInvestorIDType是一个投资者代码类型"]
 #[doc = ""]
-pub type TThostFtdcInvestorIDType = [::std::os::raw::c_char; 13usize];
+pub type TThostFtdcInvestorIDType = [::std::os::raw::c_uchar; 13usize];
 #[doc = ""]
 #[doc = "TFtdcBrokerIDType是一个经纪公司代码类型"]
 #[doc = ""]
-pub type TThostFtdcBrokerIDType = [::std::os::raw::c_char; 11usize];
+pub type TThostFtdcBrokerIDType = [::std::os::raw::c_uchar; 11usize];
 #[doc = ""]
 #[doc = "TFtdcBrokerAbbrType是一个经纪公司简称类型"]
 #[doc = ""]
-pub type TThostFtdcBrokerAbbrType = [::std::os::raw::c_char; 9usize];
+pub type TThostFtdcBrokerAbbrType = [::std::os::raw::c_uchar; 9usize];
 #[doc = ""]
 #[doc = "TFtdcBrokerNameType是一个经纪公司名称类型"]
 #[doc = ""]
-pub type TThostFtdcBrokerNameType = [::std::os::raw::c_char; 81usize];
+pub type TThostFtdcBrokerNameType = [::std::os::raw::c_uchar; 81usize];
 #[doc = ""]
 #[doc = "TFtdcOldExchangeInstIDType是一个合约在交易所的代码类型"]
 #[doc = ""]
-pub type TThostFtdcOldExchangeInstIDType = [::std::os::raw::c_char; 31usize];
+pub type TThostFtdcOldExchangeInstIDType = [::std::os::raw::c_uchar; 31usize];
 #[doc = ""]
 #[doc = "TFtdcExchangeInstIDType是一个合约在交易所的代码类型"]
 #[doc = ""]
-pub type TThostFtdcExchangeInstIDType = [::std::os::raw::c_char; 81usize];
+pub type TThostFtdcExchangeInstIDType = [::std::os::raw::c_uchar; 81usize];
 #[doc = ""]
 #[doc = "TFtdcOrderRefType是一个报单引用类型"]
 #[doc = ""]
-pub type TThostFtdcOrderRefType = [::std::os::raw::c_char; 13usize];
+pub type TThostFtdcOrderRefType = [::std::os::raw::c_uchar; 13usize];
 #[doc = ""]
 #[doc = "TFtdcParticipantIDType是一个会员代码类型"]
 #[doc = ""]
-pub type TThostFtdcParticipantIDType = [::std::os::raw::c_char; 11usize];
+pub type TThostFtdcParticipantIDType = [::std::os::raw::c_uchar; 11usize];
 #[doc = ""]
 #[doc = "TFtdcUserIDType是一个用户代码类型"]
 #[doc = ""]
-pub type TThostFtdcUserIDType = [::std::os::raw::c_char; 16usize];
+pub type TThostFtdcUserIDType = [::std::os::raw::c_uchar; 16usize];
 #[doc = ""]
 #[doc = "TFtdcPasswordType是一个密码类型"]
 #[doc = ""]
-pub type TThostFtdcPasswordType = [::std::os::raw::c_char; 41usize];
+pub type TThostFtdcPasswordType = [::std::os::raw::c_uchar; 41usize];
 #[doc = ""]
 #[doc = "TFtdcClientIDType是一个交易编码类型"]
 #[doc = ""]
-pub type TThostFtdcClientIDType = [::std::os::raw::c_char; 11usize];
+pub type TThostFtdcClientIDType = [::std::os::raw::c_uchar; 11usize];
 #[doc = ""]
 #[doc = "TFtdcInstrumentIDType是一个合约代码类型"]
 #[doc = ""]
-pub type TThostFtdcInstrumentIDType = [::std::os::raw::c_char; 81usize];
+pub type TThostFtdcInstrumentIDType = [::std::os::raw::c_uchar; 81usize];
 #[doc = ""]
 #[doc = "TFtdcOldInstrumentIDType是一个合约代码类型"]
 #[doc = ""]
-pub type TThostFtdcOldInstrumentIDType = [::std::os::raw::c_char; 31usize];
+pub type TThostFtdcOldInstrumentIDType = [::std::os::raw::c_uchar; 31usize];
 #[doc = ""]
 #[doc = "TFtdcInstrumentCodeType是一个合约标识码类型"]
 #[doc = ""]
-pub type TThostFtdcInstrumentCodeType = [::std::os::raw::c_char; 31usize];
+pub type TThostFtdcInstrumentCodeType = [::std::os::raw::c_uchar; 31usize];
 #[doc = ""]
 #[doc = "TFtdcMarketIDType是一个市场代码类型"]
 #[doc = ""]
-pub type TThostFtdcMarketIDType = [::std::os::raw::c_char; 31usize];
+pub type TThostFtdcMarketIDType = [::std::os::raw::c_uchar; 31usize];
 #[doc = ""]
 #[doc = "TFtdcProductNameType是一个产品名称类型"]
 #[doc = ""]
-pub type TThostFtdcProductNameType = [::std::os::raw::c_char; 21usize];
+pub type TThostFtdcProductNameType = [::std::os::raw::c_uchar; 21usize];
 #[doc = ""]
 #[doc = "TFtdcExchangeIDType是一个交易所代码类型"]
 #[doc = ""]
-pub type TThostFtdcExchangeIDType = [::std::os::raw::c_char; 9usize];
+pub type TThostFtdcExchangeIDType = [::std::os::raw::c_uchar; 9usize];
 #[doc = ""]
 #[doc = "TFtdcExchangeNameType是一个交易所名称类型"]
 #[doc = ""]
-pub type TThostFtdcExchangeNameType = [::std::os::raw::c_char; 61usize];
+pub type TThostFtdcExchangeNameType = [::std::os::raw::c_uchar; 61usize];
 #[doc = ""]
 #[doc = "TFtdcExchangeAbbrType是一个交易所简称类型"]
 #[doc = ""]
-pub type TThostFtdcExchangeAbbrType = [::std::os::raw::c_char; 9usize];
+pub type TThostFtdcExchangeAbbrType = [::std::os::raw::c_uchar; 9usize];
 #[doc = ""]
 #[doc = "TFtdcExchangeFlagType是一个交易所标志类型"]
 #[doc = ""]
-pub type TThostFtdcExchangeFlagType = [::std::os::raw::c_char; 2usize];
+pub type TThostFtdcExchangeFlagType = [::std::os::raw::c_uchar; 2usize];
 #[doc = ""]
 #[doc = "TFtdcMacAddressType是一个Mac地址类型"]
 #[doc = ""]
-pub type TThostFtdcMacAddressType = [::std::os::raw::c_char; 21usize];
+pub type TThostFtdcMacAddressType = [::std::os::raw::c_uchar; 21usize];
 #[doc = ""]
 #[doc = "TFtdcSystemIDType是一个系统编号类型"]
 #[doc = ""]
-pub type TThostFtdcSystemIDType = [::std::os::raw::c_char; 21usize];
+pub type TThostFtdcSystemIDType = [::std::os::raw::c_uchar; 21usize];
 #[doc = ""]
 #[doc = "TFtdcClientLoginRemarkType是一个客户登录备注2类型"]
 #[doc = ""]
-pub type TThostFtdcClientLoginRemarkType = [::std::os::raw::c_char; 151usize];
-pub type TThostFtdcExchangePropertyType = ::std::os::raw::c_char;
+pub type TThostFtdcClientLoginRemarkType = [::std::os::raw::c_uchar; 151usize];
+pub type TThostFtdcExchangePropertyType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcDateType是一个日期类型"]
 #[doc = ""]
-pub type TThostFtdcDateType = [::std::os::raw::c_char; 9usize];
+pub type TThostFtdcDateType = [::std::os::raw::c_uchar; 9usize];
 #[doc = ""]
 #[doc = "TFtdcTimeType是一个时间类型"]
 #[doc = ""]
-pub type TThostFtdcTimeType = [::std::os::raw::c_char; 9usize];
+pub type TThostFtdcTimeType = [::std::os::raw::c_uchar; 9usize];
 #[doc = ""]
 #[doc = "TFtdcLongTimeType是一个长时间类型"]
 #[doc = ""]
-pub type TThostFtdcLongTimeType = [::std::os::raw::c_char; 13usize];
+pub type TThostFtdcLongTimeType = [::std::os::raw::c_uchar; 13usize];
 #[doc = ""]
 #[doc = "TFtdcInstrumentNameType是一个合约名称类型"]
 #[doc = ""]
-pub type TThostFtdcInstrumentNameType = [::std::os::raw::c_char; 21usize];
+pub type TThostFtdcInstrumentNameType = [::std::os::raw::c_uchar; 21usize];
 #[doc = ""]
 #[doc = "TFtdcSettlementGroupIDType是一个结算组代码类型"]
 #[doc = ""]
-pub type TThostFtdcSettlementGroupIDType = [::std::os::raw::c_char; 9usize];
+pub type TThostFtdcSettlementGroupIDType = [::std::os::raw::c_uchar; 9usize];
 #[doc = ""]
 #[doc = "TFtdcOrderSysIDType是一个报单编号类型"]
 #[doc = ""]
-pub type TThostFtdcOrderSysIDType = [::std::os::raw::c_char; 21usize];
+pub type TThostFtdcOrderSysIDType = [::std::os::raw::c_uchar; 21usize];
 #[doc = ""]
 #[doc = "TFtdcTradeIDType是一个成交编号类型"]
 #[doc = ""]
-pub type TThostFtdcTradeIDType = [::std::os::raw::c_char; 21usize];
+pub type TThostFtdcTradeIDType = [::std::os::raw::c_uchar; 21usize];
 #[doc = ""]
 #[doc = "TFtdcCommandTypeType是一个DB命令类型类型"]
 #[doc = ""]
-pub type TThostFtdcCommandTypeType = [::std::os::raw::c_char; 65usize];
+pub type TThostFtdcCommandTypeType = [::std::os::raw::c_uchar; 65usize];
 #[doc = ""]
 #[doc = "TFtdcOldIPAddressType是一个IP地址类型"]
 #[doc = ""]
-pub type TThostFtdcOldIPAddressType = [::std::os::raw::c_char; 16usize];
+pub type TThostFtdcOldIPAddressType = [::std::os::raw::c_uchar; 16usize];
 #[doc = ""]
 #[doc = "TFtdcIPAddressType是一个IP地址类型"]
 #[doc = ""]
-pub type TThostFtdcIPAddressType = [::std::os::raw::c_char; 33usize];
+pub type TThostFtdcIPAddressType = [::std::os::raw::c_uchar; 33usize];
 #[doc = ""]
 #[doc = "TFtdcIPPortType是一个IP端口类型"]
 #[doc = ""]
@@ -1403,96 +1403,96 @@ pub type TThostFtdcIPPortType = ::std::os::raw::c_int;
 #[doc = ""]
 #[doc = "TFtdcProductInfoType是一个产品信息类型"]
 #[doc = ""]
-pub type TThostFtdcProductInfoType = [::std::os::raw::c_char; 11usize];
+pub type TThostFtdcProductInfoType = [::std::os::raw::c_uchar; 11usize];
 #[doc = ""]
 #[doc = "TFtdcProtocolInfoType是一个协议信息类型"]
 #[doc = ""]
-pub type TThostFtdcProtocolInfoType = [::std::os::raw::c_char; 11usize];
+pub type TThostFtdcProtocolInfoType = [::std::os::raw::c_uchar; 11usize];
 #[doc = ""]
 #[doc = "TFtdcBusinessUnitType是一个业务单元类型"]
 #[doc = ""]
-pub type TThostFtdcBusinessUnitType = [::std::os::raw::c_char; 21usize];
+pub type TThostFtdcBusinessUnitType = [::std::os::raw::c_uchar; 21usize];
 #[doc = ""]
 #[doc = "TFtdcDepositSeqNoType是一个出入金流水号类型"]
 #[doc = ""]
-pub type TThostFtdcDepositSeqNoType = [::std::os::raw::c_char; 15usize];
+pub type TThostFtdcDepositSeqNoType = [::std::os::raw::c_uchar; 15usize];
 #[doc = ""]
 #[doc = "TFtdcIdentifiedCardNoType是一个证件号码类型"]
 #[doc = ""]
-pub type TThostFtdcIdentifiedCardNoType = [::std::os::raw::c_char; 51usize];
-pub type TThostFtdcIdCardTypeType = ::std::os::raw::c_char;
+pub type TThostFtdcIdentifiedCardNoType = [::std::os::raw::c_uchar; 51usize];
+pub type TThostFtdcIdCardTypeType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcOrderLocalIDType是一个本地报单编号类型"]
 #[doc = ""]
-pub type TThostFtdcOrderLocalIDType = [::std::os::raw::c_char; 13usize];
+pub type TThostFtdcOrderLocalIDType = [::std::os::raw::c_uchar; 13usize];
 #[doc = ""]
 #[doc = "TFtdcUserNameType是一个用户名称类型"]
 #[doc = ""]
-pub type TThostFtdcUserNameType = [::std::os::raw::c_char; 81usize];
+pub type TThostFtdcUserNameType = [::std::os::raw::c_uchar; 81usize];
 #[doc = ""]
 #[doc = "TFtdcPartyNameType是一个参与人名称类型"]
 #[doc = ""]
-pub type TThostFtdcPartyNameType = [::std::os::raw::c_char; 81usize];
+pub type TThostFtdcPartyNameType = [::std::os::raw::c_uchar; 81usize];
 #[doc = ""]
 #[doc = "TFtdcErrorMsgType是一个错误信息类型"]
 #[doc = ""]
-pub type TThostFtdcErrorMsgType = [::std::os::raw::c_char; 81usize];
+pub type TThostFtdcErrorMsgType = [::std::os::raw::c_uchar; 81usize];
 #[doc = ""]
 #[doc = "TFtdcFieldNameType是一个字段名类型"]
 #[doc = ""]
-pub type TThostFtdcFieldNameType = [::std::os::raw::c_char; 2049usize];
+pub type TThostFtdcFieldNameType = [::std::os::raw::c_uchar; 2049usize];
 #[doc = ""]
 #[doc = "TFtdcFieldContentType是一个字段内容类型"]
 #[doc = ""]
-pub type TThostFtdcFieldContentType = [::std::os::raw::c_char; 2049usize];
+pub type TThostFtdcFieldContentType = [::std::os::raw::c_uchar; 2049usize];
 #[doc = ""]
 #[doc = "TFtdcSystemNameType是一个系统名称类型"]
 #[doc = ""]
-pub type TThostFtdcSystemNameType = [::std::os::raw::c_char; 41usize];
+pub type TThostFtdcSystemNameType = [::std::os::raw::c_uchar; 41usize];
 #[doc = ""]
 #[doc = "TFtdcContentType是一个消息正文类型"]
 #[doc = ""]
-pub type TThostFtdcContentType = [::std::os::raw::c_char; 501usize];
-pub type TThostFtdcInvestorRangeType = ::std::os::raw::c_char;
-pub type TThostFtdcDepartmentRangeType = ::std::os::raw::c_char;
-pub type TThostFtdcDataSyncStatusType = ::std::os::raw::c_char;
-pub type TThostFtdcBrokerDataSyncStatusType = ::std::os::raw::c_char;
-pub type TThostFtdcExchangeConnectStatusType = ::std::os::raw::c_char;
-pub type TThostFtdcTraderConnectStatusType = ::std::os::raw::c_char;
-pub type TThostFtdcFunctionCodeType = ::std::os::raw::c_char;
-pub type TThostFtdcBrokerFunctionCodeType = ::std::os::raw::c_char;
-pub type TThostFtdcOrderActionStatusType = ::std::os::raw::c_char;
-pub type TThostFtdcOrderStatusType = ::std::os::raw::c_char;
-pub type TThostFtdcOrderSubmitStatusType = ::std::os::raw::c_char;
-pub type TThostFtdcPositionDateType = ::std::os::raw::c_char;
-pub type TThostFtdcPositionDateTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcTradingRoleType = ::std::os::raw::c_char;
-pub type TThostFtdcProductClassType = ::std::os::raw::c_char;
-pub type TThostFtdcAPIProductClassType = ::std::os::raw::c_char;
-pub type TThostFtdcInstLifePhaseType = ::std::os::raw::c_char;
-pub type TThostFtdcDirectionType = ::std::os::raw::c_char;
-pub type TThostFtdcPositionTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcPosiDirectionType = ::std::os::raw::c_char;
-pub type TThostFtdcSysSettlementStatusType = ::std::os::raw::c_char;
-pub type TThostFtdcRatioAttrType = ::std::os::raw::c_char;
-pub type TThostFtdcHedgeFlagType = ::std::os::raw::c_char;
-pub type TThostFtdcBillHedgeFlagType = ::std::os::raw::c_char;
-pub type TThostFtdcClientIDTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcOrderPriceTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcOffsetFlagType = ::std::os::raw::c_char;
-pub type TThostFtdcForceCloseReasonType = ::std::os::raw::c_char;
-pub type TThostFtdcOrderTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcTimeConditionType = ::std::os::raw::c_char;
-pub type TThostFtdcVolumeConditionType = ::std::os::raw::c_char;
-pub type TThostFtdcContingentConditionType = ::std::os::raw::c_char;
-pub type TThostFtdcActionFlagType = ::std::os::raw::c_char;
-pub type TThostFtdcTradingRightType = ::std::os::raw::c_char;
-pub type TThostFtdcOrderSourceType = ::std::os::raw::c_char;
-pub type TThostFtdcTradeTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcSpecPosiTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcPriceSourceType = ::std::os::raw::c_char;
-pub type TThostFtdcInstrumentStatusType = ::std::os::raw::c_char;
-pub type TThostFtdcInstStatusEnterReasonType = ::std::os::raw::c_char;
+pub type TThostFtdcContentType = [::std::os::raw::c_uchar; 501usize];
+pub type TThostFtdcInvestorRangeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcDepartmentRangeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcDataSyncStatusType = ::std::os::raw::c_uchar;
+pub type TThostFtdcBrokerDataSyncStatusType = ::std::os::raw::c_uchar;
+pub type TThostFtdcExchangeConnectStatusType = ::std::os::raw::c_uchar;
+pub type TThostFtdcTraderConnectStatusType = ::std::os::raw::c_uchar;
+pub type TThostFtdcFunctionCodeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcBrokerFunctionCodeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcOrderActionStatusType = ::std::os::raw::c_uchar;
+pub type TThostFtdcOrderStatusType = ::std::os::raw::c_uchar;
+pub type TThostFtdcOrderSubmitStatusType = ::std::os::raw::c_uchar;
+pub type TThostFtdcPositionDateType = ::std::os::raw::c_uchar;
+pub type TThostFtdcPositionDateTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcTradingRoleType = ::std::os::raw::c_uchar;
+pub type TThostFtdcProductClassType = ::std::os::raw::c_uchar;
+pub type TThostFtdcAPIProductClassType = ::std::os::raw::c_uchar;
+pub type TThostFtdcInstLifePhaseType = ::std::os::raw::c_uchar;
+pub type TThostFtdcDirectionType = ::std::os::raw::c_uchar;
+pub type TThostFtdcPositionTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcPosiDirectionType = ::std::os::raw::c_uchar;
+pub type TThostFtdcSysSettlementStatusType = ::std::os::raw::c_uchar;
+pub type TThostFtdcRatioAttrType = ::std::os::raw::c_uchar;
+pub type TThostFtdcHedgeFlagType = ::std::os::raw::c_uchar;
+pub type TThostFtdcBillHedgeFlagType = ::std::os::raw::c_uchar;
+pub type TThostFtdcClientIDTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcOrderPriceTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcOffsetFlagType = ::std::os::raw::c_uchar;
+pub type TThostFtdcForceCloseReasonType = ::std::os::raw::c_uchar;
+pub type TThostFtdcOrderTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcTimeConditionType = ::std::os::raw::c_uchar;
+pub type TThostFtdcVolumeConditionType = ::std::os::raw::c_uchar;
+pub type TThostFtdcContingentConditionType = ::std::os::raw::c_uchar;
+pub type TThostFtdcActionFlagType = ::std::os::raw::c_uchar;
+pub type TThostFtdcTradingRightType = ::std::os::raw::c_uchar;
+pub type TThostFtdcOrderSourceType = ::std::os::raw::c_uchar;
+pub type TThostFtdcTradeTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcSpecPosiTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcPriceSourceType = ::std::os::raw::c_uchar;
+pub type TThostFtdcInstrumentStatusType = ::std::os::raw::c_uchar;
+pub type TThostFtdcInstStatusEnterReasonType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcOrderActionRefType是一个报单操作引用类型"]
 #[doc = ""]
@@ -1572,11 +1572,11 @@ pub type TThostFtdcPriceType = f64;
 #[doc = ""]
 #[doc = "TFtdcCombOffsetFlagType是一个组合开平标志类型"]
 #[doc = ""]
-pub type TThostFtdcCombOffsetFlagType = [::std::os::raw::c_char; 5usize];
+pub type TThostFtdcCombOffsetFlagType = [::std::os::raw::c_uchar; 5usize];
 #[doc = ""]
 #[doc = "TFtdcCombHedgeFlagType是一个组合投机套保标志类型"]
 #[doc = ""]
-pub type TThostFtdcCombHedgeFlagType = [::std::os::raw::c_char; 5usize];
+pub type TThostFtdcCombHedgeFlagType = [::std::os::raw::c_uchar; 5usize];
 #[doc = ""]
 #[doc = "TFtdcRatioType是一个比率类型"]
 #[doc = ""]
@@ -1600,7 +1600,7 @@ pub type TThostFtdcCommPhaseNoType = ::std::os::raw::c_short;
 #[doc = ""]
 #[doc = "TFtdcSequenceLabelType是一个序列编号类型"]
 #[doc = ""]
-pub type TThostFtdcSequenceLabelType = [::std::os::raw::c_char; 2usize];
+pub type TThostFtdcSequenceLabelType = [::std::os::raw::c_uchar; 2usize];
 #[doc = ""]
 #[doc = "TFtdcUnderlyingMultipleType是一个基础商品乘数类型"]
 #[doc = ""]
@@ -1612,190 +1612,190 @@ pub type TThostFtdcPriorityType = ::std::os::raw::c_int;
 #[doc = ""]
 #[doc = "TFtdcContractCodeType是一个合同编号类型"]
 #[doc = ""]
-pub type TThostFtdcContractCodeType = [::std::os::raw::c_char; 41usize];
+pub type TThostFtdcContractCodeType = [::std::os::raw::c_uchar; 41usize];
 #[doc = ""]
 #[doc = "TFtdcCityType是一个市类型"]
 #[doc = ""]
-pub type TThostFtdcCityType = [::std::os::raw::c_char; 51usize];
+pub type TThostFtdcCityType = [::std::os::raw::c_uchar; 51usize];
 #[doc = ""]
 #[doc = "TFtdcIsStockType是一个是否股民类型"]
 #[doc = ""]
-pub type TThostFtdcIsStockType = [::std::os::raw::c_char; 11usize];
+pub type TThostFtdcIsStockType = [::std::os::raw::c_uchar; 11usize];
 #[doc = ""]
 #[doc = "TFtdcChannelType是一个渠道类型"]
 #[doc = ""]
-pub type TThostFtdcChannelType = [::std::os::raw::c_char; 51usize];
+pub type TThostFtdcChannelType = [::std::os::raw::c_uchar; 51usize];
 #[doc = ""]
 #[doc = "TFtdcAddressType是一个通讯地址类型"]
 #[doc = ""]
-pub type TThostFtdcAddressType = [::std::os::raw::c_char; 101usize];
+pub type TThostFtdcAddressType = [::std::os::raw::c_uchar; 101usize];
 #[doc = ""]
 #[doc = "TFtdcZipCodeType是一个邮政编码类型"]
 #[doc = ""]
-pub type TThostFtdcZipCodeType = [::std::os::raw::c_char; 7usize];
+pub type TThostFtdcZipCodeType = [::std::os::raw::c_uchar; 7usize];
 #[doc = ""]
 #[doc = "TFtdcTelephoneType是一个联系电话类型"]
 #[doc = ""]
-pub type TThostFtdcTelephoneType = [::std::os::raw::c_char; 41usize];
+pub type TThostFtdcTelephoneType = [::std::os::raw::c_uchar; 41usize];
 #[doc = ""]
 #[doc = "TFtdcFaxType是一个传真类型"]
 #[doc = ""]
-pub type TThostFtdcFaxType = [::std::os::raw::c_char; 41usize];
+pub type TThostFtdcFaxType = [::std::os::raw::c_uchar; 41usize];
 #[doc = ""]
 #[doc = "TFtdcMobileType是一个手机类型"]
 #[doc = ""]
-pub type TThostFtdcMobileType = [::std::os::raw::c_char; 41usize];
+pub type TThostFtdcMobileType = [::std::os::raw::c_uchar; 41usize];
 #[doc = ""]
 #[doc = "TFtdcEMailType是一个电子邮件类型"]
 #[doc = ""]
-pub type TThostFtdcEMailType = [::std::os::raw::c_char; 41usize];
+pub type TThostFtdcEMailType = [::std::os::raw::c_uchar; 41usize];
 #[doc = ""]
 #[doc = "TFtdcMemoType是一个备注类型"]
 #[doc = ""]
-pub type TThostFtdcMemoType = [::std::os::raw::c_char; 161usize];
+pub type TThostFtdcMemoType = [::std::os::raw::c_uchar; 161usize];
 #[doc = ""]
 #[doc = "TFtdcCompanyCodeType是一个企业代码类型"]
 #[doc = ""]
-pub type TThostFtdcCompanyCodeType = [::std::os::raw::c_char; 51usize];
+pub type TThostFtdcCompanyCodeType = [::std::os::raw::c_uchar; 51usize];
 #[doc = ""]
 #[doc = "TFtdcWebsiteType是一个网站地址类型"]
 #[doc = ""]
-pub type TThostFtdcWebsiteType = [::std::os::raw::c_char; 51usize];
+pub type TThostFtdcWebsiteType = [::std::os::raw::c_uchar; 51usize];
 #[doc = ""]
 #[doc = "TFtdcTaxNoType是一个税务登记号类型"]
 #[doc = ""]
-pub type TThostFtdcTaxNoType = [::std::os::raw::c_char; 31usize];
-pub type TThostFtdcBatchStatusType = ::std::os::raw::c_char;
+pub type TThostFtdcTaxNoType = [::std::os::raw::c_uchar; 31usize];
+pub type TThostFtdcBatchStatusType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcPropertyIDType是一个属性代码类型"]
 #[doc = ""]
-pub type TThostFtdcPropertyIDType = [::std::os::raw::c_char; 33usize];
+pub type TThostFtdcPropertyIDType = [::std::os::raw::c_uchar; 33usize];
 #[doc = ""]
 #[doc = "TFtdcPropertyNameType是一个属性名称类型"]
 #[doc = ""]
-pub type TThostFtdcPropertyNameType = [::std::os::raw::c_char; 65usize];
+pub type TThostFtdcPropertyNameType = [::std::os::raw::c_uchar; 65usize];
 #[doc = ""]
 #[doc = "TFtdcLicenseNoType是一个营业执照号类型"]
 #[doc = ""]
-pub type TThostFtdcLicenseNoType = [::std::os::raw::c_char; 51usize];
+pub type TThostFtdcLicenseNoType = [::std::os::raw::c_uchar; 51usize];
 #[doc = ""]
 #[doc = "TFtdcAgentIDType是一个经纪人代码类型"]
 #[doc = ""]
-pub type TThostFtdcAgentIDType = [::std::os::raw::c_char; 13usize];
+pub type TThostFtdcAgentIDType = [::std::os::raw::c_uchar; 13usize];
 #[doc = ""]
 #[doc = "TFtdcAgentNameType是一个经纪人名称类型"]
 #[doc = ""]
-pub type TThostFtdcAgentNameType = [::std::os::raw::c_char; 41usize];
+pub type TThostFtdcAgentNameType = [::std::os::raw::c_uchar; 41usize];
 #[doc = ""]
 #[doc = "TFtdcAgentGroupIDType是一个经纪人组代码类型"]
 #[doc = ""]
-pub type TThostFtdcAgentGroupIDType = [::std::os::raw::c_char; 13usize];
+pub type TThostFtdcAgentGroupIDType = [::std::os::raw::c_uchar; 13usize];
 #[doc = ""]
 #[doc = "TFtdcAgentGroupNameType是一个经纪人组名称类型"]
 #[doc = ""]
-pub type TThostFtdcAgentGroupNameType = [::std::os::raw::c_char; 41usize];
-pub type TThostFtdcReturnStyleType = ::std::os::raw::c_char;
-pub type TThostFtdcReturnPatternType = ::std::os::raw::c_char;
-pub type TThostFtdcReturnLevelType = ::std::os::raw::c_char;
-pub type TThostFtdcReturnStandardType = ::std::os::raw::c_char;
-pub type TThostFtdcMortgageTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcInvestorSettlementParamIDType = ::std::os::raw::c_char;
-pub type TThostFtdcExchangeSettlementParamIDType = ::std::os::raw::c_char;
-pub type TThostFtdcSystemParamIDType = ::std::os::raw::c_char;
-pub type TThostFtdcTradeParamIDType = ::std::os::raw::c_char;
+pub type TThostFtdcAgentGroupNameType = [::std::os::raw::c_uchar; 41usize];
+pub type TThostFtdcReturnStyleType = ::std::os::raw::c_uchar;
+pub type TThostFtdcReturnPatternType = ::std::os::raw::c_uchar;
+pub type TThostFtdcReturnLevelType = ::std::os::raw::c_uchar;
+pub type TThostFtdcReturnStandardType = ::std::os::raw::c_uchar;
+pub type TThostFtdcMortgageTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcInvestorSettlementParamIDType = ::std::os::raw::c_uchar;
+pub type TThostFtdcExchangeSettlementParamIDType = ::std::os::raw::c_uchar;
+pub type TThostFtdcSystemParamIDType = ::std::os::raw::c_uchar;
+pub type TThostFtdcTradeParamIDType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcSettlementParamValueType是一个参数代码值类型"]
 #[doc = ""]
-pub type TThostFtdcSettlementParamValueType = [::std::os::raw::c_char; 256usize];
+pub type TThostFtdcSettlementParamValueType = [::std::os::raw::c_uchar; 256usize];
 #[doc = ""]
 #[doc = "TFtdcCounterIDType是一个计数器代码类型"]
 #[doc = ""]
-pub type TThostFtdcCounterIDType = [::std::os::raw::c_char; 33usize];
+pub type TThostFtdcCounterIDType = [::std::os::raw::c_uchar; 33usize];
 #[doc = ""]
 #[doc = "TFtdcInvestorGroupNameType是一个投资者分组名称类型"]
 #[doc = ""]
-pub type TThostFtdcInvestorGroupNameType = [::std::os::raw::c_char; 41usize];
+pub type TThostFtdcInvestorGroupNameType = [::std::os::raw::c_uchar; 41usize];
 #[doc = ""]
 #[doc = "TFtdcBrandCodeType是一个牌号类型"]
 #[doc = ""]
-pub type TThostFtdcBrandCodeType = [::std::os::raw::c_char; 257usize];
+pub type TThostFtdcBrandCodeType = [::std::os::raw::c_uchar; 257usize];
 #[doc = ""]
 #[doc = "TFtdcWarehouseType是一个仓库类型"]
 #[doc = ""]
-pub type TThostFtdcWarehouseType = [::std::os::raw::c_char; 257usize];
+pub type TThostFtdcWarehouseType = [::std::os::raw::c_uchar; 257usize];
 #[doc = ""]
 #[doc = "TFtdcProductDateType是一个产期类型"]
 #[doc = ""]
-pub type TThostFtdcProductDateType = [::std::os::raw::c_char; 41usize];
+pub type TThostFtdcProductDateType = [::std::os::raw::c_uchar; 41usize];
 #[doc = ""]
 #[doc = "TFtdcGradeType是一个等级类型"]
 #[doc = ""]
-pub type TThostFtdcGradeType = [::std::os::raw::c_char; 41usize];
+pub type TThostFtdcGradeType = [::std::os::raw::c_uchar; 41usize];
 #[doc = ""]
 #[doc = "TFtdcClassifyType是一个类别类型"]
 #[doc = ""]
-pub type TThostFtdcClassifyType = [::std::os::raw::c_char; 41usize];
+pub type TThostFtdcClassifyType = [::std::os::raw::c_uchar; 41usize];
 #[doc = ""]
 #[doc = "TFtdcPositionType是一个货位类型"]
 #[doc = ""]
-pub type TThostFtdcPositionType = [::std::os::raw::c_char; 41usize];
+pub type TThostFtdcPositionType = [::std::os::raw::c_uchar; 41usize];
 #[doc = ""]
 #[doc = "TFtdcYieldlyType是一个产地类型"]
 #[doc = ""]
-pub type TThostFtdcYieldlyType = [::std::os::raw::c_char; 41usize];
+pub type TThostFtdcYieldlyType = [::std::os::raw::c_uchar; 41usize];
 #[doc = ""]
 #[doc = "TFtdcWeightType是一个公定重量类型"]
 #[doc = ""]
-pub type TThostFtdcWeightType = [::std::os::raw::c_char; 41usize];
+pub type TThostFtdcWeightType = [::std::os::raw::c_uchar; 41usize];
 #[doc = ""]
 #[doc = "TFtdcSubEntryFundNoType是一个分项资金流水号类型"]
 #[doc = ""]
 pub type TThostFtdcSubEntryFundNoType = ::std::os::raw::c_int;
-pub type TThostFtdcFileIDType = ::std::os::raw::c_char;
+pub type TThostFtdcFileIDType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcFileNameType是一个文件名称类型"]
 #[doc = ""]
-pub type TThostFtdcFileNameType = [::std::os::raw::c_char; 257usize];
-pub type TThostFtdcFileTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcFileFormatType = ::std::os::raw::c_char;
-pub type TThostFtdcFileUploadStatusType = ::std::os::raw::c_char;
-pub type TThostFtdcTransferDirectionType = ::std::os::raw::c_char;
+pub type TThostFtdcFileNameType = [::std::os::raw::c_uchar; 257usize];
+pub type TThostFtdcFileTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcFileFormatType = ::std::os::raw::c_uchar;
+pub type TThostFtdcFileUploadStatusType = ::std::os::raw::c_uchar;
+pub type TThostFtdcTransferDirectionType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcUploadModeType是一个上传文件类型类型"]
 #[doc = ""]
-pub type TThostFtdcUploadModeType = [::std::os::raw::c_char; 21usize];
+pub type TThostFtdcUploadModeType = [::std::os::raw::c_uchar; 21usize];
 #[doc = ""]
 #[doc = "TFtdcAccountIDType是一个投资者帐号类型"]
 #[doc = ""]
-pub type TThostFtdcAccountIDType = [::std::os::raw::c_char; 13usize];
+pub type TThostFtdcAccountIDType = [::std::os::raw::c_uchar; 13usize];
 #[doc = ""]
 #[doc = "TFtdcBankFlagType是一个银行统一标识类型类型"]
 #[doc = ""]
-pub type TThostFtdcBankFlagType = [::std::os::raw::c_char; 4usize];
+pub type TThostFtdcBankFlagType = [::std::os::raw::c_uchar; 4usize];
 #[doc = ""]
 #[doc = "TFtdcBankAccountType是一个银行账户类型"]
 #[doc = ""]
-pub type TThostFtdcBankAccountType = [::std::os::raw::c_char; 41usize];
+pub type TThostFtdcBankAccountType = [::std::os::raw::c_uchar; 41usize];
 #[doc = ""]
 #[doc = "TFtdcOpenNameType是一个银行账户的开户人名称类型"]
 #[doc = ""]
-pub type TThostFtdcOpenNameType = [::std::os::raw::c_char; 61usize];
+pub type TThostFtdcOpenNameType = [::std::os::raw::c_uchar; 61usize];
 #[doc = ""]
 #[doc = "TFtdcOpenBankType是一个银行账户的开户行类型"]
 #[doc = ""]
-pub type TThostFtdcOpenBankType = [::std::os::raw::c_char; 101usize];
+pub type TThostFtdcOpenBankType = [::std::os::raw::c_uchar; 101usize];
 #[doc = ""]
 #[doc = "TFtdcBankNameType是一个银行名称类型"]
 #[doc = ""]
-pub type TThostFtdcBankNameType = [::std::os::raw::c_char; 101usize];
+pub type TThostFtdcBankNameType = [::std::os::raw::c_uchar; 101usize];
 #[doc = ""]
 #[doc = "TFtdcPublishPathType是一个发布路径类型"]
 #[doc = ""]
-pub type TThostFtdcPublishPathType = [::std::os::raw::c_char; 257usize];
+pub type TThostFtdcPublishPathType = [::std::os::raw::c_uchar; 257usize];
 #[doc = ""]
 #[doc = "TFtdcOperatorIDType是一个操作员代码类型"]
 #[doc = ""]
-pub type TThostFtdcOperatorIDType = [::std::os::raw::c_char; 65usize];
+pub type TThostFtdcOperatorIDType = [::std::os::raw::c_uchar; 65usize];
 #[doc = ""]
 #[doc = "TFtdcMonthCountType是一个月份数量类型"]
 #[doc = ""]
@@ -1803,142 +1803,142 @@ pub type TThostFtdcMonthCountType = ::std::os::raw::c_int;
 #[doc = ""]
 #[doc = "TFtdcAdvanceMonthArrayType是一个月份提前数组类型"]
 #[doc = ""]
-pub type TThostFtdcAdvanceMonthArrayType = [::std::os::raw::c_char; 13usize];
+pub type TThostFtdcAdvanceMonthArrayType = [::std::os::raw::c_uchar; 13usize];
 #[doc = ""]
 #[doc = "TFtdcDateExprType是一个日期表达式类型"]
 #[doc = ""]
-pub type TThostFtdcDateExprType = [::std::os::raw::c_char; 1025usize];
+pub type TThostFtdcDateExprType = [::std::os::raw::c_uchar; 1025usize];
 #[doc = ""]
 #[doc = "TFtdcInstrumentIDExprType是一个合约代码表达式类型"]
 #[doc = ""]
-pub type TThostFtdcInstrumentIDExprType = [::std::os::raw::c_char; 41usize];
+pub type TThostFtdcInstrumentIDExprType = [::std::os::raw::c_uchar; 41usize];
 #[doc = ""]
 #[doc = "TFtdcInstrumentNameExprType是一个合约名称表达式类型"]
 #[doc = ""]
-pub type TThostFtdcInstrumentNameExprType = [::std::os::raw::c_char; 41usize];
-pub type TThostFtdcSpecialCreateRuleType = ::std::os::raw::c_char;
-pub type TThostFtdcBasisPriceTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcProductLifePhaseType = ::std::os::raw::c_char;
-pub type TThostFtdcDeliveryModeType = ::std::os::raw::c_char;
+pub type TThostFtdcInstrumentNameExprType = [::std::os::raw::c_uchar; 41usize];
+pub type TThostFtdcSpecialCreateRuleType = ::std::os::raw::c_uchar;
+pub type TThostFtdcBasisPriceTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcProductLifePhaseType = ::std::os::raw::c_uchar;
+pub type TThostFtdcDeliveryModeType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcLogLevelType是一个日志级别类型"]
 #[doc = ""]
-pub type TThostFtdcLogLevelType = [::std::os::raw::c_char; 33usize];
+pub type TThostFtdcLogLevelType = [::std::os::raw::c_uchar; 33usize];
 #[doc = ""]
 #[doc = "TFtdcProcessNameType是一个存储过程名称类型"]
 #[doc = ""]
-pub type TThostFtdcProcessNameType = [::std::os::raw::c_char; 257usize];
+pub type TThostFtdcProcessNameType = [::std::os::raw::c_uchar; 257usize];
 #[doc = ""]
 #[doc = "TFtdcOperationMemoType是一个操作摘要类型"]
 #[doc = ""]
-pub type TThostFtdcOperationMemoType = [::std::os::raw::c_char; 1025usize];
-pub type TThostFtdcFundIOTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcFundTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcFundDirectionType = ::std::os::raw::c_char;
-pub type TThostFtdcFundStatusType = ::std::os::raw::c_char;
+pub type TThostFtdcOperationMemoType = [::std::os::raw::c_uchar; 1025usize];
+pub type TThostFtdcFundIOTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcFundTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcFundDirectionType = ::std::os::raw::c_uchar;
+pub type TThostFtdcFundStatusType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcBillNoType是一个票据号类型"]
 #[doc = ""]
-pub type TThostFtdcBillNoType = [::std::os::raw::c_char; 15usize];
+pub type TThostFtdcBillNoType = [::std::os::raw::c_uchar; 15usize];
 #[doc = ""]
 #[doc = "TFtdcBillNameType是一个票据名称类型"]
 #[doc = ""]
-pub type TThostFtdcBillNameType = [::std::os::raw::c_char; 33usize];
-pub type TThostFtdcPublishStatusType = ::std::os::raw::c_char;
+pub type TThostFtdcBillNameType = [::std::os::raw::c_uchar; 33usize];
+pub type TThostFtdcPublishStatusType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcEnumValueIDType是一个枚举值代码类型"]
 #[doc = ""]
-pub type TThostFtdcEnumValueIDType = [::std::os::raw::c_char; 65usize];
+pub type TThostFtdcEnumValueIDType = [::std::os::raw::c_uchar; 65usize];
 #[doc = ""]
 #[doc = "TFtdcEnumValueTypeType是一个枚举值类型类型"]
 #[doc = ""]
-pub type TThostFtdcEnumValueTypeType = [::std::os::raw::c_char; 33usize];
+pub type TThostFtdcEnumValueTypeType = [::std::os::raw::c_uchar; 33usize];
 #[doc = ""]
 #[doc = "TFtdcEnumValueLabelType是一个枚举值名称类型"]
 #[doc = ""]
-pub type TThostFtdcEnumValueLabelType = [::std::os::raw::c_char; 65usize];
+pub type TThostFtdcEnumValueLabelType = [::std::os::raw::c_uchar; 65usize];
 #[doc = ""]
 #[doc = "TFtdcEnumValueResultType是一个枚举值结果类型"]
 #[doc = ""]
-pub type TThostFtdcEnumValueResultType = [::std::os::raw::c_char; 33usize];
-pub type TThostFtdcSystemStatusType = ::std::os::raw::c_char;
-pub type TThostFtdcSettlementStatusType = ::std::os::raw::c_char;
+pub type TThostFtdcEnumValueResultType = [::std::os::raw::c_uchar; 33usize];
+pub type TThostFtdcSystemStatusType = ::std::os::raw::c_uchar;
+pub type TThostFtdcSettlementStatusType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcRangeIntTypeType是一个限定值类型类型"]
 #[doc = ""]
-pub type TThostFtdcRangeIntTypeType = [::std::os::raw::c_char; 33usize];
+pub type TThostFtdcRangeIntTypeType = [::std::os::raw::c_uchar; 33usize];
 #[doc = ""]
 #[doc = "TFtdcRangeIntFromType是一个限定值下限类型"]
 #[doc = ""]
-pub type TThostFtdcRangeIntFromType = [::std::os::raw::c_char; 33usize];
+pub type TThostFtdcRangeIntFromType = [::std::os::raw::c_uchar; 33usize];
 #[doc = ""]
 #[doc = "TFtdcRangeIntToType是一个限定值上限类型"]
 #[doc = ""]
-pub type TThostFtdcRangeIntToType = [::std::os::raw::c_char; 33usize];
+pub type TThostFtdcRangeIntToType = [::std::os::raw::c_uchar; 33usize];
 #[doc = ""]
 #[doc = "TFtdcFunctionIDType是一个功能代码类型"]
 #[doc = ""]
-pub type TThostFtdcFunctionIDType = [::std::os::raw::c_char; 25usize];
+pub type TThostFtdcFunctionIDType = [::std::os::raw::c_uchar; 25usize];
 #[doc = ""]
 #[doc = "TFtdcFunctionValueCodeType是一个功能编码类型"]
 #[doc = ""]
-pub type TThostFtdcFunctionValueCodeType = [::std::os::raw::c_char; 257usize];
+pub type TThostFtdcFunctionValueCodeType = [::std::os::raw::c_uchar; 257usize];
 #[doc = ""]
 #[doc = "TFtdcFunctionNameType是一个功能名称类型"]
 #[doc = ""]
-pub type TThostFtdcFunctionNameType = [::std::os::raw::c_char; 65usize];
+pub type TThostFtdcFunctionNameType = [::std::os::raw::c_uchar; 65usize];
 #[doc = ""]
 #[doc = "TFtdcRoleIDType是一个角色编号类型"]
 #[doc = ""]
-pub type TThostFtdcRoleIDType = [::std::os::raw::c_char; 11usize];
+pub type TThostFtdcRoleIDType = [::std::os::raw::c_uchar; 11usize];
 #[doc = ""]
 #[doc = "TFtdcRoleNameType是一个角色名称类型"]
 #[doc = ""]
-pub type TThostFtdcRoleNameType = [::std::os::raw::c_char; 41usize];
+pub type TThostFtdcRoleNameType = [::std::os::raw::c_uchar; 41usize];
 #[doc = ""]
 #[doc = "TFtdcDescriptionType是一个描述类型"]
 #[doc = ""]
-pub type TThostFtdcDescriptionType = [::std::os::raw::c_char; 401usize];
+pub type TThostFtdcDescriptionType = [::std::os::raw::c_uchar; 401usize];
 #[doc = ""]
 #[doc = "TFtdcCombineIDType是一个组合编号类型"]
 #[doc = ""]
-pub type TThostFtdcCombineIDType = [::std::os::raw::c_char; 25usize];
+pub type TThostFtdcCombineIDType = [::std::os::raw::c_uchar; 25usize];
 #[doc = ""]
 #[doc = "TFtdcCombineTypeType是一个组合类型类型"]
 #[doc = ""]
-pub type TThostFtdcCombineTypeType = [::std::os::raw::c_char; 25usize];
-pub type TThostFtdcInvestorTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcBrokerTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcRiskLevelType = ::std::os::raw::c_char;
-pub type TThostFtdcFeeAcceptStyleType = ::std::os::raw::c_char;
-pub type TThostFtdcPasswordTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcAlgorithmType = ::std::os::raw::c_char;
-pub type TThostFtdcIncludeCloseProfitType = ::std::os::raw::c_char;
-pub type TThostFtdcAllWithoutTradeType = ::std::os::raw::c_char;
+pub type TThostFtdcCombineTypeType = [::std::os::raw::c_uchar; 25usize];
+pub type TThostFtdcInvestorTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcBrokerTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcRiskLevelType = ::std::os::raw::c_uchar;
+pub type TThostFtdcFeeAcceptStyleType = ::std::os::raw::c_uchar;
+pub type TThostFtdcPasswordTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcAlgorithmType = ::std::os::raw::c_uchar;
+pub type TThostFtdcIncludeCloseProfitType = ::std::os::raw::c_uchar;
+pub type TThostFtdcAllWithoutTradeType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcCommentType是一个盈亏算法说明类型"]
 #[doc = ""]
-pub type TThostFtdcCommentType = [::std::os::raw::c_char; 31usize];
+pub type TThostFtdcCommentType = [::std::os::raw::c_uchar; 31usize];
 #[doc = ""]
 #[doc = "TFtdcVersionType是一个版本号类型"]
 #[doc = ""]
-pub type TThostFtdcVersionType = [::std::os::raw::c_char; 4usize];
+pub type TThostFtdcVersionType = [::std::os::raw::c_uchar; 4usize];
 #[doc = ""]
 #[doc = "TFtdcTradeCodeType是一个交易代码类型"]
 #[doc = ""]
-pub type TThostFtdcTradeCodeType = [::std::os::raw::c_char; 7usize];
+pub type TThostFtdcTradeCodeType = [::std::os::raw::c_uchar; 7usize];
 #[doc = ""]
 #[doc = "TFtdcTradeDateType是一个交易日期类型"]
 #[doc = ""]
-pub type TThostFtdcTradeDateType = [::std::os::raw::c_char; 9usize];
+pub type TThostFtdcTradeDateType = [::std::os::raw::c_uchar; 9usize];
 #[doc = ""]
 #[doc = "TFtdcTradeTimeType是一个交易时间类型"]
 #[doc = ""]
-pub type TThostFtdcTradeTimeType = [::std::os::raw::c_char; 9usize];
+pub type TThostFtdcTradeTimeType = [::std::os::raw::c_uchar; 9usize];
 #[doc = ""]
 #[doc = "TFtdcTradeSerialType是一个发起方流水号类型"]
 #[doc = ""]
-pub type TThostFtdcTradeSerialType = [::std::os::raw::c_char; 9usize];
+pub type TThostFtdcTradeSerialType = [::std::os::raw::c_uchar; 9usize];
 #[doc = ""]
 #[doc = "TFtdcTradeSerialNoType是一个发起方流水号类型"]
 #[doc = ""]
@@ -1946,139 +1946,139 @@ pub type TThostFtdcTradeSerialNoType = ::std::os::raw::c_int;
 #[doc = ""]
 #[doc = "TFtdcFutureIDType是一个期货公司代码类型"]
 #[doc = ""]
-pub type TThostFtdcFutureIDType = [::std::os::raw::c_char; 11usize];
+pub type TThostFtdcFutureIDType = [::std::os::raw::c_uchar; 11usize];
 #[doc = ""]
 #[doc = "TFtdcBankIDType是一个银行代码类型"]
 #[doc = ""]
-pub type TThostFtdcBankIDType = [::std::os::raw::c_char; 4usize];
+pub type TThostFtdcBankIDType = [::std::os::raw::c_uchar; 4usize];
 #[doc = ""]
 #[doc = "TFtdcBankBrchIDType是一个银行分中心代码类型"]
 #[doc = ""]
-pub type TThostFtdcBankBrchIDType = [::std::os::raw::c_char; 5usize];
+pub type TThostFtdcBankBrchIDType = [::std::os::raw::c_uchar; 5usize];
 #[doc = ""]
 #[doc = "TFtdcBankBranchIDType是一个分中心代码类型"]
 #[doc = ""]
-pub type TThostFtdcBankBranchIDType = [::std::os::raw::c_char; 11usize];
+pub type TThostFtdcBankBranchIDType = [::std::os::raw::c_uchar; 11usize];
 #[doc = ""]
 #[doc = "TFtdcOperNoType是一个交易柜员类型"]
 #[doc = ""]
-pub type TThostFtdcOperNoType = [::std::os::raw::c_char; 17usize];
+pub type TThostFtdcOperNoType = [::std::os::raw::c_uchar; 17usize];
 #[doc = ""]
 #[doc = "TFtdcDeviceIDType是一个渠道标志类型"]
 #[doc = ""]
-pub type TThostFtdcDeviceIDType = [::std::os::raw::c_char; 3usize];
+pub type TThostFtdcDeviceIDType = [::std::os::raw::c_uchar; 3usize];
 #[doc = ""]
 #[doc = "TFtdcRecordNumType是一个记录数类型"]
 #[doc = ""]
-pub type TThostFtdcRecordNumType = [::std::os::raw::c_char; 7usize];
+pub type TThostFtdcRecordNumType = [::std::os::raw::c_uchar; 7usize];
 #[doc = ""]
 #[doc = "TFtdcFutureAccountType是一个期货资金账号类型"]
 #[doc = ""]
-pub type TThostFtdcFutureAccountType = [::std::os::raw::c_char; 22usize];
-pub type TThostFtdcFuturePwdFlagType = ::std::os::raw::c_char;
-pub type TThostFtdcTransferTypeType = ::std::os::raw::c_char;
+pub type TThostFtdcFutureAccountType = [::std::os::raw::c_uchar; 22usize];
+pub type TThostFtdcFuturePwdFlagType = ::std::os::raw::c_uchar;
+pub type TThostFtdcTransferTypeType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcFutureAccPwdType是一个期货资金密码类型"]
 #[doc = ""]
-pub type TThostFtdcFutureAccPwdType = [::std::os::raw::c_char; 17usize];
+pub type TThostFtdcFutureAccPwdType = [::std::os::raw::c_uchar; 17usize];
 #[doc = ""]
 #[doc = "TFtdcCurrencyCodeType是一个币种类型"]
 #[doc = ""]
-pub type TThostFtdcCurrencyCodeType = [::std::os::raw::c_char; 4usize];
+pub type TThostFtdcCurrencyCodeType = [::std::os::raw::c_uchar; 4usize];
 #[doc = ""]
 #[doc = "TFtdcRetCodeType是一个响应代码类型"]
 #[doc = ""]
-pub type TThostFtdcRetCodeType = [::std::os::raw::c_char; 5usize];
+pub type TThostFtdcRetCodeType = [::std::os::raw::c_uchar; 5usize];
 #[doc = ""]
 #[doc = "TFtdcRetInfoType是一个响应信息类型"]
 #[doc = ""]
-pub type TThostFtdcRetInfoType = [::std::os::raw::c_char; 129usize];
+pub type TThostFtdcRetInfoType = [::std::os::raw::c_uchar; 129usize];
 #[doc = ""]
 #[doc = "TFtdcTradeAmtType是一个银行总余额类型"]
 #[doc = ""]
-pub type TThostFtdcTradeAmtType = [::std::os::raw::c_char; 20usize];
+pub type TThostFtdcTradeAmtType = [::std::os::raw::c_uchar; 20usize];
 #[doc = ""]
 #[doc = "TFtdcUseAmtType是一个银行可用余额类型"]
 #[doc = ""]
-pub type TThostFtdcUseAmtType = [::std::os::raw::c_char; 20usize];
+pub type TThostFtdcUseAmtType = [::std::os::raw::c_uchar; 20usize];
 #[doc = ""]
 #[doc = "TFtdcFetchAmtType是一个银行可取余额类型"]
 #[doc = ""]
-pub type TThostFtdcFetchAmtType = [::std::os::raw::c_char; 20usize];
-pub type TThostFtdcTransferValidFlagType = ::std::os::raw::c_char;
+pub type TThostFtdcFetchAmtType = [::std::os::raw::c_uchar; 20usize];
+pub type TThostFtdcTransferValidFlagType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcCertCodeType是一个证件号码类型"]
 #[doc = ""]
-pub type TThostFtdcCertCodeType = [::std::os::raw::c_char; 21usize];
-pub type TThostFtdcReasonType = ::std::os::raw::c_char;
+pub type TThostFtdcCertCodeType = [::std::os::raw::c_uchar; 21usize];
+pub type TThostFtdcReasonType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcFundProjectIDType是一个资金项目编号类型"]
 #[doc = ""]
-pub type TThostFtdcFundProjectIDType = [::std::os::raw::c_char; 5usize];
-pub type TThostFtdcSexType = ::std::os::raw::c_char;
+pub type TThostFtdcFundProjectIDType = [::std::os::raw::c_uchar; 5usize];
+pub type TThostFtdcSexType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcProfessionType是一个职业类型"]
 #[doc = ""]
-pub type TThostFtdcProfessionType = [::std::os::raw::c_char; 101usize];
+pub type TThostFtdcProfessionType = [::std::os::raw::c_uchar; 101usize];
 #[doc = ""]
 #[doc = "TFtdcNationalType是一个国籍类型"]
 #[doc = ""]
-pub type TThostFtdcNationalType = [::std::os::raw::c_char; 31usize];
+pub type TThostFtdcNationalType = [::std::os::raw::c_uchar; 31usize];
 #[doc = ""]
 #[doc = "TFtdcProvinceType是一个省类型"]
 #[doc = ""]
-pub type TThostFtdcProvinceType = [::std::os::raw::c_char; 51usize];
+pub type TThostFtdcProvinceType = [::std::os::raw::c_uchar; 51usize];
 #[doc = ""]
 #[doc = "TFtdcRegionType是一个区类型"]
 #[doc = ""]
-pub type TThostFtdcRegionType = [::std::os::raw::c_char; 16usize];
+pub type TThostFtdcRegionType = [::std::os::raw::c_uchar; 16usize];
 #[doc = ""]
 #[doc = "TFtdcCountryType是一个国家类型"]
 #[doc = ""]
-pub type TThostFtdcCountryType = [::std::os::raw::c_char; 16usize];
+pub type TThostFtdcCountryType = [::std::os::raw::c_uchar; 16usize];
 #[doc = ""]
 #[doc = "TFtdcLicenseNOType是一个营业执照类型"]
 #[doc = ""]
-pub type TThostFtdcLicenseNOType = [::std::os::raw::c_char; 33usize];
+pub type TThostFtdcLicenseNOType = [::std::os::raw::c_uchar; 33usize];
 #[doc = ""]
 #[doc = "TFtdcCompanyTypeType是一个企业性质类型"]
 #[doc = ""]
-pub type TThostFtdcCompanyTypeType = [::std::os::raw::c_char; 16usize];
+pub type TThostFtdcCompanyTypeType = [::std::os::raw::c_uchar; 16usize];
 #[doc = ""]
 #[doc = "TFtdcBusinessScopeType是一个经营范围类型"]
 #[doc = ""]
-pub type TThostFtdcBusinessScopeType = [::std::os::raw::c_char; 1001usize];
+pub type TThostFtdcBusinessScopeType = [::std::os::raw::c_uchar; 1001usize];
 #[doc = ""]
 #[doc = "TFtdcCapitalCurrencyType是一个注册资本币种类型"]
 #[doc = ""]
-pub type TThostFtdcCapitalCurrencyType = [::std::os::raw::c_char; 4usize];
-pub type TThostFtdcUserTypeType = ::std::os::raw::c_char;
+pub type TThostFtdcCapitalCurrencyType = [::std::os::raw::c_uchar; 4usize];
+pub type TThostFtdcUserTypeType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcBranchIDType是一个营业部编号类型"]
 #[doc = ""]
-pub type TThostFtdcBranchIDType = [::std::os::raw::c_char; 9usize];
-pub type TThostFtdcRateTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcNoteTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcSettlementStyleType = ::std::os::raw::c_char;
+pub type TThostFtdcBranchIDType = [::std::os::raw::c_uchar; 9usize];
+pub type TThostFtdcRateTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcNoteTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcSettlementStyleType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcBrokerDNSType是一个域名类型"]
 #[doc = ""]
-pub type TThostFtdcBrokerDNSType = [::std::os::raw::c_char; 256usize];
+pub type TThostFtdcBrokerDNSType = [::std::os::raw::c_uchar; 256usize];
 #[doc = ""]
 #[doc = "TFtdcSentenceType是一个语句类型"]
 #[doc = ""]
-pub type TThostFtdcSentenceType = [::std::os::raw::c_char; 501usize];
-pub type TThostFtdcSettlementBillTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcUserRightTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcMarginPriceTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcBillGenStatusType = ::std::os::raw::c_char;
-pub type TThostFtdcAlgoTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcHandlePositionAlgoIDType = ::std::os::raw::c_char;
-pub type TThostFtdcFindMarginRateAlgoIDType = ::std::os::raw::c_char;
-pub type TThostFtdcHandleTradingAccountAlgoIDType = ::std::os::raw::c_char;
-pub type TThostFtdcPersonTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcQueryInvestorRangeType = ::std::os::raw::c_char;
-pub type TThostFtdcInvestorRiskStatusType = ::std::os::raw::c_char;
+pub type TThostFtdcSentenceType = [::std::os::raw::c_uchar; 501usize];
+pub type TThostFtdcSettlementBillTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcUserRightTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcMarginPriceTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcBillGenStatusType = ::std::os::raw::c_uchar;
+pub type TThostFtdcAlgoTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcHandlePositionAlgoIDType = ::std::os::raw::c_uchar;
+pub type TThostFtdcFindMarginRateAlgoIDType = ::std::os::raw::c_uchar;
+pub type TThostFtdcHandleTradingAccountAlgoIDType = ::std::os::raw::c_uchar;
+pub type TThostFtdcPersonTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcQueryInvestorRangeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcInvestorRiskStatusType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcLegIDType是一个单腿编号类型"]
 #[doc = ""]
@@ -2094,50 +2094,50 @@ pub type TThostFtdcImplyLevelType = ::std::os::raw::c_int;
 #[doc = ""]
 #[doc = "TFtdcClearAccountType是一个结算账户类型"]
 #[doc = ""]
-pub type TThostFtdcClearAccountType = [::std::os::raw::c_char; 33usize];
+pub type TThostFtdcClearAccountType = [::std::os::raw::c_uchar; 33usize];
 #[doc = ""]
 #[doc = "TFtdcOrganNOType是一个结算账户类型"]
 #[doc = ""]
-pub type TThostFtdcOrganNOType = [::std::os::raw::c_char; 6usize];
+pub type TThostFtdcOrganNOType = [::std::os::raw::c_uchar; 6usize];
 #[doc = ""]
 #[doc = "TFtdcClearbarchIDType是一个结算账户联行号类型"]
 #[doc = ""]
-pub type TThostFtdcClearbarchIDType = [::std::os::raw::c_char; 6usize];
-pub type TThostFtdcUserEventTypeType = ::std::os::raw::c_char;
+pub type TThostFtdcClearbarchIDType = [::std::os::raw::c_uchar; 6usize];
+pub type TThostFtdcUserEventTypeType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcUserEventInfoType是一个用户事件信息类型"]
 #[doc = ""]
-pub type TThostFtdcUserEventInfoType = [::std::os::raw::c_char; 1025usize];
-pub type TThostFtdcCloseStyleType = ::std::os::raw::c_char;
-pub type TThostFtdcStatModeType = ::std::os::raw::c_char;
-pub type TThostFtdcParkedOrderStatusType = ::std::os::raw::c_char;
+pub type TThostFtdcUserEventInfoType = [::std::os::raw::c_uchar; 1025usize];
+pub type TThostFtdcCloseStyleType = ::std::os::raw::c_uchar;
+pub type TThostFtdcStatModeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcParkedOrderStatusType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcParkedOrderIDType是一个预埋报单编号类型"]
 #[doc = ""]
-pub type TThostFtdcParkedOrderIDType = [::std::os::raw::c_char; 13usize];
+pub type TThostFtdcParkedOrderIDType = [::std::os::raw::c_uchar; 13usize];
 #[doc = ""]
 #[doc = "TFtdcParkedOrderActionIDType是一个预埋撤单编号类型"]
 #[doc = ""]
-pub type TThostFtdcParkedOrderActionIDType = [::std::os::raw::c_char; 13usize];
-pub type TThostFtdcVirDealStatusType = ::std::os::raw::c_char;
-pub type TThostFtdcOrgSystemIDType = ::std::os::raw::c_char;
-pub type TThostFtdcVirTradeStatusType = ::std::os::raw::c_char;
-pub type TThostFtdcVirBankAccTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcVirementStatusType = ::std::os::raw::c_char;
-pub type TThostFtdcVirementAvailAbilityType = ::std::os::raw::c_char;
-pub type TThostFtdcVirementTradeCodeType = ::std::os::raw::c_char;
+pub type TThostFtdcParkedOrderActionIDType = [::std::os::raw::c_uchar; 13usize];
+pub type TThostFtdcVirDealStatusType = ::std::os::raw::c_uchar;
+pub type TThostFtdcOrgSystemIDType = ::std::os::raw::c_uchar;
+pub type TThostFtdcVirTradeStatusType = ::std::os::raw::c_uchar;
+pub type TThostFtdcVirBankAccTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcVirementStatusType = ::std::os::raw::c_uchar;
+pub type TThostFtdcVirementAvailAbilityType = ::std::os::raw::c_uchar;
+pub type TThostFtdcVirementTradeCodeType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcPhotoTypeNameType是一个影像类型名称类型"]
 #[doc = ""]
-pub type TThostFtdcPhotoTypeNameType = [::std::os::raw::c_char; 41usize];
+pub type TThostFtdcPhotoTypeNameType = [::std::os::raw::c_uchar; 41usize];
 #[doc = ""]
 #[doc = "TFtdcPhotoTypeIDType是一个影像类型代码类型"]
 #[doc = ""]
-pub type TThostFtdcPhotoTypeIDType = [::std::os::raw::c_char; 5usize];
+pub type TThostFtdcPhotoTypeIDType = [::std::os::raw::c_uchar; 5usize];
 #[doc = ""]
 #[doc = "TFtdcPhotoNameType是一个影像名称类型"]
 #[doc = ""]
-pub type TThostFtdcPhotoNameType = [::std::os::raw::c_char; 161usize];
+pub type TThostFtdcPhotoNameType = [::std::os::raw::c_uchar; 161usize];
 #[doc = ""]
 #[doc = "TFtdcTopicIDType是一个主题代码类型"]
 #[doc = ""]
@@ -2145,31 +2145,31 @@ pub type TThostFtdcTopicIDType = ::std::os::raw::c_int;
 #[doc = ""]
 #[doc = "TFtdcReportTypeIDType是一个交易报告类型标识类型"]
 #[doc = ""]
-pub type TThostFtdcReportTypeIDType = [::std::os::raw::c_char; 3usize];
+pub type TThostFtdcReportTypeIDType = [::std::os::raw::c_uchar; 3usize];
 #[doc = ""]
 #[doc = "TFtdcCharacterIDType是一个交易特征代码类型"]
 #[doc = ""]
-pub type TThostFtdcCharacterIDType = [::std::os::raw::c_char; 5usize];
+pub type TThostFtdcCharacterIDType = [::std::os::raw::c_uchar; 5usize];
 #[doc = ""]
 #[doc = "TFtdcAMLParamIDType是一个参数代码类型"]
 #[doc = ""]
-pub type TThostFtdcAMLParamIDType = [::std::os::raw::c_char; 21usize];
+pub type TThostFtdcAMLParamIDType = [::std::os::raw::c_uchar; 21usize];
 #[doc = ""]
 #[doc = "TFtdcAMLInvestorTypeType是一个投资者类型类型"]
 #[doc = ""]
-pub type TThostFtdcAMLInvestorTypeType = [::std::os::raw::c_char; 3usize];
+pub type TThostFtdcAMLInvestorTypeType = [::std::os::raw::c_uchar; 3usize];
 #[doc = ""]
 #[doc = "TFtdcAMLIdCardTypeType是一个证件类型类型"]
 #[doc = ""]
-pub type TThostFtdcAMLIdCardTypeType = [::std::os::raw::c_char; 3usize];
+pub type TThostFtdcAMLIdCardTypeType = [::std::os::raw::c_uchar; 3usize];
 #[doc = ""]
 #[doc = "TFtdcAMLTradeDirectType是一个资金进出方向类型"]
 #[doc = ""]
-pub type TThostFtdcAMLTradeDirectType = [::std::os::raw::c_char; 3usize];
+pub type TThostFtdcAMLTradeDirectType = [::std::os::raw::c_uchar; 3usize];
 #[doc = ""]
 #[doc = "TFtdcAMLTradeModelType是一个资金进出方式类型"]
 #[doc = ""]
-pub type TThostFtdcAMLTradeModelType = [::std::os::raw::c_char; 3usize];
+pub type TThostFtdcAMLTradeModelType = [::std::os::raw::c_uchar; 3usize];
 #[doc = ""]
 #[doc = "TFtdcAMLOpParamValueType是一个业务参数代码值类型"]
 #[doc = ""]
@@ -2177,72 +2177,72 @@ pub type TThostFtdcAMLOpParamValueType = f64;
 #[doc = ""]
 #[doc = "TFtdcAMLCustomerCardTypeType是一个客户身份证件/证明文件类型类型"]
 #[doc = ""]
-pub type TThostFtdcAMLCustomerCardTypeType = [::std::os::raw::c_char; 81usize];
+pub type TThostFtdcAMLCustomerCardTypeType = [::std::os::raw::c_uchar; 81usize];
 #[doc = ""]
 #[doc = "TFtdcAMLInstitutionNameType是一个金融机构网点名称类型"]
 #[doc = ""]
-pub type TThostFtdcAMLInstitutionNameType = [::std::os::raw::c_char; 65usize];
+pub type TThostFtdcAMLInstitutionNameType = [::std::os::raw::c_uchar; 65usize];
 #[doc = ""]
 #[doc = "TFtdcAMLDistrictIDType是一个金融机构网点所在地区行政区划代码类型"]
 #[doc = ""]
-pub type TThostFtdcAMLDistrictIDType = [::std::os::raw::c_char; 7usize];
+pub type TThostFtdcAMLDistrictIDType = [::std::os::raw::c_uchar; 7usize];
 #[doc = ""]
 #[doc = "TFtdcAMLRelationShipType是一个金融机构网点与大额交易的关系类型"]
 #[doc = ""]
-pub type TThostFtdcAMLRelationShipType = [::std::os::raw::c_char; 3usize];
+pub type TThostFtdcAMLRelationShipType = [::std::os::raw::c_uchar; 3usize];
 #[doc = ""]
 #[doc = "TFtdcAMLInstitutionTypeType是一个金融机构网点代码类型类型"]
 #[doc = ""]
-pub type TThostFtdcAMLInstitutionTypeType = [::std::os::raw::c_char; 3usize];
+pub type TThostFtdcAMLInstitutionTypeType = [::std::os::raw::c_uchar; 3usize];
 #[doc = ""]
 #[doc = "TFtdcAMLInstitutionIDType是一个金融机构网点代码类型"]
 #[doc = ""]
-pub type TThostFtdcAMLInstitutionIDType = [::std::os::raw::c_char; 13usize];
+pub type TThostFtdcAMLInstitutionIDType = [::std::os::raw::c_uchar; 13usize];
 #[doc = ""]
 #[doc = "TFtdcAMLAccountTypeType是一个账户类型类型"]
 #[doc = ""]
-pub type TThostFtdcAMLAccountTypeType = [::std::os::raw::c_char; 5usize];
+pub type TThostFtdcAMLAccountTypeType = [::std::os::raw::c_uchar; 5usize];
 #[doc = ""]
 #[doc = "TFtdcAMLTradingTypeType是一个交易方式类型"]
 #[doc = ""]
-pub type TThostFtdcAMLTradingTypeType = [::std::os::raw::c_char; 7usize];
+pub type TThostFtdcAMLTradingTypeType = [::std::os::raw::c_uchar; 7usize];
 #[doc = ""]
 #[doc = "TFtdcAMLTransactClassType是一个涉外收支交易分类与代码类型"]
 #[doc = ""]
-pub type TThostFtdcAMLTransactClassType = [::std::os::raw::c_char; 7usize];
+pub type TThostFtdcAMLTransactClassType = [::std::os::raw::c_uchar; 7usize];
 #[doc = ""]
 #[doc = "TFtdcAMLCapitalIOType是一个资金收付标识类型"]
 #[doc = ""]
-pub type TThostFtdcAMLCapitalIOType = [::std::os::raw::c_char; 3usize];
+pub type TThostFtdcAMLCapitalIOType = [::std::os::raw::c_uchar; 3usize];
 #[doc = ""]
 #[doc = "TFtdcAMLSiteType是一个交易地点类型"]
 #[doc = ""]
-pub type TThostFtdcAMLSiteType = [::std::os::raw::c_char; 10usize];
+pub type TThostFtdcAMLSiteType = [::std::os::raw::c_uchar; 10usize];
 #[doc = ""]
 #[doc = "TFtdcAMLCapitalPurposeType是一个资金用途类型"]
 #[doc = ""]
-pub type TThostFtdcAMLCapitalPurposeType = [::std::os::raw::c_char; 129usize];
+pub type TThostFtdcAMLCapitalPurposeType = [::std::os::raw::c_uchar; 129usize];
 #[doc = ""]
 #[doc = "TFtdcAMLReportTypeType是一个报文类型类型"]
 #[doc = ""]
-pub type TThostFtdcAMLReportTypeType = [::std::os::raw::c_char; 2usize];
+pub type TThostFtdcAMLReportTypeType = [::std::os::raw::c_uchar; 2usize];
 #[doc = ""]
 #[doc = "TFtdcAMLSerialNoType是一个编号类型"]
 #[doc = ""]
-pub type TThostFtdcAMLSerialNoType = [::std::os::raw::c_char; 5usize];
+pub type TThostFtdcAMLSerialNoType = [::std::os::raw::c_uchar; 5usize];
 #[doc = ""]
 #[doc = "TFtdcAMLStatusType是一个状态类型"]
 #[doc = ""]
-pub type TThostFtdcAMLStatusType = [::std::os::raw::c_char; 2usize];
-pub type TThostFtdcAMLGenStatusType = ::std::os::raw::c_char;
+pub type TThostFtdcAMLStatusType = [::std::os::raw::c_uchar; 2usize];
+pub type TThostFtdcAMLGenStatusType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcAMLSeqCodeType是一个业务标识号类型"]
 #[doc = ""]
-pub type TThostFtdcAMLSeqCodeType = [::std::os::raw::c_char; 65usize];
+pub type TThostFtdcAMLSeqCodeType = [::std::os::raw::c_uchar; 65usize];
 #[doc = ""]
 #[doc = "TFtdcAMLFileNameType是一个AML文件名类型"]
 #[doc = ""]
-pub type TThostFtdcAMLFileNameType = [::std::os::raw::c_char; 257usize];
+pub type TThostFtdcAMLFileNameType = [::std::os::raw::c_uchar; 257usize];
 #[doc = ""]
 #[doc = "TFtdcAMLMoneyType是一个反洗钱资金类型"]
 #[doc = ""]
@@ -2254,176 +2254,176 @@ pub type TThostFtdcAMLFileAmountType = ::std::os::raw::c_int;
 #[doc = ""]
 #[doc = "TFtdcCFMMCKeyType是一个密钥类型(保证金监管)类型"]
 #[doc = ""]
-pub type TThostFtdcCFMMCKeyType = [::std::os::raw::c_char; 21usize];
+pub type TThostFtdcCFMMCKeyType = [::std::os::raw::c_uchar; 21usize];
 #[doc = ""]
 #[doc = "TFtdcCFMMCTokenType是一个令牌类型(保证金监管)类型"]
 #[doc = ""]
-pub type TThostFtdcCFMMCTokenType = [::std::os::raw::c_char; 21usize];
-pub type TThostFtdcCFMMCKeyKindType = ::std::os::raw::c_char;
+pub type TThostFtdcCFMMCTokenType = [::std::os::raw::c_uchar; 21usize];
+pub type TThostFtdcCFMMCKeyKindType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcAMLReportNameType是一个报文名称类型"]
 #[doc = ""]
-pub type TThostFtdcAMLReportNameType = [::std::os::raw::c_char; 81usize];
+pub type TThostFtdcAMLReportNameType = [::std::os::raw::c_uchar; 81usize];
 #[doc = ""]
 #[doc = "TFtdcIndividualNameType是一个个人姓名类型"]
 #[doc = ""]
-pub type TThostFtdcIndividualNameType = [::std::os::raw::c_char; 51usize];
+pub type TThostFtdcIndividualNameType = [::std::os::raw::c_uchar; 51usize];
 #[doc = ""]
 #[doc = "TFtdcCurrencyIDType是一个币种代码类型"]
 #[doc = ""]
-pub type TThostFtdcCurrencyIDType = [::std::os::raw::c_char; 4usize];
+pub type TThostFtdcCurrencyIDType = [::std::os::raw::c_uchar; 4usize];
 #[doc = ""]
 #[doc = "TFtdcCustNumberType是一个客户编号类型"]
 #[doc = ""]
-pub type TThostFtdcCustNumberType = [::std::os::raw::c_char; 36usize];
+pub type TThostFtdcCustNumberType = [::std::os::raw::c_uchar; 36usize];
 #[doc = ""]
 #[doc = "TFtdcOrganCodeType是一个机构编码类型"]
 #[doc = ""]
-pub type TThostFtdcOrganCodeType = [::std::os::raw::c_char; 36usize];
+pub type TThostFtdcOrganCodeType = [::std::os::raw::c_uchar; 36usize];
 #[doc = ""]
 #[doc = "TFtdcOrganNameType是一个机构名称类型"]
 #[doc = ""]
-pub type TThostFtdcOrganNameType = [::std::os::raw::c_char; 71usize];
+pub type TThostFtdcOrganNameType = [::std::os::raw::c_uchar; 71usize];
 #[doc = ""]
 #[doc = "TFtdcSuperOrganCodeType是一个上级机构编码,即期货公司总部、银行总行类型"]
 #[doc = ""]
-pub type TThostFtdcSuperOrganCodeType = [::std::os::raw::c_char; 12usize];
+pub type TThostFtdcSuperOrganCodeType = [::std::os::raw::c_uchar; 12usize];
 #[doc = ""]
 #[doc = "TFtdcSubBranchIDType是一个分支机构类型"]
 #[doc = ""]
-pub type TThostFtdcSubBranchIDType = [::std::os::raw::c_char; 31usize];
+pub type TThostFtdcSubBranchIDType = [::std::os::raw::c_uchar; 31usize];
 #[doc = ""]
 #[doc = "TFtdcSubBranchNameType是一个分支机构名称类型"]
 #[doc = ""]
-pub type TThostFtdcSubBranchNameType = [::std::os::raw::c_char; 71usize];
+pub type TThostFtdcSubBranchNameType = [::std::os::raw::c_uchar; 71usize];
 #[doc = ""]
 #[doc = "TFtdcBranchNetCodeType是一个机构网点号类型"]
 #[doc = ""]
-pub type TThostFtdcBranchNetCodeType = [::std::os::raw::c_char; 31usize];
+pub type TThostFtdcBranchNetCodeType = [::std::os::raw::c_uchar; 31usize];
 #[doc = ""]
 #[doc = "TFtdcBranchNetNameType是一个机构网点名称类型"]
 #[doc = ""]
-pub type TThostFtdcBranchNetNameType = [::std::os::raw::c_char; 71usize];
+pub type TThostFtdcBranchNetNameType = [::std::os::raw::c_uchar; 71usize];
 #[doc = ""]
 #[doc = "TFtdcOrganFlagType是一个机构标识类型"]
 #[doc = ""]
-pub type TThostFtdcOrganFlagType = [::std::os::raw::c_char; 2usize];
+pub type TThostFtdcOrganFlagType = [::std::os::raw::c_uchar; 2usize];
 #[doc = ""]
 #[doc = "TFtdcBankCodingForFutureType是一个银行对期货公司的编码类型"]
 #[doc = ""]
-pub type TThostFtdcBankCodingForFutureType = [::std::os::raw::c_char; 33usize];
+pub type TThostFtdcBankCodingForFutureType = [::std::os::raw::c_uchar; 33usize];
 #[doc = ""]
 #[doc = "TFtdcBankReturnCodeType是一个银行对返回码的定义类型"]
 #[doc = ""]
-pub type TThostFtdcBankReturnCodeType = [::std::os::raw::c_char; 7usize];
+pub type TThostFtdcBankReturnCodeType = [::std::os::raw::c_uchar; 7usize];
 #[doc = ""]
 #[doc = "TFtdcPlateReturnCodeType是一个银期转帐平台对返回码的定义类型"]
 #[doc = ""]
-pub type TThostFtdcPlateReturnCodeType = [::std::os::raw::c_char; 5usize];
+pub type TThostFtdcPlateReturnCodeType = [::std::os::raw::c_uchar; 5usize];
 #[doc = ""]
 #[doc = "TFtdcBankSubBranchIDType是一个银行分支机构编码类型"]
 #[doc = ""]
-pub type TThostFtdcBankSubBranchIDType = [::std::os::raw::c_char; 31usize];
+pub type TThostFtdcBankSubBranchIDType = [::std::os::raw::c_uchar; 31usize];
 #[doc = ""]
 #[doc = "TFtdcFutureBranchIDType是一个期货分支机构编码类型"]
 #[doc = ""]
-pub type TThostFtdcFutureBranchIDType = [::std::os::raw::c_char; 31usize];
+pub type TThostFtdcFutureBranchIDType = [::std::os::raw::c_uchar; 31usize];
 #[doc = ""]
 #[doc = "TFtdcReturnCodeType是一个返回代码类型"]
 #[doc = ""]
-pub type TThostFtdcReturnCodeType = [::std::os::raw::c_char; 7usize];
+pub type TThostFtdcReturnCodeType = [::std::os::raw::c_uchar; 7usize];
 #[doc = ""]
 #[doc = "TFtdcOperatorCodeType是一个操作员类型"]
 #[doc = ""]
-pub type TThostFtdcOperatorCodeType = [::std::os::raw::c_char; 17usize];
+pub type TThostFtdcOperatorCodeType = [::std::os::raw::c_uchar; 17usize];
 #[doc = ""]
 #[doc = "TFtdcClearDepIDType是一个机构结算帐户机构号类型"]
 #[doc = ""]
-pub type TThostFtdcClearDepIDType = [::std::os::raw::c_char; 6usize];
+pub type TThostFtdcClearDepIDType = [::std::os::raw::c_uchar; 6usize];
 #[doc = ""]
 #[doc = "TFtdcClearBrchIDType是一个机构结算帐户联行号类型"]
 #[doc = ""]
-pub type TThostFtdcClearBrchIDType = [::std::os::raw::c_char; 6usize];
+pub type TThostFtdcClearBrchIDType = [::std::os::raw::c_uchar; 6usize];
 #[doc = ""]
 #[doc = "TFtdcClearNameType是一个机构结算帐户名称类型"]
 #[doc = ""]
-pub type TThostFtdcClearNameType = [::std::os::raw::c_char; 71usize];
+pub type TThostFtdcClearNameType = [::std::os::raw::c_uchar; 71usize];
 #[doc = ""]
 #[doc = "TFtdcBankAccountNameType是一个银行帐户名称类型"]
 #[doc = ""]
-pub type TThostFtdcBankAccountNameType = [::std::os::raw::c_char; 71usize];
+pub type TThostFtdcBankAccountNameType = [::std::os::raw::c_uchar; 71usize];
 #[doc = ""]
 #[doc = "TFtdcInvDepIDType是一个机构投资人账号机构号类型"]
 #[doc = ""]
-pub type TThostFtdcInvDepIDType = [::std::os::raw::c_char; 6usize];
+pub type TThostFtdcInvDepIDType = [::std::os::raw::c_uchar; 6usize];
 #[doc = ""]
 #[doc = "TFtdcInvBrchIDType是一个机构投资人联行号类型"]
 #[doc = ""]
-pub type TThostFtdcInvBrchIDType = [::std::os::raw::c_char; 6usize];
+pub type TThostFtdcInvBrchIDType = [::std::os::raw::c_uchar; 6usize];
 #[doc = ""]
 #[doc = "TFtdcMessageFormatVersionType是一个信息格式版本类型"]
 #[doc = ""]
-pub type TThostFtdcMessageFormatVersionType = [::std::os::raw::c_char; 36usize];
+pub type TThostFtdcMessageFormatVersionType = [::std::os::raw::c_uchar; 36usize];
 #[doc = ""]
 #[doc = "TFtdcDigestType是一个摘要类型"]
 #[doc = ""]
-pub type TThostFtdcDigestType = [::std::os::raw::c_char; 36usize];
+pub type TThostFtdcDigestType = [::std::os::raw::c_uchar; 36usize];
 #[doc = ""]
 #[doc = "TFtdcAuthenticDataType是一个认证数据类型"]
 #[doc = ""]
-pub type TThostFtdcAuthenticDataType = [::std::os::raw::c_char; 129usize];
+pub type TThostFtdcAuthenticDataType = [::std::os::raw::c_uchar; 129usize];
 #[doc = ""]
 #[doc = "TFtdcPasswordKeyType是一个密钥类型"]
 #[doc = ""]
-pub type TThostFtdcPasswordKeyType = [::std::os::raw::c_char; 129usize];
+pub type TThostFtdcPasswordKeyType = [::std::os::raw::c_uchar; 129usize];
 #[doc = ""]
 #[doc = "TFtdcFutureAccountNameType是一个期货帐户名称类型"]
 #[doc = ""]
-pub type TThostFtdcFutureAccountNameType = [::std::os::raw::c_char; 129usize];
+pub type TThostFtdcFutureAccountNameType = [::std::os::raw::c_uchar; 129usize];
 #[doc = ""]
 #[doc = "TFtdcMobilePhoneType是一个手机类型"]
 #[doc = ""]
-pub type TThostFtdcMobilePhoneType = [::std::os::raw::c_char; 21usize];
+pub type TThostFtdcMobilePhoneType = [::std::os::raw::c_uchar; 21usize];
 #[doc = ""]
 #[doc = "TFtdcFutureMainKeyType是一个期货公司主密钥类型"]
 #[doc = ""]
-pub type TThostFtdcFutureMainKeyType = [::std::os::raw::c_char; 129usize];
+pub type TThostFtdcFutureMainKeyType = [::std::os::raw::c_uchar; 129usize];
 #[doc = ""]
 #[doc = "TFtdcFutureWorkKeyType是一个期货公司工作密钥类型"]
 #[doc = ""]
-pub type TThostFtdcFutureWorkKeyType = [::std::os::raw::c_char; 129usize];
+pub type TThostFtdcFutureWorkKeyType = [::std::os::raw::c_uchar; 129usize];
 #[doc = ""]
 #[doc = "TFtdcFutureTransKeyType是一个期货公司传输密钥类型"]
 #[doc = ""]
-pub type TThostFtdcFutureTransKeyType = [::std::os::raw::c_char; 129usize];
+pub type TThostFtdcFutureTransKeyType = [::std::os::raw::c_uchar; 129usize];
 #[doc = ""]
 #[doc = "TFtdcBankMainKeyType是一个银行主密钥类型"]
 #[doc = ""]
-pub type TThostFtdcBankMainKeyType = [::std::os::raw::c_char; 129usize];
+pub type TThostFtdcBankMainKeyType = [::std::os::raw::c_uchar; 129usize];
 #[doc = ""]
 #[doc = "TFtdcBankWorkKeyType是一个银行工作密钥类型"]
 #[doc = ""]
-pub type TThostFtdcBankWorkKeyType = [::std::os::raw::c_char; 129usize];
+pub type TThostFtdcBankWorkKeyType = [::std::os::raw::c_uchar; 129usize];
 #[doc = ""]
 #[doc = "TFtdcBankTransKeyType是一个银行传输密钥类型"]
 #[doc = ""]
-pub type TThostFtdcBankTransKeyType = [::std::os::raw::c_char; 129usize];
+pub type TThostFtdcBankTransKeyType = [::std::os::raw::c_uchar; 129usize];
 #[doc = ""]
 #[doc = "TFtdcBankServerDescriptionType是一个银行服务器描述信息类型"]
 #[doc = ""]
-pub type TThostFtdcBankServerDescriptionType = [::std::os::raw::c_char; 129usize];
+pub type TThostFtdcBankServerDescriptionType = [::std::os::raw::c_uchar; 129usize];
 #[doc = ""]
 #[doc = "TFtdcAddInfoType是一个附加信息类型"]
 #[doc = ""]
-pub type TThostFtdcAddInfoType = [::std::os::raw::c_char; 129usize];
+pub type TThostFtdcAddInfoType = [::std::os::raw::c_uchar; 129usize];
 #[doc = ""]
 #[doc = "TFtdcDescrInfoForReturnCodeType是一个返回码描述类型"]
 #[doc = ""]
-pub type TThostFtdcDescrInfoForReturnCodeType = [::std::os::raw::c_char; 129usize];
+pub type TThostFtdcDescrInfoForReturnCodeType = [::std::os::raw::c_uchar; 129usize];
 #[doc = ""]
 #[doc = "TFtdcCountryCodeType是一个国家代码类型"]
 #[doc = ""]
-pub type TThostFtdcCountryCodeType = [::std::os::raw::c_char; 21usize];
+pub type TThostFtdcCountryCodeType = [::std::os::raw::c_uchar; 21usize];
 #[doc = ""]
 #[doc = "TFtdcSerialType是一个流水号类型"]
 #[doc = ""]
@@ -2435,7 +2435,7 @@ pub type TThostFtdcPlateSerialType = ::std::os::raw::c_int;
 #[doc = ""]
 #[doc = "TFtdcBankSerialType是一个银行流水号类型"]
 #[doc = ""]
-pub type TThostFtdcBankSerialType = [::std::os::raw::c_char; 13usize];
+pub type TThostFtdcBankSerialType = [::std::os::raw::c_uchar; 13usize];
 #[doc = ""]
 #[doc = "TFtdcCorrectSerialType是一个被冲正交易流水号类型"]
 #[doc = ""]
@@ -2504,40 +2504,40 @@ pub type TThostFtdcSingleMinAmtType = f64;
 #[doc = "TFtdcTotalAmtType是一个每日累计转帐额度类型"]
 #[doc = ""]
 pub type TThostFtdcTotalAmtType = f64;
-pub type TThostFtdcCertificationTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcFileBusinessCodeType = ::std::os::raw::c_char;
-pub type TThostFtdcCashExchangeCodeType = ::std::os::raw::c_char;
-pub type TThostFtdcYesNoIndicatorType = ::std::os::raw::c_char;
-pub type TThostFtdcBanlanceTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcGenderType = ::std::os::raw::c_char;
-pub type TThostFtdcFeePayFlagType = ::std::os::raw::c_char;
-pub type TThostFtdcPassWordKeyTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcFBTPassWordTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcFBTEncryModeType = ::std::os::raw::c_char;
-pub type TThostFtdcBankRepealFlagType = ::std::os::raw::c_char;
-pub type TThostFtdcBrokerRepealFlagType = ::std::os::raw::c_char;
-pub type TThostFtdcInstitutionTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcLastFragmentType = ::std::os::raw::c_char;
-pub type TThostFtdcBankAccStatusType = ::std::os::raw::c_char;
-pub type TThostFtdcMoneyAccountStatusType = ::std::os::raw::c_char;
-pub type TThostFtdcManageStatusType = ::std::os::raw::c_char;
-pub type TThostFtdcSystemTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcTxnEndFlagType = ::std::os::raw::c_char;
-pub type TThostFtdcProcessStatusType = ::std::os::raw::c_char;
-pub type TThostFtdcCustTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcFBTTransferDirectionType = ::std::os::raw::c_char;
-pub type TThostFtdcOpenOrDestroyType = ::std::os::raw::c_char;
-pub type TThostFtdcAvailabilityFlagType = ::std::os::raw::c_char;
-pub type TThostFtdcOrganTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcOrganLevelType = ::std::os::raw::c_char;
-pub type TThostFtdcProtocalIDType = ::std::os::raw::c_char;
-pub type TThostFtdcConnectModeType = ::std::os::raw::c_char;
-pub type TThostFtdcSyncModeType = ::std::os::raw::c_char;
-pub type TThostFtdcBankAccTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcFutureAccTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcOrganStatusType = ::std::os::raw::c_char;
-pub type TThostFtdcCCBFeeModeType = ::std::os::raw::c_char;
-pub type TThostFtdcCommApiTypeType = ::std::os::raw::c_char;
+pub type TThostFtdcCertificationTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcFileBusinessCodeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcCashExchangeCodeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcYesNoIndicatorType = ::std::os::raw::c_uchar;
+pub type TThostFtdcBanlanceTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcGenderType = ::std::os::raw::c_uchar;
+pub type TThostFtdcFeePayFlagType = ::std::os::raw::c_uchar;
+pub type TThostFtdcPassWordKeyTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcFBTPassWordTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcFBTEncryModeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcBankRepealFlagType = ::std::os::raw::c_uchar;
+pub type TThostFtdcBrokerRepealFlagType = ::std::os::raw::c_uchar;
+pub type TThostFtdcInstitutionTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcLastFragmentType = ::std::os::raw::c_uchar;
+pub type TThostFtdcBankAccStatusType = ::std::os::raw::c_uchar;
+pub type TThostFtdcMoneyAccountStatusType = ::std::os::raw::c_uchar;
+pub type TThostFtdcManageStatusType = ::std::os::raw::c_uchar;
+pub type TThostFtdcSystemTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcTxnEndFlagType = ::std::os::raw::c_uchar;
+pub type TThostFtdcProcessStatusType = ::std::os::raw::c_uchar;
+pub type TThostFtdcCustTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcFBTTransferDirectionType = ::std::os::raw::c_uchar;
+pub type TThostFtdcOpenOrDestroyType = ::std::os::raw::c_uchar;
+pub type TThostFtdcAvailabilityFlagType = ::std::os::raw::c_uchar;
+pub type TThostFtdcOrganTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcOrganLevelType = ::std::os::raw::c_uchar;
+pub type TThostFtdcProtocalIDType = ::std::os::raw::c_uchar;
+pub type TThostFtdcConnectModeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcSyncModeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcBankAccTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcFutureAccTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcOrganStatusType = ::std::os::raw::c_uchar;
+pub type TThostFtdcCCBFeeModeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcCommApiTypeType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcServiceIDType是一个服务编号类型"]
 #[doc = ""]
@@ -2549,30 +2549,30 @@ pub type TThostFtdcServiceLineNoType = ::std::os::raw::c_int;
 #[doc = ""]
 #[doc = "TFtdcServiceNameType是一个服务名类型"]
 #[doc = ""]
-pub type TThostFtdcServiceNameType = [::std::os::raw::c_char; 61usize];
-pub type TThostFtdcLinkStatusType = ::std::os::raw::c_char;
+pub type TThostFtdcServiceNameType = [::std::os::raw::c_uchar; 61usize];
+pub type TThostFtdcLinkStatusType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcCommApiPointerType是一个通讯API指针类型"]
 #[doc = ""]
 pub type TThostFtdcCommApiPointerType = ::std::os::raw::c_int;
-pub type TThostFtdcPwdFlagType = ::std::os::raw::c_char;
-pub type TThostFtdcSecuAccTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcTransferStatusType = ::std::os::raw::c_char;
-pub type TThostFtdcSponsorTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcReqRspTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcFBTUserEventTypeType = ::std::os::raw::c_char;
+pub type TThostFtdcPwdFlagType = ::std::os::raw::c_uchar;
+pub type TThostFtdcSecuAccTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcTransferStatusType = ::std::os::raw::c_uchar;
+pub type TThostFtdcSponsorTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcReqRspTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcFBTUserEventTypeType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcBankIDByBankType是一个银行自己的编码类型"]
 #[doc = ""]
-pub type TThostFtdcBankIDByBankType = [::std::os::raw::c_char; 21usize];
+pub type TThostFtdcBankIDByBankType = [::std::os::raw::c_uchar; 21usize];
 #[doc = ""]
 #[doc = "TFtdcBankOperNoType是一个银行操作员号类型"]
 #[doc = ""]
-pub type TThostFtdcBankOperNoType = [::std::os::raw::c_char; 4usize];
+pub type TThostFtdcBankOperNoType = [::std::os::raw::c_uchar; 4usize];
 #[doc = ""]
 #[doc = "TFtdcBankCustNoType是一个银行客户号类型"]
 #[doc = ""]
-pub type TThostFtdcBankCustNoType = [::std::os::raw::c_char; 21usize];
+pub type TThostFtdcBankCustNoType = [::std::os::raw::c_uchar; 21usize];
 #[doc = ""]
 #[doc = "TFtdcDBOPSeqNoType是一个递增的序列号类型"]
 #[doc = ""]
@@ -2580,43 +2580,43 @@ pub type TThostFtdcDBOPSeqNoType = ::std::os::raw::c_int;
 #[doc = ""]
 #[doc = "TFtdcTableNameType是一个FBT表名类型"]
 #[doc = ""]
-pub type TThostFtdcTableNameType = [::std::os::raw::c_char; 61usize];
+pub type TThostFtdcTableNameType = [::std::os::raw::c_uchar; 61usize];
 #[doc = ""]
 #[doc = "TFtdcPKNameType是一个FBT表操作主键名类型"]
 #[doc = ""]
-pub type TThostFtdcPKNameType = [::std::os::raw::c_char; 201usize];
+pub type TThostFtdcPKNameType = [::std::os::raw::c_uchar; 201usize];
 #[doc = ""]
 #[doc = "TFtdcPKValueType是一个FBT表操作主键值类型"]
 #[doc = ""]
-pub type TThostFtdcPKValueType = [::std::os::raw::c_char; 501usize];
-pub type TThostFtdcDBOperationType = ::std::os::raw::c_char;
-pub type TThostFtdcSyncFlagType = ::std::os::raw::c_char;
+pub type TThostFtdcPKValueType = [::std::os::raw::c_uchar; 501usize];
+pub type TThostFtdcDBOperationType = ::std::os::raw::c_uchar;
+pub type TThostFtdcSyncFlagType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcTargetIDType是一个同步目标编号类型"]
 #[doc = ""]
-pub type TThostFtdcTargetIDType = [::std::os::raw::c_char; 4usize];
-pub type TThostFtdcSyncTypeType = ::std::os::raw::c_char;
+pub type TThostFtdcTargetIDType = [::std::os::raw::c_uchar; 4usize];
+pub type TThostFtdcSyncTypeType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcFBETimeType是一个各种换汇时间类型"]
 #[doc = ""]
-pub type TThostFtdcFBETimeType = [::std::os::raw::c_char; 7usize];
+pub type TThostFtdcFBETimeType = [::std::os::raw::c_uchar; 7usize];
 #[doc = ""]
 #[doc = "TFtdcFBEBankNoType是一个换汇银行行号类型"]
 #[doc = ""]
-pub type TThostFtdcFBEBankNoType = [::std::os::raw::c_char; 13usize];
+pub type TThostFtdcFBEBankNoType = [::std::os::raw::c_uchar; 13usize];
 #[doc = ""]
 #[doc = "TFtdcFBECertNoType是一个换汇凭证号类型"]
 #[doc = ""]
-pub type TThostFtdcFBECertNoType = [::std::os::raw::c_char; 13usize];
-pub type TThostFtdcExDirectionType = ::std::os::raw::c_char;
+pub type TThostFtdcFBECertNoType = [::std::os::raw::c_uchar; 13usize];
+pub type TThostFtdcExDirectionType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcFBEBankAccountType是一个换汇银行账户类型"]
 #[doc = ""]
-pub type TThostFtdcFBEBankAccountType = [::std::os::raw::c_char; 33usize];
+pub type TThostFtdcFBEBankAccountType = [::std::os::raw::c_uchar; 33usize];
 #[doc = ""]
 #[doc = "TFtdcFBEBankAccountNameType是一个换汇银行账户名类型"]
 #[doc = ""]
-pub type TThostFtdcFBEBankAccountNameType = [::std::os::raw::c_char; 61usize];
+pub type TThostFtdcFBEBankAccountNameType = [::std::os::raw::c_uchar; 61usize];
 #[doc = ""]
 #[doc = "TFtdcFBEAmtType是一个各种换汇金额类型"]
 #[doc = ""]
@@ -2624,74 +2624,74 @@ pub type TThostFtdcFBEAmtType = f64;
 #[doc = ""]
 #[doc = "TFtdcFBEBusinessTypeType是一个换汇业务类型类型"]
 #[doc = ""]
-pub type TThostFtdcFBEBusinessTypeType = [::std::os::raw::c_char; 3usize];
+pub type TThostFtdcFBEBusinessTypeType = [::std::os::raw::c_uchar; 3usize];
 #[doc = ""]
 #[doc = "TFtdcFBEPostScriptType是一个换汇附言类型"]
 #[doc = ""]
-pub type TThostFtdcFBEPostScriptType = [::std::os::raw::c_char; 61usize];
+pub type TThostFtdcFBEPostScriptType = [::std::os::raw::c_uchar; 61usize];
 #[doc = ""]
 #[doc = "TFtdcFBERemarkType是一个换汇备注类型"]
 #[doc = ""]
-pub type TThostFtdcFBERemarkType = [::std::os::raw::c_char; 71usize];
+pub type TThostFtdcFBERemarkType = [::std::os::raw::c_uchar; 71usize];
 #[doc = ""]
 #[doc = "TFtdcExRateType是一个换汇汇率类型"]
 #[doc = ""]
 pub type TThostFtdcExRateType = f64;
-pub type TThostFtdcFBEResultFlagType = ::std::os::raw::c_char;
+pub type TThostFtdcFBEResultFlagType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcFBERtnMsgType是一个换汇返回信息类型"]
 #[doc = ""]
-pub type TThostFtdcFBERtnMsgType = [::std::os::raw::c_char; 61usize];
+pub type TThostFtdcFBERtnMsgType = [::std::os::raw::c_uchar; 61usize];
 #[doc = ""]
 #[doc = "TFtdcFBEExtendMsgType是一个换汇扩展信息类型"]
 #[doc = ""]
-pub type TThostFtdcFBEExtendMsgType = [::std::os::raw::c_char; 61usize];
+pub type TThostFtdcFBEExtendMsgType = [::std::os::raw::c_uchar; 61usize];
 #[doc = ""]
 #[doc = "TFtdcFBEBusinessSerialType是一个换汇记账流水号类型"]
 #[doc = ""]
-pub type TThostFtdcFBEBusinessSerialType = [::std::os::raw::c_char; 31usize];
+pub type TThostFtdcFBEBusinessSerialType = [::std::os::raw::c_uchar; 31usize];
 #[doc = ""]
 #[doc = "TFtdcFBESystemSerialType是一个换汇流水号类型"]
 #[doc = ""]
-pub type TThostFtdcFBESystemSerialType = [::std::os::raw::c_char; 21usize];
+pub type TThostFtdcFBESystemSerialType = [::std::os::raw::c_uchar; 21usize];
 #[doc = ""]
 #[doc = "TFtdcFBETotalExCntType是一个换汇交易总笔数类型"]
 #[doc = ""]
 pub type TThostFtdcFBETotalExCntType = ::std::os::raw::c_int;
-pub type TThostFtdcFBEExchStatusType = ::std::os::raw::c_char;
-pub type TThostFtdcFBEFileFlagType = ::std::os::raw::c_char;
-pub type TThostFtdcFBEAlreadyTradeType = ::std::os::raw::c_char;
+pub type TThostFtdcFBEExchStatusType = ::std::os::raw::c_uchar;
+pub type TThostFtdcFBEFileFlagType = ::std::os::raw::c_uchar;
+pub type TThostFtdcFBEAlreadyTradeType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcFBEOpenBankType是一个换汇账户开户行类型"]
 #[doc = ""]
-pub type TThostFtdcFBEOpenBankType = [::std::os::raw::c_char; 61usize];
-pub type TThostFtdcFBEUserEventTypeType = ::std::os::raw::c_char;
+pub type TThostFtdcFBEOpenBankType = [::std::os::raw::c_uchar; 61usize];
+pub type TThostFtdcFBEUserEventTypeType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcFBEFileNameType是一个换汇相关文件名类型"]
 #[doc = ""]
-pub type TThostFtdcFBEFileNameType = [::std::os::raw::c_char; 21usize];
+pub type TThostFtdcFBEFileNameType = [::std::os::raw::c_uchar; 21usize];
 #[doc = ""]
 #[doc = "TFtdcFBEBatchSerialType是一个换汇批次号类型"]
 #[doc = ""]
-pub type TThostFtdcFBEBatchSerialType = [::std::os::raw::c_char; 21usize];
-pub type TThostFtdcFBEReqFlagType = ::std::os::raw::c_char;
-pub type TThostFtdcNotifyClassType = ::std::os::raw::c_char;
+pub type TThostFtdcFBEBatchSerialType = [::std::os::raw::c_uchar; 21usize];
+pub type TThostFtdcFBEReqFlagType = ::std::os::raw::c_uchar;
+pub type TThostFtdcNotifyClassType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcRiskNofityInfoType是一个客户风险通知消息类型"]
 #[doc = ""]
-pub type TThostFtdcRiskNofityInfoType = [::std::os::raw::c_char; 257usize];
+pub type TThostFtdcRiskNofityInfoType = [::std::os::raw::c_uchar; 257usize];
 #[doc = ""]
 #[doc = "TFtdcForceCloseSceneIdType是一个强平场景编号类型"]
 #[doc = ""]
-pub type TThostFtdcForceCloseSceneIdType = [::std::os::raw::c_char; 24usize];
-pub type TThostFtdcForceCloseTypeType = ::std::os::raw::c_char;
+pub type TThostFtdcForceCloseSceneIdType = [::std::os::raw::c_uchar; 24usize];
+pub type TThostFtdcForceCloseTypeType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcInstrumentIDsType是一个多个产品代码,用+分隔,如cu+zn类型"]
 #[doc = ""]
-pub type TThostFtdcInstrumentIDsType = [::std::os::raw::c_char; 101usize];
-pub type TThostFtdcRiskNotifyMethodType = ::std::os::raw::c_char;
-pub type TThostFtdcRiskNotifyStatusType = ::std::os::raw::c_char;
-pub type TThostFtdcRiskUserEventType = ::std::os::raw::c_char;
+pub type TThostFtdcInstrumentIDsType = [::std::os::raw::c_uchar; 101usize];
+pub type TThostFtdcRiskNotifyMethodType = ::std::os::raw::c_uchar;
+pub type TThostFtdcRiskNotifyStatusType = ::std::os::raw::c_uchar;
+pub type TThostFtdcRiskUserEventType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcParamIDType是一个参数代码类型"]
 #[doc = ""]
@@ -2699,39 +2699,39 @@ pub type TThostFtdcParamIDType = ::std::os::raw::c_int;
 #[doc = ""]
 #[doc = "TFtdcParamNameType是一个参数名类型"]
 #[doc = ""]
-pub type TThostFtdcParamNameType = [::std::os::raw::c_char; 41usize];
+pub type TThostFtdcParamNameType = [::std::os::raw::c_uchar; 41usize];
 #[doc = ""]
 #[doc = "TFtdcParamValueType是一个参数值类型"]
 #[doc = ""]
-pub type TThostFtdcParamValueType = [::std::os::raw::c_char; 41usize];
-pub type TThostFtdcConditionalOrderSortTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcSendTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcClientIDStatusType = ::std::os::raw::c_char;
+pub type TThostFtdcParamValueType = [::std::os::raw::c_uchar; 41usize];
+pub type TThostFtdcConditionalOrderSortTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcSendTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcClientIDStatusType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcIndustryIDType是一个行业编码类型"]
 #[doc = ""]
-pub type TThostFtdcIndustryIDType = [::std::os::raw::c_char; 17usize];
+pub type TThostFtdcIndustryIDType = [::std::os::raw::c_uchar; 17usize];
 #[doc = ""]
 #[doc = "TFtdcQuestionIDType是一个特有信息编号类型"]
 #[doc = ""]
-pub type TThostFtdcQuestionIDType = [::std::os::raw::c_char; 5usize];
+pub type TThostFtdcQuestionIDType = [::std::os::raw::c_uchar; 5usize];
 #[doc = ""]
 #[doc = "TFtdcQuestionContentType是一个特有信息说明类型"]
 #[doc = ""]
-pub type TThostFtdcQuestionContentType = [::std::os::raw::c_char; 41usize];
+pub type TThostFtdcQuestionContentType = [::std::os::raw::c_uchar; 41usize];
 #[doc = ""]
 #[doc = "TFtdcOptionIDType是一个选项编号类型"]
 #[doc = ""]
-pub type TThostFtdcOptionIDType = [::std::os::raw::c_char; 13usize];
+pub type TThostFtdcOptionIDType = [::std::os::raw::c_uchar; 13usize];
 #[doc = ""]
 #[doc = "TFtdcOptionContentType是一个选项说明类型"]
 #[doc = ""]
-pub type TThostFtdcOptionContentType = [::std::os::raw::c_char; 61usize];
-pub type TThostFtdcQuestionTypeType = ::std::os::raw::c_char;
+pub type TThostFtdcOptionContentType = [::std::os::raw::c_uchar; 61usize];
+pub type TThostFtdcQuestionTypeType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcProcessIDType是一个业务流水号类型"]
 #[doc = ""]
-pub type TThostFtdcProcessIDType = [::std::os::raw::c_char; 33usize];
+pub type TThostFtdcProcessIDType = [::std::os::raw::c_uchar; 33usize];
 #[doc = ""]
 #[doc = "TFtdcSeqNoType是一个流水号类型"]
 #[doc = ""]
@@ -2739,62 +2739,62 @@ pub type TThostFtdcSeqNoType = ::std::os::raw::c_int;
 #[doc = ""]
 #[doc = "TFtdcUOAProcessStatusType是一个流程状态类型"]
 #[doc = ""]
-pub type TThostFtdcUOAProcessStatusType = [::std::os::raw::c_char; 3usize];
+pub type TThostFtdcUOAProcessStatusType = [::std::os::raw::c_uchar; 3usize];
 #[doc = ""]
 #[doc = "TFtdcProcessTypeType是一个流程功能类型类型"]
 #[doc = ""]
-pub type TThostFtdcProcessTypeType = [::std::os::raw::c_char; 3usize];
-pub type TThostFtdcBusinessTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcCfmmcReturnCodeType = ::std::os::raw::c_char;
+pub type TThostFtdcProcessTypeType = [::std::os::raw::c_uchar; 3usize];
+pub type TThostFtdcBusinessTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcCfmmcReturnCodeType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcExReturnCodeType是一个交易所返回码类型"]
 #[doc = ""]
 pub type TThostFtdcExReturnCodeType = ::std::os::raw::c_int;
-pub type TThostFtdcClientTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcExchangeIDTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcExClientIDTypeType = ::std::os::raw::c_char;
+pub type TThostFtdcClientTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcExchangeIDTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcExClientIDTypeType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcClientClassifyType是一个客户分类码类型"]
 #[doc = ""]
-pub type TThostFtdcClientClassifyType = [::std::os::raw::c_char; 11usize];
+pub type TThostFtdcClientClassifyType = [::std::os::raw::c_uchar; 11usize];
 #[doc = ""]
 #[doc = "TFtdcUOAOrganTypeType是一个单位性质类型"]
 #[doc = ""]
-pub type TThostFtdcUOAOrganTypeType = [::std::os::raw::c_char; 11usize];
+pub type TThostFtdcUOAOrganTypeType = [::std::os::raw::c_uchar; 11usize];
 #[doc = ""]
 #[doc = "TFtdcUOACountryCodeType是一个国家代码类型"]
 #[doc = ""]
-pub type TThostFtdcUOACountryCodeType = [::std::os::raw::c_char; 11usize];
+pub type TThostFtdcUOACountryCodeType = [::std::os::raw::c_uchar; 11usize];
 #[doc = ""]
 #[doc = "TFtdcAreaCodeType是一个区号类型"]
 #[doc = ""]
-pub type TThostFtdcAreaCodeType = [::std::os::raw::c_char; 11usize];
+pub type TThostFtdcAreaCodeType = [::std::os::raw::c_uchar; 11usize];
 #[doc = ""]
 #[doc = "TFtdcFuturesIDType是一个监控中心为客户分配的代码类型"]
 #[doc = ""]
-pub type TThostFtdcFuturesIDType = [::std::os::raw::c_char; 21usize];
+pub type TThostFtdcFuturesIDType = [::std::os::raw::c_uchar; 21usize];
 #[doc = ""]
 #[doc = "TFtdcCffmcDateType是一个日期类型"]
 #[doc = ""]
-pub type TThostFtdcCffmcDateType = [::std::os::raw::c_char; 11usize];
+pub type TThostFtdcCffmcDateType = [::std::os::raw::c_uchar; 11usize];
 #[doc = ""]
 #[doc = "TFtdcCffmcTimeType是一个时间类型"]
 #[doc = ""]
-pub type TThostFtdcCffmcTimeType = [::std::os::raw::c_char; 11usize];
+pub type TThostFtdcCffmcTimeType = [::std::os::raw::c_uchar; 11usize];
 #[doc = ""]
 #[doc = "TFtdcNocIDType是一个组织机构代码类型"]
 #[doc = ""]
-pub type TThostFtdcNocIDType = [::std::os::raw::c_char; 21usize];
-pub type TThostFtdcUpdateFlagType = ::std::os::raw::c_char;
-pub type TThostFtdcApplyOperateIDType = ::std::os::raw::c_char;
-pub type TThostFtdcApplyStatusIDType = ::std::os::raw::c_char;
-pub type TThostFtdcSendMethodType = ::std::os::raw::c_char;
+pub type TThostFtdcNocIDType = [::std::os::raw::c_uchar; 21usize];
+pub type TThostFtdcUpdateFlagType = ::std::os::raw::c_uchar;
+pub type TThostFtdcApplyOperateIDType = ::std::os::raw::c_uchar;
+pub type TThostFtdcApplyStatusIDType = ::std::os::raw::c_uchar;
+pub type TThostFtdcSendMethodType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcEventTypeType是一个业务操作类型类型"]
 #[doc = ""]
-pub type TThostFtdcEventTypeType = [::std::os::raw::c_char; 33usize];
-pub type TThostFtdcEventModeType = ::std::os::raw::c_char;
-pub type TThostFtdcUOAAutoSendType = ::std::os::raw::c_char;
+pub type TThostFtdcEventTypeType = [::std::os::raw::c_uchar; 33usize];
+pub type TThostFtdcEventModeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcUOAAutoSendType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcQueryDepthType是一个查询深度类型"]
 #[doc = ""]
@@ -2803,33 +2803,33 @@ pub type TThostFtdcQueryDepthType = ::std::os::raw::c_int;
 #[doc = "TFtdcDataCenterIDType是一个数据中心代码类型"]
 #[doc = ""]
 pub type TThostFtdcDataCenterIDType = ::std::os::raw::c_int;
-pub type TThostFtdcFlowIDType = ::std::os::raw::c_char;
-pub type TThostFtdcCheckLevelType = ::std::os::raw::c_char;
+pub type TThostFtdcFlowIDType = ::std::os::raw::c_uchar;
+pub type TThostFtdcCheckLevelType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcCheckNoType是一个操作次数类型"]
 #[doc = ""]
 pub type TThostFtdcCheckNoType = ::std::os::raw::c_int;
-pub type TThostFtdcCheckStatusType = ::std::os::raw::c_char;
-pub type TThostFtdcUsedStatusType = ::std::os::raw::c_char;
+pub type TThostFtdcCheckStatusType = ::std::os::raw::c_uchar;
+pub type TThostFtdcUsedStatusType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcRateTemplateNameType是一个模型名称类型"]
 #[doc = ""]
-pub type TThostFtdcRateTemplateNameType = [::std::os::raw::c_char; 61usize];
+pub type TThostFtdcRateTemplateNameType = [::std::os::raw::c_uchar; 61usize];
 #[doc = ""]
 #[doc = "TFtdcPropertyStringType是一个用于查询的投资属性字段类型"]
 #[doc = ""]
-pub type TThostFtdcPropertyStringType = [::std::os::raw::c_char; 2049usize];
-pub type TThostFtdcBankAcountOriginType = ::std::os::raw::c_char;
-pub type TThostFtdcMonthBillTradeSumType = ::std::os::raw::c_char;
-pub type TThostFtdcFBTTradeCodeEnumType = ::std::os::raw::c_char;
+pub type TThostFtdcPropertyStringType = [::std::os::raw::c_uchar; 2049usize];
+pub type TThostFtdcBankAcountOriginType = ::std::os::raw::c_uchar;
+pub type TThostFtdcMonthBillTradeSumType = ::std::os::raw::c_uchar;
+pub type TThostFtdcFBTTradeCodeEnumType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcRateTemplateIDType是一个模型代码类型"]
 #[doc = ""]
-pub type TThostFtdcRateTemplateIDType = [::std::os::raw::c_char; 9usize];
+pub type TThostFtdcRateTemplateIDType = [::std::os::raw::c_uchar; 9usize];
 #[doc = ""]
 #[doc = "TFtdcRiskRateType是一个风险度类型"]
 #[doc = ""]
-pub type TThostFtdcRiskRateType = [::std::os::raw::c_char; 21usize];
+pub type TThostFtdcRiskRateType = [::std::os::raw::c_uchar; 21usize];
 #[doc = ""]
 #[doc = "TFtdcTimestampType是一个时间戳类型"]
 #[doc = ""]
@@ -2837,11 +2837,11 @@ pub type TThostFtdcTimestampType = ::std::os::raw::c_int;
 #[doc = ""]
 #[doc = "TFtdcInvestorIDRuleNameType是一个号段规则名称类型"]
 #[doc = ""]
-pub type TThostFtdcInvestorIDRuleNameType = [::std::os::raw::c_char; 61usize];
+pub type TThostFtdcInvestorIDRuleNameType = [::std::os::raw::c_uchar; 61usize];
 #[doc = ""]
 #[doc = "TFtdcInvestorIDRuleExprType是一个号段规则表达式类型"]
 #[doc = ""]
-pub type TThostFtdcInvestorIDRuleExprType = [::std::os::raw::c_char; 513usize];
+pub type TThostFtdcInvestorIDRuleExprType = [::std::os::raw::c_uchar; 513usize];
 #[doc = ""]
 #[doc = "TFtdcLastDriftType是一个上次OTP漂移值类型"]
 #[doc = ""]
@@ -2853,37 +2853,37 @@ pub type TThostFtdcLastSuccessType = ::std::os::raw::c_int;
 #[doc = ""]
 #[doc = "TFtdcAuthKeyType是一个令牌密钥类型"]
 #[doc = ""]
-pub type TThostFtdcAuthKeyType = [::std::os::raw::c_char; 41usize];
+pub type TThostFtdcAuthKeyType = [::std::os::raw::c_uchar; 41usize];
 #[doc = ""]
 #[doc = "TFtdcSerialNumberType是一个序列号类型"]
 #[doc = ""]
-pub type TThostFtdcSerialNumberType = [::std::os::raw::c_char; 17usize];
-pub type TThostFtdcOTPTypeType = ::std::os::raw::c_char;
+pub type TThostFtdcSerialNumberType = [::std::os::raw::c_uchar; 17usize];
+pub type TThostFtdcOTPTypeType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcOTPVendorsIDType是一个动态令牌提供商类型"]
 #[doc = ""]
-pub type TThostFtdcOTPVendorsIDType = [::std::os::raw::c_char; 2usize];
+pub type TThostFtdcOTPVendorsIDType = [::std::os::raw::c_uchar; 2usize];
 #[doc = ""]
 #[doc = "TFtdcOTPVendorsNameType是一个动态令牌提供商名称类型"]
 #[doc = ""]
-pub type TThostFtdcOTPVendorsNameType = [::std::os::raw::c_char; 61usize];
-pub type TThostFtdcOTPStatusType = ::std::os::raw::c_char;
-pub type TThostFtdcBrokerUserTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcFutureTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcFundEventTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcAccountSourceTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcCodeSourceTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcUserRangeType = ::std::os::raw::c_char;
+pub type TThostFtdcOTPVendorsNameType = [::std::os::raw::c_uchar; 61usize];
+pub type TThostFtdcOTPStatusType = ::std::os::raw::c_uchar;
+pub type TThostFtdcBrokerUserTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcFutureTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcFundEventTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcAccountSourceTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcCodeSourceTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcUserRangeType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcTimeSpanType是一个时间跨度类型"]
 #[doc = ""]
-pub type TThostFtdcTimeSpanType = [::std::os::raw::c_char; 9usize];
+pub type TThostFtdcTimeSpanType = [::std::os::raw::c_uchar; 9usize];
 #[doc = ""]
 #[doc = "TFtdcImportSequenceIDType是一个动态令牌导入批次编号类型"]
 #[doc = ""]
-pub type TThostFtdcImportSequenceIDType = [::std::os::raw::c_char; 17usize];
-pub type TThostFtdcByGroupType = ::std::os::raw::c_char;
-pub type TThostFtdcTradeSumStatModeType = ::std::os::raw::c_char;
+pub type TThostFtdcImportSequenceIDType = [::std::os::raw::c_uchar; 17usize];
+pub type TThostFtdcByGroupType = ::std::os::raw::c_uchar;
+pub type TThostFtdcTradeSumStatModeType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcComTypeType是一个组合成交类型类型"]
 #[doc = ""]
@@ -2891,83 +2891,83 @@ pub type TThostFtdcComTypeType = ::std::os::raw::c_int;
 #[doc = ""]
 #[doc = "TFtdcUserProductIDType是一个产品标识类型"]
 #[doc = ""]
-pub type TThostFtdcUserProductIDType = [::std::os::raw::c_char; 33usize];
+pub type TThostFtdcUserProductIDType = [::std::os::raw::c_uchar; 33usize];
 #[doc = ""]
 #[doc = "TFtdcUserProductNameType是一个产品名称类型"]
 #[doc = ""]
-pub type TThostFtdcUserProductNameType = [::std::os::raw::c_char; 65usize];
+pub type TThostFtdcUserProductNameType = [::std::os::raw::c_uchar; 65usize];
 #[doc = ""]
 #[doc = "TFtdcUserProductMemoType是一个产品说明类型"]
 #[doc = ""]
-pub type TThostFtdcUserProductMemoType = [::std::os::raw::c_char; 129usize];
+pub type TThostFtdcUserProductMemoType = [::std::os::raw::c_uchar; 129usize];
 #[doc = ""]
 #[doc = "TFtdcCSRCCancelFlagType是一个新增或变更标志类型"]
 #[doc = ""]
-pub type TThostFtdcCSRCCancelFlagType = [::std::os::raw::c_char; 2usize];
+pub type TThostFtdcCSRCCancelFlagType = [::std::os::raw::c_uchar; 2usize];
 #[doc = ""]
 #[doc = "TFtdcCSRCDateType是一个日期类型"]
 #[doc = ""]
-pub type TThostFtdcCSRCDateType = [::std::os::raw::c_char; 11usize];
+pub type TThostFtdcCSRCDateType = [::std::os::raw::c_uchar; 11usize];
 #[doc = ""]
 #[doc = "TFtdcCSRCInvestorNameType是一个客户名称类型"]
 #[doc = ""]
-pub type TThostFtdcCSRCInvestorNameType = [::std::os::raw::c_char; 201usize];
+pub type TThostFtdcCSRCInvestorNameType = [::std::os::raw::c_uchar; 201usize];
 #[doc = ""]
 #[doc = "TFtdcCSRCOpenInvestorNameType是一个客户名称类型"]
 #[doc = ""]
-pub type TThostFtdcCSRCOpenInvestorNameType = [::std::os::raw::c_char; 101usize];
+pub type TThostFtdcCSRCOpenInvestorNameType = [::std::os::raw::c_uchar; 101usize];
 #[doc = ""]
 #[doc = "TFtdcCSRCInvestorIDType是一个客户代码类型"]
 #[doc = ""]
-pub type TThostFtdcCSRCInvestorIDType = [::std::os::raw::c_char; 13usize];
+pub type TThostFtdcCSRCInvestorIDType = [::std::os::raw::c_uchar; 13usize];
 #[doc = ""]
 #[doc = "TFtdcCSRCIdentifiedCardNoType是一个证件号码类型"]
 #[doc = ""]
-pub type TThostFtdcCSRCIdentifiedCardNoType = [::std::os::raw::c_char; 51usize];
+pub type TThostFtdcCSRCIdentifiedCardNoType = [::std::os::raw::c_uchar; 51usize];
 #[doc = ""]
 #[doc = "TFtdcCSRCClientIDType是一个交易编码类型"]
 #[doc = ""]
-pub type TThostFtdcCSRCClientIDType = [::std::os::raw::c_char; 11usize];
+pub type TThostFtdcCSRCClientIDType = [::std::os::raw::c_uchar; 11usize];
 #[doc = ""]
 #[doc = "TFtdcCSRCBankFlagType是一个银行标识类型"]
 #[doc = ""]
-pub type TThostFtdcCSRCBankFlagType = [::std::os::raw::c_char; 3usize];
+pub type TThostFtdcCSRCBankFlagType = [::std::os::raw::c_uchar; 3usize];
 #[doc = ""]
 #[doc = "TFtdcCSRCBankAccountType是一个银行账户类型"]
 #[doc = ""]
-pub type TThostFtdcCSRCBankAccountType = [::std::os::raw::c_char; 23usize];
+pub type TThostFtdcCSRCBankAccountType = [::std::os::raw::c_uchar; 23usize];
 #[doc = ""]
 #[doc = "TFtdcCSRCOpenNameType是一个开户人类型"]
 #[doc = ""]
-pub type TThostFtdcCSRCOpenNameType = [::std::os::raw::c_char; 401usize];
+pub type TThostFtdcCSRCOpenNameType = [::std::os::raw::c_uchar; 401usize];
 #[doc = ""]
 #[doc = "TFtdcCSRCMemoType是一个说明类型"]
 #[doc = ""]
-pub type TThostFtdcCSRCMemoType = [::std::os::raw::c_char; 101usize];
+pub type TThostFtdcCSRCMemoType = [::std::os::raw::c_uchar; 101usize];
 #[doc = ""]
 #[doc = "TFtdcCSRCTimeType是一个时间类型"]
 #[doc = ""]
-pub type TThostFtdcCSRCTimeType = [::std::os::raw::c_char; 11usize];
+pub type TThostFtdcCSRCTimeType = [::std::os::raw::c_uchar; 11usize];
 #[doc = ""]
 #[doc = "TFtdcCSRCTradeIDType是一个成交流水号类型"]
 #[doc = ""]
-pub type TThostFtdcCSRCTradeIDType = [::std::os::raw::c_char; 21usize];
+pub type TThostFtdcCSRCTradeIDType = [::std::os::raw::c_uchar; 21usize];
 #[doc = ""]
 #[doc = "TFtdcCSRCExchangeInstIDType是一个合约代码类型"]
 #[doc = ""]
-pub type TThostFtdcCSRCExchangeInstIDType = [::std::os::raw::c_char; 31usize];
+pub type TThostFtdcCSRCExchangeInstIDType = [::std::os::raw::c_uchar; 31usize];
 #[doc = ""]
 #[doc = "TFtdcCSRCMortgageNameType是一个质押品名称类型"]
 #[doc = ""]
-pub type TThostFtdcCSRCMortgageNameType = [::std::os::raw::c_char; 7usize];
+pub type TThostFtdcCSRCMortgageNameType = [::std::os::raw::c_uchar; 7usize];
 #[doc = ""]
 #[doc = "TFtdcCSRCReasonType是一个事由类型"]
 #[doc = ""]
-pub type TThostFtdcCSRCReasonType = [::std::os::raw::c_char; 3usize];
+pub type TThostFtdcCSRCReasonType = [::std::os::raw::c_uchar; 3usize];
 #[doc = ""]
 #[doc = "TFtdcIsSettlementType是一个是否为非结算会员类型"]
 #[doc = ""]
-pub type TThostFtdcIsSettlementType = [::std::os::raw::c_char; 2usize];
+pub type TThostFtdcIsSettlementType = [::std::os::raw::c_uchar; 2usize];
 #[doc = ""]
 #[doc = "TFtdcCSRCMoneyType是一个资金类型"]
 #[doc = ""]
@@ -2979,7 +2979,7 @@ pub type TThostFtdcCSRCPriceType = f64;
 #[doc = ""]
 #[doc = "TFtdcCSRCOptionsTypeType是一个期权类型类型"]
 #[doc = ""]
-pub type TThostFtdcCSRCOptionsTypeType = [::std::os::raw::c_char; 2usize];
+pub type TThostFtdcCSRCOptionsTypeType = [::std::os::raw::c_uchar; 2usize];
 #[doc = ""]
 #[doc = "TFtdcCSRCStrikePriceType是一个执行价类型"]
 #[doc = ""]
@@ -2987,25 +2987,25 @@ pub type TThostFtdcCSRCStrikePriceType = f64;
 #[doc = ""]
 #[doc = "TFtdcCSRCTargetProductIDType是一个标的品种类型"]
 #[doc = ""]
-pub type TThostFtdcCSRCTargetProductIDType = [::std::os::raw::c_char; 3usize];
+pub type TThostFtdcCSRCTargetProductIDType = [::std::os::raw::c_uchar; 3usize];
 #[doc = ""]
 #[doc = "TFtdcCSRCTargetInstrIDType是一个标的合约类型"]
 #[doc = ""]
-pub type TThostFtdcCSRCTargetInstrIDType = [::std::os::raw::c_char; 31usize];
+pub type TThostFtdcCSRCTargetInstrIDType = [::std::os::raw::c_uchar; 31usize];
 #[doc = ""]
 #[doc = "TFtdcCommModelNameType是一个手续费率模板名称类型"]
 #[doc = ""]
-pub type TThostFtdcCommModelNameType = [::std::os::raw::c_char; 161usize];
+pub type TThostFtdcCommModelNameType = [::std::os::raw::c_uchar; 161usize];
 #[doc = ""]
 #[doc = "TFtdcCommModelMemoType是一个手续费率模板备注类型"]
 #[doc = ""]
-pub type TThostFtdcCommModelMemoType = [::std::os::raw::c_char; 1025usize];
-pub type TThostFtdcExprSetModeType = ::std::os::raw::c_char;
-pub type TThostFtdcRateInvestorRangeType = ::std::os::raw::c_char;
+pub type TThostFtdcCommModelMemoType = [::std::os::raw::c_uchar; 1025usize];
+pub type TThostFtdcExprSetModeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcRateInvestorRangeType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcAgentBrokerIDType是一个代理经纪公司代码类型"]
 #[doc = ""]
-pub type TThostFtdcAgentBrokerIDType = [::std::os::raw::c_char; 13usize];
+pub type TThostFtdcAgentBrokerIDType = [::std::os::raw::c_uchar; 13usize];
 #[doc = ""]
 #[doc = "TFtdcDRIdentityIDType是一个交易中心代码类型"]
 #[doc = ""]
@@ -3013,105 +3013,105 @@ pub type TThostFtdcDRIdentityIDType = ::std::os::raw::c_int;
 #[doc = ""]
 #[doc = "TFtdcDRIdentityNameType是一个交易中心名称类型"]
 #[doc = ""]
-pub type TThostFtdcDRIdentityNameType = [::std::os::raw::c_char; 65usize];
+pub type TThostFtdcDRIdentityNameType = [::std::os::raw::c_uchar; 65usize];
 #[doc = ""]
 #[doc = "TFtdcDBLinkIDType是一个DBLink标识号类型"]
 #[doc = ""]
-pub type TThostFtdcDBLinkIDType = [::std::os::raw::c_char; 31usize];
-pub type TThostFtdcSyncDataStatusType = ::std::os::raw::c_char;
-pub type TThostFtdcTradeSourceType = ::std::os::raw::c_char;
-pub type TThostFtdcFlexStatModeType = ::std::os::raw::c_char;
-pub type TThostFtdcByInvestorRangeType = ::std::os::raw::c_char;
+pub type TThostFtdcDBLinkIDType = [::std::os::raw::c_uchar; 31usize];
+pub type TThostFtdcSyncDataStatusType = ::std::os::raw::c_uchar;
+pub type TThostFtdcTradeSourceType = ::std::os::raw::c_uchar;
+pub type TThostFtdcFlexStatModeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcByInvestorRangeType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcSRiskRateType是一个风险度类型"]
 #[doc = ""]
-pub type TThostFtdcSRiskRateType = [::std::os::raw::c_char; 21usize];
+pub type TThostFtdcSRiskRateType = [::std::os::raw::c_uchar; 21usize];
 #[doc = ""]
 #[doc = "TFtdcSequenceNo12Type是一个序号类型"]
 #[doc = ""]
 pub type TThostFtdcSequenceNo12Type = ::std::os::raw::c_int;
-pub type TThostFtdcPropertyInvestorRangeType = ::std::os::raw::c_char;
-pub type TThostFtdcFileStatusType = ::std::os::raw::c_char;
-pub type TThostFtdcFileGenStyleType = ::std::os::raw::c_char;
-pub type TThostFtdcSysOperModeType = ::std::os::raw::c_char;
-pub type TThostFtdcSysOperTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcCSRCDataQueyTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcFreezeStatusType = ::std::os::raw::c_char;
-pub type TThostFtdcStandardStatusType = ::std::os::raw::c_char;
+pub type TThostFtdcPropertyInvestorRangeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcFileStatusType = ::std::os::raw::c_uchar;
+pub type TThostFtdcFileGenStyleType = ::std::os::raw::c_uchar;
+pub type TThostFtdcSysOperModeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcSysOperTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcCSRCDataQueyTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcFreezeStatusType = ::std::os::raw::c_uchar;
+pub type TThostFtdcStandardStatusType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcCSRCFreezeStatusType是一个休眠状态类型"]
 #[doc = ""]
-pub type TThostFtdcCSRCFreezeStatusType = [::std::os::raw::c_char; 2usize];
-pub type TThostFtdcRightParamTypeType = ::std::os::raw::c_char;
+pub type TThostFtdcCSRCFreezeStatusType = [::std::os::raw::c_uchar; 2usize];
+pub type TThostFtdcRightParamTypeType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcRightTemplateIDType是一个模板代码类型"]
 #[doc = ""]
-pub type TThostFtdcRightTemplateIDType = [::std::os::raw::c_char; 9usize];
+pub type TThostFtdcRightTemplateIDType = [::std::os::raw::c_uchar; 9usize];
 #[doc = ""]
 #[doc = "TFtdcRightTemplateNameType是一个模板名称类型"]
 #[doc = ""]
-pub type TThostFtdcRightTemplateNameType = [::std::os::raw::c_char; 61usize];
-pub type TThostFtdcDataStatusType = ::std::os::raw::c_char;
-pub type TThostFtdcAMLCheckStatusType = ::std::os::raw::c_char;
-pub type TThostFtdcAmlDateTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcAmlCheckLevelType = ::std::os::raw::c_char;
+pub type TThostFtdcRightTemplateNameType = [::std::os::raw::c_uchar; 61usize];
+pub type TThostFtdcDataStatusType = ::std::os::raw::c_uchar;
+pub type TThostFtdcAMLCheckStatusType = ::std::os::raw::c_uchar;
+pub type TThostFtdcAmlDateTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcAmlCheckLevelType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcAmlCheckFlowType是一个反洗钱数据抽取审核流程类型"]
 #[doc = ""]
-pub type TThostFtdcAmlCheckFlowType = [::std::os::raw::c_char; 2usize];
+pub type TThostFtdcAmlCheckFlowType = [::std::os::raw::c_uchar; 2usize];
 #[doc = ""]
 #[doc = "TFtdcDataTypeType是一个数据类型类型"]
 #[doc = ""]
-pub type TThostFtdcDataTypeType = [::std::os::raw::c_char; 129usize];
-pub type TThostFtdcExportFileTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcSettleManagerTypeType = ::std::os::raw::c_char;
+pub type TThostFtdcDataTypeType = [::std::os::raw::c_uchar; 129usize];
+pub type TThostFtdcExportFileTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcSettleManagerTypeType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcSettleManagerIDType是一个结算配置代码类型"]
 #[doc = ""]
-pub type TThostFtdcSettleManagerIDType = [::std::os::raw::c_char; 33usize];
+pub type TThostFtdcSettleManagerIDType = [::std::os::raw::c_uchar; 33usize];
 #[doc = ""]
 #[doc = "TFtdcSettleManagerNameType是一个结算配置名称类型"]
 #[doc = ""]
-pub type TThostFtdcSettleManagerNameType = [::std::os::raw::c_char; 129usize];
-pub type TThostFtdcSettleManagerLevelType = ::std::os::raw::c_char;
-pub type TThostFtdcSettleManagerGroupType = ::std::os::raw::c_char;
+pub type TThostFtdcSettleManagerNameType = [::std::os::raw::c_uchar; 129usize];
+pub type TThostFtdcSettleManagerLevelType = ::std::os::raw::c_uchar;
+pub type TThostFtdcSettleManagerGroupType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcCheckResultMemoType是一个核对结果说明类型"]
 #[doc = ""]
-pub type TThostFtdcCheckResultMemoType = [::std::os::raw::c_char; 1025usize];
+pub type TThostFtdcCheckResultMemoType = [::std::os::raw::c_uchar; 1025usize];
 #[doc = ""]
 #[doc = "TFtdcFunctionUrlType是一个功能链接类型"]
 #[doc = ""]
-pub type TThostFtdcFunctionUrlType = [::std::os::raw::c_char; 1025usize];
+pub type TThostFtdcFunctionUrlType = [::std::os::raw::c_uchar; 1025usize];
 #[doc = ""]
 #[doc = "TFtdcAuthInfoType是一个客户端认证信息类型"]
 #[doc = ""]
-pub type TThostFtdcAuthInfoType = [::std::os::raw::c_char; 129usize];
+pub type TThostFtdcAuthInfoType = [::std::os::raw::c_uchar; 129usize];
 #[doc = ""]
 #[doc = "TFtdcAuthCodeType是一个客户端认证码类型"]
 #[doc = ""]
-pub type TThostFtdcAuthCodeType = [::std::os::raw::c_char; 17usize];
-pub type TThostFtdcLimitUseTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcDataResourceType = ::std::os::raw::c_char;
-pub type TThostFtdcMarginTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcActiveTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcMarginRateTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcBackUpStatusType = ::std::os::raw::c_char;
-pub type TThostFtdcInitSettlementType = ::std::os::raw::c_char;
-pub type TThostFtdcReportStatusType = ::std::os::raw::c_char;
-pub type TThostFtdcSaveStatusType = ::std::os::raw::c_char;
-pub type TThostFtdcSettArchiveStatusType = ::std::os::raw::c_char;
-pub type TThostFtdcCTPTypeType = ::std::os::raw::c_char;
+pub type TThostFtdcAuthCodeType = [::std::os::raw::c_uchar; 17usize];
+pub type TThostFtdcLimitUseTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcDataResourceType = ::std::os::raw::c_uchar;
+pub type TThostFtdcMarginTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcActiveTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcMarginRateTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcBackUpStatusType = ::std::os::raw::c_uchar;
+pub type TThostFtdcInitSettlementType = ::std::os::raw::c_uchar;
+pub type TThostFtdcReportStatusType = ::std::os::raw::c_uchar;
+pub type TThostFtdcSaveStatusType = ::std::os::raw::c_uchar;
+pub type TThostFtdcSettArchiveStatusType = ::std::os::raw::c_uchar;
+pub type TThostFtdcCTPTypeType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcToolIDType是一个工具代码类型"]
 #[doc = ""]
-pub type TThostFtdcToolIDType = [::std::os::raw::c_char; 9usize];
+pub type TThostFtdcToolIDType = [::std::os::raw::c_uchar; 9usize];
 #[doc = ""]
 #[doc = "TFtdcToolNameType是一个工具名称类型"]
 #[doc = ""]
-pub type TThostFtdcToolNameType = [::std::os::raw::c_char; 81usize];
-pub type TThostFtdcCloseDealTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcMortgageFundUseRangeType = ::std::os::raw::c_char;
+pub type TThostFtdcToolNameType = [::std::os::raw::c_uchar; 81usize];
+pub type TThostFtdcCloseDealTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcMortgageFundUseRangeType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcCurrencyUnitType是一个币种单位数量类型"]
 #[doc = ""]
@@ -3120,36 +3120,36 @@ pub type TThostFtdcCurrencyUnitType = f64;
 #[doc = "TFtdcExchangeRateType是一个汇率类型"]
 #[doc = ""]
 pub type TThostFtdcExchangeRateType = f64;
-pub type TThostFtdcSpecProductTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcFundMortgageTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcAccountSettlementParamIDType = ::std::os::raw::c_char;
+pub type TThostFtdcSpecProductTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcFundMortgageTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcAccountSettlementParamIDType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcCurrencyNameType是一个币种名称类型"]
 #[doc = ""]
-pub type TThostFtdcCurrencyNameType = [::std::os::raw::c_char; 31usize];
+pub type TThostFtdcCurrencyNameType = [::std::os::raw::c_uchar; 31usize];
 #[doc = ""]
 #[doc = "TFtdcCurrencySignType是一个币种符号类型"]
 #[doc = ""]
-pub type TThostFtdcCurrencySignType = [::std::os::raw::c_char; 4usize];
-pub type TThostFtdcFundMortDirectionType = ::std::os::raw::c_char;
-pub type TThostFtdcBusinessClassType = ::std::os::raw::c_char;
-pub type TThostFtdcSwapSourceTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcCurrExDirectionType = ::std::os::raw::c_char;
-pub type TThostFtdcCurrencySwapStatusType = ::std::os::raw::c_char;
+pub type TThostFtdcCurrencySignType = [::std::os::raw::c_uchar; 4usize];
+pub type TThostFtdcFundMortDirectionType = ::std::os::raw::c_uchar;
+pub type TThostFtdcBusinessClassType = ::std::os::raw::c_uchar;
+pub type TThostFtdcSwapSourceTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcCurrExDirectionType = ::std::os::raw::c_uchar;
+pub type TThostFtdcCurrencySwapStatusType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcCurrExchCertNoType是一个凭证号类型"]
 #[doc = ""]
-pub type TThostFtdcCurrExchCertNoType = [::std::os::raw::c_char; 13usize];
+pub type TThostFtdcCurrExchCertNoType = [::std::os::raw::c_uchar; 13usize];
 #[doc = ""]
 #[doc = "TFtdcBatchSerialNoType是一个批次号类型"]
 #[doc = ""]
-pub type TThostFtdcBatchSerialNoType = [::std::os::raw::c_char; 21usize];
-pub type TThostFtdcReqFlagType = ::std::os::raw::c_char;
-pub type TThostFtdcResFlagType = ::std::os::raw::c_char;
+pub type TThostFtdcBatchSerialNoType = [::std::os::raw::c_uchar; 21usize];
+pub type TThostFtdcReqFlagType = ::std::os::raw::c_uchar;
+pub type TThostFtdcResFlagType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcPageControlType是一个换汇页面控制类型"]
 #[doc = ""]
-pub type TThostFtdcPageControlType = [::std::os::raw::c_char; 2usize];
+pub type TThostFtdcPageControlType = [::std::os::raw::c_uchar; 2usize];
 #[doc = ""]
 #[doc = "TFtdcRecordCountType是一个记录数类型"]
 #[doc = ""]
@@ -3157,157 +3157,157 @@ pub type TThostFtdcRecordCountType = ::std::os::raw::c_int;
 #[doc = ""]
 #[doc = "TFtdcCurrencySwapMemoType是一个换汇需确认信息类型"]
 #[doc = ""]
-pub type TThostFtdcCurrencySwapMemoType = [::std::os::raw::c_char; 101usize];
-pub type TThostFtdcExStatusType = ::std::os::raw::c_char;
-pub type TThostFtdcClientRegionType = ::std::os::raw::c_char;
+pub type TThostFtdcCurrencySwapMemoType = [::std::os::raw::c_uchar; 101usize];
+pub type TThostFtdcExStatusType = ::std::os::raw::c_uchar;
+pub type TThostFtdcClientRegionType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcWorkPlaceType是一个工作单位类型"]
 #[doc = ""]
-pub type TThostFtdcWorkPlaceType = [::std::os::raw::c_char; 101usize];
+pub type TThostFtdcWorkPlaceType = [::std::os::raw::c_uchar; 101usize];
 #[doc = ""]
 #[doc = "TFtdcBusinessPeriodType是一个经营期限类型"]
 #[doc = ""]
-pub type TThostFtdcBusinessPeriodType = [::std::os::raw::c_char; 21usize];
+pub type TThostFtdcBusinessPeriodType = [::std::os::raw::c_uchar; 21usize];
 #[doc = ""]
 #[doc = "TFtdcWebSiteType是一个网址类型"]
 #[doc = ""]
-pub type TThostFtdcWebSiteType = [::std::os::raw::c_char; 101usize];
+pub type TThostFtdcWebSiteType = [::std::os::raw::c_uchar; 101usize];
 #[doc = ""]
 #[doc = "TFtdcUOAIdCardTypeType是一个统一开户证件类型类型"]
 #[doc = ""]
-pub type TThostFtdcUOAIdCardTypeType = [::std::os::raw::c_char; 3usize];
+pub type TThostFtdcUOAIdCardTypeType = [::std::os::raw::c_uchar; 3usize];
 #[doc = ""]
 #[doc = "TFtdcClientModeType是一个开户模式类型"]
 #[doc = ""]
-pub type TThostFtdcClientModeType = [::std::os::raw::c_char; 3usize];
+pub type TThostFtdcClientModeType = [::std::os::raw::c_uchar; 3usize];
 #[doc = ""]
 #[doc = "TFtdcInvestorFullNameType是一个投资者全称类型"]
 #[doc = ""]
-pub type TThostFtdcInvestorFullNameType = [::std::os::raw::c_char; 101usize];
+pub type TThostFtdcInvestorFullNameType = [::std::os::raw::c_uchar; 101usize];
 #[doc = ""]
 #[doc = "TFtdcUOABrokerIDType是一个境外中介机构ID类型"]
 #[doc = ""]
-pub type TThostFtdcUOABrokerIDType = [::std::os::raw::c_char; 11usize];
+pub type TThostFtdcUOABrokerIDType = [::std::os::raw::c_uchar; 11usize];
 #[doc = ""]
 #[doc = "TFtdcUOAZipCodeType是一个邮政编码类型"]
 #[doc = ""]
-pub type TThostFtdcUOAZipCodeType = [::std::os::raw::c_char; 11usize];
+pub type TThostFtdcUOAZipCodeType = [::std::os::raw::c_uchar; 11usize];
 #[doc = ""]
 #[doc = "TFtdcUOAEMailType是一个电子邮箱类型"]
 #[doc = ""]
-pub type TThostFtdcUOAEMailType = [::std::os::raw::c_char; 101usize];
+pub type TThostFtdcUOAEMailType = [::std::os::raw::c_uchar; 101usize];
 #[doc = ""]
 #[doc = "TFtdcOldCityType是一个城市类型"]
 #[doc = ""]
-pub type TThostFtdcOldCityType = [::std::os::raw::c_char; 41usize];
+pub type TThostFtdcOldCityType = [::std::os::raw::c_uchar; 41usize];
 #[doc = ""]
 #[doc = "TFtdcCorporateIdentifiedCardNoType是一个法人代表证件号码类型"]
 #[doc = ""]
-pub type TThostFtdcCorporateIdentifiedCardNoType = [::std::os::raw::c_char; 101usize];
-pub type TThostFtdcHasBoardType = ::std::os::raw::c_char;
-pub type TThostFtdcStartModeType = ::std::os::raw::c_char;
-pub type TThostFtdcTemplateTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcLoginModeType = ::std::os::raw::c_char;
-pub type TThostFtdcPromptTypeType = ::std::os::raw::c_char;
+pub type TThostFtdcCorporateIdentifiedCardNoType = [::std::os::raw::c_uchar; 101usize];
+pub type TThostFtdcHasBoardType = ::std::os::raw::c_uchar;
+pub type TThostFtdcStartModeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcTemplateTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcLoginModeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcPromptTypeType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcLedgerManageIDType是一个分户管理资产编码类型"]
 #[doc = ""]
-pub type TThostFtdcLedgerManageIDType = [::std::os::raw::c_char; 51usize];
+pub type TThostFtdcLedgerManageIDType = [::std::os::raw::c_uchar; 51usize];
 #[doc = ""]
 #[doc = "TFtdcInvestVarietyType是一个投资品种类型"]
 #[doc = ""]
-pub type TThostFtdcInvestVarietyType = [::std::os::raw::c_char; 101usize];
+pub type TThostFtdcInvestVarietyType = [::std::os::raw::c_uchar; 101usize];
 #[doc = ""]
 #[doc = "TFtdcBankAccountTypeType是一个账户类别类型"]
 #[doc = ""]
-pub type TThostFtdcBankAccountTypeType = [::std::os::raw::c_char; 2usize];
+pub type TThostFtdcBankAccountTypeType = [::std::os::raw::c_uchar; 2usize];
 #[doc = ""]
 #[doc = "TFtdcLedgerManageBankType是一个开户银行类型"]
 #[doc = ""]
-pub type TThostFtdcLedgerManageBankType = [::std::os::raw::c_char; 101usize];
+pub type TThostFtdcLedgerManageBankType = [::std::os::raw::c_uchar; 101usize];
 #[doc = ""]
 #[doc = "TFtdcCffexDepartmentNameType是一个开户营业部类型"]
 #[doc = ""]
-pub type TThostFtdcCffexDepartmentNameType = [::std::os::raw::c_char; 101usize];
+pub type TThostFtdcCffexDepartmentNameType = [::std::os::raw::c_uchar; 101usize];
 #[doc = ""]
 #[doc = "TFtdcCffexDepartmentCodeType是一个营业部代码类型"]
 #[doc = ""]
-pub type TThostFtdcCffexDepartmentCodeType = [::std::os::raw::c_char; 9usize];
-pub type TThostFtdcHasTrusteeType = ::std::os::raw::c_char;
+pub type TThostFtdcCffexDepartmentCodeType = [::std::os::raw::c_uchar; 9usize];
+pub type TThostFtdcHasTrusteeType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcCSRCMemo1Type是一个说明类型"]
 #[doc = ""]
-pub type TThostFtdcCSRCMemo1Type = [::std::os::raw::c_char; 41usize];
+pub type TThostFtdcCSRCMemo1Type = [::std::os::raw::c_uchar; 41usize];
 #[doc = ""]
 #[doc = "TFtdcAssetmgrCFullNameType是一个代理资产管理业务的期货公司全称类型"]
 #[doc = ""]
-pub type TThostFtdcAssetmgrCFullNameType = [::std::os::raw::c_char; 101usize];
+pub type TThostFtdcAssetmgrCFullNameType = [::std::os::raw::c_uchar; 101usize];
 #[doc = ""]
 #[doc = "TFtdcAssetmgrApprovalNOType是一个资产管理业务批文号类型"]
 #[doc = ""]
-pub type TThostFtdcAssetmgrApprovalNOType = [::std::os::raw::c_char; 51usize];
+pub type TThostFtdcAssetmgrApprovalNOType = [::std::os::raw::c_uchar; 51usize];
 #[doc = ""]
 #[doc = "TFtdcAssetmgrMgrNameType是一个资产管理业务负责人姓名类型"]
 #[doc = ""]
-pub type TThostFtdcAssetmgrMgrNameType = [::std::os::raw::c_char; 401usize];
-pub type TThostFtdcAmTypeType = ::std::os::raw::c_char;
+pub type TThostFtdcAssetmgrMgrNameType = [::std::os::raw::c_uchar; 401usize];
+pub type TThostFtdcAmTypeType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcCSRCAmTypeType是一个机构类型类型"]
 #[doc = ""]
-pub type TThostFtdcCSRCAmTypeType = [::std::os::raw::c_char; 5usize];
-pub type TThostFtdcCSRCFundIOTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcCusAccountTypeType = ::std::os::raw::c_char;
+pub type TThostFtdcCSRCAmTypeType = [::std::os::raw::c_uchar; 5usize];
+pub type TThostFtdcCSRCFundIOTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcCusAccountTypeType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcCSRCNationalType是一个国籍类型"]
 #[doc = ""]
-pub type TThostFtdcCSRCNationalType = [::std::os::raw::c_char; 4usize];
+pub type TThostFtdcCSRCNationalType = [::std::os::raw::c_uchar; 4usize];
 #[doc = ""]
 #[doc = "TFtdcCSRCSecAgentIDType是一个二级代理ID类型"]
 #[doc = ""]
-pub type TThostFtdcCSRCSecAgentIDType = [::std::os::raw::c_char; 11usize];
-pub type TThostFtdcLanguageTypeType = ::std::os::raw::c_char;
+pub type TThostFtdcCSRCSecAgentIDType = [::std::os::raw::c_uchar; 11usize];
+pub type TThostFtdcLanguageTypeType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcAmAccountType是一个投资账户类型"]
 #[doc = ""]
-pub type TThostFtdcAmAccountType = [::std::os::raw::c_char; 23usize];
-pub type TThostFtdcAssetmgrClientTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcAssetmgrTypeType = ::std::os::raw::c_char;
+pub type TThostFtdcAmAccountType = [::std::os::raw::c_uchar; 23usize];
+pub type TThostFtdcAssetmgrClientTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcAssetmgrTypeType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcUOMType是一个计量单位类型"]
 #[doc = ""]
-pub type TThostFtdcUOMType = [::std::os::raw::c_char; 11usize];
+pub type TThostFtdcUOMType = [::std::os::raw::c_uchar; 11usize];
 #[doc = ""]
 #[doc = "TFtdcSHFEInstLifePhaseType是一个上期所合约生命周期状态类型"]
 #[doc = ""]
-pub type TThostFtdcSHFEInstLifePhaseType = [::std::os::raw::c_char; 3usize];
+pub type TThostFtdcSHFEInstLifePhaseType = [::std::os::raw::c_uchar; 3usize];
 #[doc = ""]
 #[doc = "TFtdcSHFEProductClassType是一个产品类型类型"]
 #[doc = ""]
-pub type TThostFtdcSHFEProductClassType = [::std::os::raw::c_char; 11usize];
+pub type TThostFtdcSHFEProductClassType = [::std::os::raw::c_uchar; 11usize];
 #[doc = ""]
 #[doc = "TFtdcPriceDecimalType是一个价格小数位类型"]
 #[doc = ""]
-pub type TThostFtdcPriceDecimalType = [::std::os::raw::c_char; 2usize];
+pub type TThostFtdcPriceDecimalType = [::std::os::raw::c_uchar; 2usize];
 #[doc = ""]
 #[doc = "TFtdcInTheMoneyFlagType是一个平值期权标志类型"]
 #[doc = ""]
-pub type TThostFtdcInTheMoneyFlagType = [::std::os::raw::c_char; 2usize];
-pub type TThostFtdcCheckInstrTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcDeliveryTypeType = ::std::os::raw::c_char;
+pub type TThostFtdcInTheMoneyFlagType = [::std::os::raw::c_uchar; 2usize];
+pub type TThostFtdcCheckInstrTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcDeliveryTypeType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcBigMoneyType是一个资金类型"]
 #[doc = ""]
 pub type TThostFtdcBigMoneyType = f64;
-pub type TThostFtdcMaxMarginSideAlgorithmType = ::std::os::raw::c_char;
-pub type TThostFtdcDAClientTypeType = ::std::os::raw::c_char;
+pub type TThostFtdcMaxMarginSideAlgorithmType = ::std::os::raw::c_uchar;
+pub type TThostFtdcDAClientTypeType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcCombinInstrIDType是一个套利合约代码类型"]
 #[doc = ""]
-pub type TThostFtdcCombinInstrIDType = [::std::os::raw::c_char; 61usize];
+pub type TThostFtdcCombinInstrIDType = [::std::os::raw::c_uchar; 61usize];
 #[doc = ""]
 #[doc = "TFtdcCombinSettlePriceType是一个各腿结算价类型"]
 #[doc = ""]
-pub type TThostFtdcCombinSettlePriceType = [::std::os::raw::c_char; 61usize];
+pub type TThostFtdcCombinSettlePriceType = [::std::os::raw::c_uchar; 61usize];
 #[doc = ""]
 #[doc = "TFtdcDCEPriorityType是一个优先级类型"]
 #[doc = ""]
@@ -3320,28 +3320,28 @@ pub type TThostFtdcTradeGroupIDType = ::std::os::raw::c_int;
 #[doc = "TFtdcIsCheckPrepaType是一个是否校验开户可用资金类型"]
 #[doc = ""]
 pub type TThostFtdcIsCheckPrepaType = ::std::os::raw::c_int;
-pub type TThostFtdcUOAAssetmgrTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcDirectionEnType = ::std::os::raw::c_char;
-pub type TThostFtdcOffsetFlagEnType = ::std::os::raw::c_char;
-pub type TThostFtdcHedgeFlagEnType = ::std::os::raw::c_char;
-pub type TThostFtdcFundIOTypeEnType = ::std::os::raw::c_char;
-pub type TThostFtdcFundTypeEnType = ::std::os::raw::c_char;
-pub type TThostFtdcFundDirectionEnType = ::std::os::raw::c_char;
-pub type TThostFtdcFundMortDirectionEnType = ::std::os::raw::c_char;
+pub type TThostFtdcUOAAssetmgrTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcDirectionEnType = ::std::os::raw::c_uchar;
+pub type TThostFtdcOffsetFlagEnType = ::std::os::raw::c_uchar;
+pub type TThostFtdcHedgeFlagEnType = ::std::os::raw::c_uchar;
+pub type TThostFtdcFundIOTypeEnType = ::std::os::raw::c_uchar;
+pub type TThostFtdcFundTypeEnType = ::std::os::raw::c_uchar;
+pub type TThostFtdcFundDirectionEnType = ::std::os::raw::c_uchar;
+pub type TThostFtdcFundMortDirectionEnType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcSwapBusinessTypeType是一个换汇业务种类类型"]
 #[doc = ""]
-pub type TThostFtdcSwapBusinessTypeType = [::std::os::raw::c_char; 3usize];
-pub type TThostFtdcOptionsTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcStrikeModeType = ::std::os::raw::c_char;
-pub type TThostFtdcStrikeTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcApplyTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcGiveUpDataSourceType = ::std::os::raw::c_char;
+pub type TThostFtdcSwapBusinessTypeType = [::std::os::raw::c_uchar; 3usize];
+pub type TThostFtdcOptionsTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcStrikeModeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcStrikeTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcApplyTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcGiveUpDataSourceType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcExecOrderSysIDType是一个执行宣告系统编号类型"]
 #[doc = ""]
-pub type TThostFtdcExecOrderSysIDType = [::std::os::raw::c_char; 21usize];
-pub type TThostFtdcExecResultType = ::std::os::raw::c_char;
+pub type TThostFtdcExecOrderSysIDType = [::std::os::raw::c_uchar; 21usize];
+pub type TThostFtdcExecResultType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcStrikeSequenceType是一个执行序号类型"]
 #[doc = ""]
@@ -3349,32 +3349,32 @@ pub type TThostFtdcStrikeSequenceType = ::std::os::raw::c_int;
 #[doc = ""]
 #[doc = "TFtdcStrikeTimeType是一个执行时间类型"]
 #[doc = ""]
-pub type TThostFtdcStrikeTimeType = [::std::os::raw::c_char; 13usize];
-pub type TThostFtdcCombinationTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcDceCombinationTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcOptionRoyaltyPriceTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcBalanceAlgorithmType = ::std::os::raw::c_char;
-pub type TThostFtdcActionTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcForQuoteStatusType = ::std::os::raw::c_char;
-pub type TThostFtdcValueMethodType = ::std::os::raw::c_char;
-pub type TThostFtdcExecOrderPositionFlagType = ::std::os::raw::c_char;
-pub type TThostFtdcExecOrderCloseFlagType = ::std::os::raw::c_char;
-pub type TThostFtdcProductTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcCZCEUploadFileNameType = ::std::os::raw::c_char;
-pub type TThostFtdcDCEUploadFileNameType = ::std::os::raw::c_char;
-pub type TThostFtdcSHFEUploadFileNameType = ::std::os::raw::c_char;
-pub type TThostFtdcCFFEXUploadFileNameType = ::std::os::raw::c_char;
-pub type TThostFtdcCombDirectionType = ::std::os::raw::c_char;
-pub type TThostFtdcStrikeOffsetTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcReserveOpenAccStasType = ::std::os::raw::c_char;
+pub type TThostFtdcStrikeTimeType = [::std::os::raw::c_uchar; 13usize];
+pub type TThostFtdcCombinationTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcDceCombinationTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcOptionRoyaltyPriceTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcBalanceAlgorithmType = ::std::os::raw::c_uchar;
+pub type TThostFtdcActionTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcForQuoteStatusType = ::std::os::raw::c_uchar;
+pub type TThostFtdcValueMethodType = ::std::os::raw::c_uchar;
+pub type TThostFtdcExecOrderPositionFlagType = ::std::os::raw::c_uchar;
+pub type TThostFtdcExecOrderCloseFlagType = ::std::os::raw::c_uchar;
+pub type TThostFtdcProductTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcCZCEUploadFileNameType = ::std::os::raw::c_uchar;
+pub type TThostFtdcDCEUploadFileNameType = ::std::os::raw::c_uchar;
+pub type TThostFtdcSHFEUploadFileNameType = ::std::os::raw::c_uchar;
+pub type TThostFtdcCFFEXUploadFileNameType = ::std::os::raw::c_uchar;
+pub type TThostFtdcCombDirectionType = ::std::os::raw::c_uchar;
+pub type TThostFtdcStrikeOffsetTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcReserveOpenAccStasType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcLoginRemarkType是一个登录备注类型"]
 #[doc = ""]
-pub type TThostFtdcLoginRemarkType = [::std::os::raw::c_char; 36usize];
+pub type TThostFtdcLoginRemarkType = [::std::os::raw::c_uchar; 36usize];
 #[doc = ""]
 #[doc = "TFtdcInvestUnitIDType是一个投资单元代码类型"]
 #[doc = ""]
-pub type TThostFtdcInvestUnitIDType = [::std::os::raw::c_char; 17usize];
+pub type TThostFtdcInvestUnitIDType = [::std::os::raw::c_uchar; 17usize];
 #[doc = ""]
 #[doc = "TFtdcBulletinIDType是一个公告编号类型"]
 #[doc = ""]
@@ -3382,47 +3382,47 @@ pub type TThostFtdcBulletinIDType = ::std::os::raw::c_int;
 #[doc = ""]
 #[doc = "TFtdcNewsTypeType是一个公告类型类型"]
 #[doc = ""]
-pub type TThostFtdcNewsTypeType = [::std::os::raw::c_char; 3usize];
+pub type TThostFtdcNewsTypeType = [::std::os::raw::c_uchar; 3usize];
 #[doc = ""]
 #[doc = "TFtdcNewsUrgencyType是一个紧急程度类型"]
 #[doc = ""]
-pub type TThostFtdcNewsUrgencyType = ::std::os::raw::c_char;
+pub type TThostFtdcNewsUrgencyType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcAbstractType是一个消息摘要类型"]
 #[doc = ""]
-pub type TThostFtdcAbstractType = [::std::os::raw::c_char; 81usize];
+pub type TThostFtdcAbstractType = [::std::os::raw::c_uchar; 81usize];
 #[doc = ""]
 #[doc = "TFtdcComeFromType是一个消息来源类型"]
 #[doc = ""]
-pub type TThostFtdcComeFromType = [::std::os::raw::c_char; 21usize];
+pub type TThostFtdcComeFromType = [::std::os::raw::c_uchar; 21usize];
 #[doc = ""]
 #[doc = "TFtdcURLLinkType是一个WEB地址类型"]
 #[doc = ""]
-pub type TThostFtdcURLLinkType = [::std::os::raw::c_char; 201usize];
+pub type TThostFtdcURLLinkType = [::std::os::raw::c_uchar; 201usize];
 #[doc = ""]
 #[doc = "TFtdcLongIndividualNameType是一个长个人姓名类型"]
 #[doc = ""]
-pub type TThostFtdcLongIndividualNameType = [::std::os::raw::c_char; 161usize];
+pub type TThostFtdcLongIndividualNameType = [::std::os::raw::c_uchar; 161usize];
 #[doc = ""]
 #[doc = "TFtdcLongFBEBankAccountNameType是一个长换汇银行账户名类型"]
 #[doc = ""]
-pub type TThostFtdcLongFBEBankAccountNameType = [::std::os::raw::c_char; 161usize];
+pub type TThostFtdcLongFBEBankAccountNameType = [::std::os::raw::c_uchar; 161usize];
 #[doc = ""]
 #[doc = "TFtdcDateTimeType是一个日期时间类型"]
 #[doc = ""]
-pub type TThostFtdcDateTimeType = [::std::os::raw::c_char; 17usize];
-pub type TThostFtdcWeakPasswordSourceType = ::std::os::raw::c_char;
+pub type TThostFtdcDateTimeType = [::std::os::raw::c_uchar; 17usize];
+pub type TThostFtdcWeakPasswordSourceType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcRandomStringType是一个随机串类型"]
 #[doc = ""]
-pub type TThostFtdcRandomStringType = [::std::os::raw::c_char; 17usize];
-pub type TThostFtdcOptSelfCloseFlagType = ::std::os::raw::c_char;
-pub type TThostFtdcBizTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcAppTypeType = ::std::os::raw::c_char;
+pub type TThostFtdcRandomStringType = [::std::os::raw::c_uchar; 17usize];
+pub type TThostFtdcOptSelfCloseFlagType = ::std::os::raw::c_uchar;
+pub type TThostFtdcBizTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcAppTypeType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcAppIDType是一个App代码类型"]
 #[doc = ""]
-pub type TThostFtdcAppIDType = [::std::os::raw::c_char; 33usize];
+pub type TThostFtdcAppIDType = [::std::os::raw::c_uchar; 33usize];
 #[doc = ""]
 #[doc = "TFtdcSystemInfoLenType是一个系统信息长度类型"]
 #[doc = ""]
@@ -3434,19 +3434,19 @@ pub type TThostFtdcAdditionalInfoLenType = ::std::os::raw::c_int;
 #[doc = ""]
 #[doc = "TFtdcClientSystemInfoType是一个交易终端系统信息类型"]
 #[doc = ""]
-pub type TThostFtdcClientSystemInfoType = [::std::os::raw::c_char; 273usize];
+pub type TThostFtdcClientSystemInfoType = [::std::os::raw::c_uchar; 273usize];
 #[doc = ""]
 #[doc = "TFtdcAdditionalInfoType是一个系统外部信息类型"]
 #[doc = ""]
-pub type TThostFtdcAdditionalInfoType = [::std::os::raw::c_char; 261usize];
+pub type TThostFtdcAdditionalInfoType = [::std::os::raw::c_uchar; 261usize];
 #[doc = ""]
 #[doc = "TFtdcBase64ClientSystemInfoType是一个base64交易终端系统信息类型"]
 #[doc = ""]
-pub type TThostFtdcBase64ClientSystemInfoType = [::std::os::raw::c_char; 365usize];
+pub type TThostFtdcBase64ClientSystemInfoType = [::std::os::raw::c_uchar; 365usize];
 #[doc = ""]
 #[doc = "TFtdcBase64AdditionalInfoType是一个base64系统外部信息类型"]
 #[doc = ""]
-pub type TThostFtdcBase64AdditionalInfoType = [::std::os::raw::c_char; 349usize];
+pub type TThostFtdcBase64AdditionalInfoType = [::std::os::raw::c_uchar; 349usize];
 #[doc = ""]
 #[doc = "TFtdcCurrentAuthMethodType是一个当前可用的认证模式，0代表无需认证模式 A从低位开始最后一位代表图片验证码，倒数第二位代表动态口令，倒数第三位代表短信验证码类型"]
 #[doc = ""]
@@ -3458,7 +3458,7 @@ pub type TThostFtdcCaptchaInfoLenType = ::std::os::raw::c_int;
 #[doc = ""]
 #[doc = "TFtdcCaptchaInfoType是一个图片验证信息类型"]
 #[doc = ""]
-pub type TThostFtdcCaptchaInfoType = [::std::os::raw::c_char; 2561usize];
+pub type TThostFtdcCaptchaInfoType = [::std::os::raw::c_uchar; 2561usize];
 #[doc = ""]
 #[doc = "TFtdcUserTextSeqType是一个用户短信验证码的编号类型"]
 #[doc = ""]
@@ -3466,7 +3466,7 @@ pub type TThostFtdcUserTextSeqType = ::std::os::raw::c_int;
 #[doc = ""]
 #[doc = "TFtdcHandshakeDataType是一个握手数据内容类型"]
 #[doc = ""]
-pub type TThostFtdcHandshakeDataType = [::std::os::raw::c_char; 301usize];
+pub type TThostFtdcHandshakeDataType = [::std::os::raw::c_uchar; 301usize];
 #[doc = ""]
 #[doc = "TFtdcHandshakeDataLenType是一个握手数据内容长度类型"]
 #[doc = ""]
@@ -3474,7 +3474,7 @@ pub type TThostFtdcHandshakeDataLenType = ::std::os::raw::c_int;
 #[doc = ""]
 #[doc = "TFtdcCryptoKeyVersionType是一个api与front通信密钥版本号类型"]
 #[doc = ""]
-pub type TThostFtdcCryptoKeyVersionType = [::std::os::raw::c_char; 31usize];
+pub type TThostFtdcCryptoKeyVersionType = [::std::os::raw::c_uchar; 31usize];
 #[doc = ""]
 #[doc = "TFtdcRsaKeyVersionType是一个公钥版本号类型"]
 #[doc = ""]
@@ -3482,22 +3482,22 @@ pub type TThostFtdcRsaKeyVersionType = ::std::os::raw::c_int;
 #[doc = ""]
 #[doc = "TFtdcSoftwareProviderIDType是一个交易软件商ID类型"]
 #[doc = ""]
-pub type TThostFtdcSoftwareProviderIDType = [::std::os::raw::c_char; 22usize];
+pub type TThostFtdcSoftwareProviderIDType = [::std::os::raw::c_uchar; 22usize];
 #[doc = ""]
 #[doc = "TFtdcCollectTimeType是一个信息采集时间类型"]
 #[doc = ""]
-pub type TThostFtdcCollectTimeType = [::std::os::raw::c_char; 21usize];
+pub type TThostFtdcCollectTimeType = [::std::os::raw::c_uchar; 21usize];
 #[doc = ""]
 #[doc = "TFtdcQueryFreqType是一个查询频率类型"]
 #[doc = ""]
 pub type TThostFtdcQueryFreqType = ::std::os::raw::c_int;
-pub type TThostFtdcResponseValueType = ::std::os::raw::c_char;
-pub type TThostFtdcOTCTradeTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcMatchTypeType = ::std::os::raw::c_char;
+pub type TThostFtdcResponseValueType = ::std::os::raw::c_uchar;
+pub type TThostFtdcOTCTradeTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcMatchTypeType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcOTCTraderIDType是一个OTC交易员代码类型"]
 #[doc = ""]
-pub type TThostFtdcOTCTraderIDType = [::std::os::raw::c_char; 31usize];
+pub type TThostFtdcOTCTraderIDType = [::std::os::raw::c_uchar; 31usize];
 #[doc = ""]
 #[doc = "TFtdcRiskValueType是一个期货风险值类型"]
 #[doc = ""]
@@ -3505,24 +3505,24 @@ pub type TThostFtdcRiskValueType = f64;
 #[doc = ""]
 #[doc = "TFtdcIDBNameType是一个握手数据内容类型"]
 #[doc = ""]
-pub type TThostFtdcIDBNameType = [::std::os::raw::c_char; 100usize];
+pub type TThostFtdcIDBNameType = [::std::os::raw::c_uchar; 100usize];
 #[doc = ""]
 #[doc = "TFtdcDiscountRatioType是一个折扣率类型"]
 #[doc = ""]
 pub type TThostFtdcDiscountRatioType = f64;
-pub type TThostFtdcAuthTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcClassTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcTradingTypeType = ::std::os::raw::c_char;
-pub type TThostFtdcProductStatusType = ::std::os::raw::c_char;
-pub type TThostFtdcSyncDeltaStatusType = ::std::os::raw::c_char;
-pub type TThostFtdcActionDirectionType = ::std::os::raw::c_char;
+pub type TThostFtdcAuthTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcClassTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcTradingTypeType = ::std::os::raw::c_uchar;
+pub type TThostFtdcProductStatusType = ::std::os::raw::c_uchar;
+pub type TThostFtdcSyncDeltaStatusType = ::std::os::raw::c_uchar;
+pub type TThostFtdcActionDirectionType = ::std::os::raw::c_uchar;
 #[doc = ""]
 #[doc = "TFtdcSyncDescriptionType是一个追平描述类型"]
 #[doc = ""]
-pub type TThostFtdcSyncDescriptionType = [::std::os::raw::c_char; 257usize];
+pub type TThostFtdcSyncDescriptionType = [::std::os::raw::c_uchar; 257usize];
 #[doc = "信息分发"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcDisseminationField {
     #[doc = "序列系列号"]
     pub SequenceSeries: TThostFtdcSequenceSeriesType,
@@ -3531,7 +3531,7 @@ pub struct CThostFtdcDisseminationField {
 }
 #[doc = "用户登录请求"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcReqUserLoginField {
     #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
@@ -3562,7 +3562,7 @@ pub struct CThostFtdcReqUserLoginField {
 }
 #[doc = "用户登录应答"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcRspUserLoginField {
     #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
@@ -3593,7 +3593,7 @@ pub struct CThostFtdcRspUserLoginField {
 }
 #[doc = "用户登出请求"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcUserLogoutField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -3602,7 +3602,7 @@ pub struct CThostFtdcUserLogoutField {
 }
 #[doc = "强制交易员退出"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcForceUserLogoutField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -3611,7 +3611,7 @@ pub struct CThostFtdcForceUserLogoutField {
 }
 #[doc = "客户端认证请求"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcReqAuthenticateField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -3626,7 +3626,7 @@ pub struct CThostFtdcReqAuthenticateField {
 }
 #[doc = "客户端认证响应"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcRspAuthenticateField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -3641,7 +3641,7 @@ pub struct CThostFtdcRspAuthenticateField {
 }
 #[doc = "客户端认证信息"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcAuthenticationInfoField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -3664,7 +3664,7 @@ pub struct CThostFtdcAuthenticationInfoField {
 }
 #[doc = "用户登录应答2"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcRspUserLogin2Field {
     #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
@@ -3697,7 +3697,7 @@ pub struct CThostFtdcRspUserLogin2Field {
 }
 #[doc = "银期转帐报文头"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcTransferHeaderField {
     #[doc = "版本号，常量，1.0"]
     pub Version: TThostFtdcVersionType,
@@ -3728,7 +3728,7 @@ pub struct CThostFtdcTransferHeaderField {
 }
 #[doc = "银行资金转期货请求，TradeCode=202001"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcTransferBankToFutureReqField {
     #[doc = "期货资金账户"]
     pub FutureAccount: TThostFtdcAccountIDType,
@@ -3745,7 +3745,7 @@ pub struct CThostFtdcTransferBankToFutureReqField {
 }
 #[doc = "银行资金转期货请求响应"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcTransferBankToFutureRspField {
     #[doc = "响应代码"]
     pub RetCode: TThostFtdcRetCodeType,
@@ -3762,7 +3762,7 @@ pub struct CThostFtdcTransferBankToFutureRspField {
 }
 #[doc = "期货资金转银行请求，TradeCode=202002"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcTransferFutureToBankReqField {
     #[doc = "期货资金账户"]
     pub FutureAccount: TThostFtdcAccountIDType,
@@ -3779,7 +3779,7 @@ pub struct CThostFtdcTransferFutureToBankReqField {
 }
 #[doc = "期货资金转银行请求响应"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcTransferFutureToBankRspField {
     #[doc = "响应代码"]
     pub RetCode: TThostFtdcRetCodeType,
@@ -3796,7 +3796,7 @@ pub struct CThostFtdcTransferFutureToBankRspField {
 }
 #[doc = "查询银行资金请求，TradeCode=204002"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcTransferQryBankReqField {
     #[doc = "期货资金账户"]
     pub FutureAccount: TThostFtdcAccountIDType,
@@ -3809,7 +3809,7 @@ pub struct CThostFtdcTransferQryBankReqField {
 }
 #[doc = "查询银行资金请求响应"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcTransferQryBankRspField {
     #[doc = "响应代码"]
     pub RetCode: TThostFtdcRetCodeType,
@@ -3828,14 +3828,14 @@ pub struct CThostFtdcTransferQryBankRspField {
 }
 #[doc = "查询银行交易明细请求，TradeCode=204999"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcTransferQryDetailReqField {
     #[doc = "期货资金账户"]
     pub FutureAccount: TThostFtdcAccountIDType,
 }
 #[doc = "查询银行交易明细请求响应"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcTransferQryDetailRspField {
     #[doc = "交易日期"]
     pub TradeDate: TThostFtdcDateType,
@@ -3868,7 +3868,7 @@ pub struct CThostFtdcTransferQryDetailRspField {
 }
 #[doc = "响应信息"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcRspInfoField {
     #[doc = "错误代码"]
     pub ErrorID: TThostFtdcErrorIDType,
@@ -3877,7 +3877,7 @@ pub struct CThostFtdcRspInfoField {
 }
 #[doc = "交易所"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcExchangeField {
     #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
@@ -3888,7 +3888,7 @@ pub struct CThostFtdcExchangeField {
 }
 #[doc = "产品"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcProductField {
     #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
@@ -3931,7 +3931,7 @@ pub struct CThostFtdcProductField {
 }
 #[doc = "合约"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcInstrumentField {
     #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
@@ -4006,7 +4006,7 @@ pub struct CThostFtdcInstrumentField {
 }
 #[doc = "经纪公司"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcBrokerField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -4019,7 +4019,7 @@ pub struct CThostFtdcBrokerField {
 }
 #[doc = "交易所交易员"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcTraderField {
     #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
@@ -4036,7 +4036,7 @@ pub struct CThostFtdcTraderField {
 }
 #[doc = "投资者"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcInvestorField {
     #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
@@ -4067,7 +4067,7 @@ pub struct CThostFtdcInvestorField {
 }
 #[doc = "交易编码"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcTradingCodeField {
     #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
@@ -4090,7 +4090,7 @@ pub struct CThostFtdcTradingCodeField {
 }
 #[doc = "会员编码和经纪公司编码对照表"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcPartBrokerField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -4103,7 +4103,7 @@ pub struct CThostFtdcPartBrokerField {
 }
 #[doc = "管理用户"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcSuperUserField {
     #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
@@ -4116,7 +4116,7 @@ pub struct CThostFtdcSuperUserField {
 }
 #[doc = "管理用户功能权限"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcSuperUserFunctionField {
     #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
@@ -4125,7 +4125,7 @@ pub struct CThostFtdcSuperUserFunctionField {
 }
 #[doc = "投资者组"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcInvestorGroupField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -4136,7 +4136,7 @@ pub struct CThostFtdcInvestorGroupField {
 }
 #[doc = "资金账户"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcTradingAccountField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -4239,7 +4239,7 @@ pub struct CThostFtdcTradingAccountField {
 }
 #[doc = "投资者持仓"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcInvestorPositionField {
     #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
@@ -4344,7 +4344,7 @@ pub struct CThostFtdcInvestorPositionField {
 }
 #[doc = "合约保证金率"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcInstrumentMarginRateField {
     #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
@@ -4375,7 +4375,7 @@ pub struct CThostFtdcInstrumentMarginRateField {
 }
 #[doc = "合约手续费率"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcInstrumentCommissionRateField {
     #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
@@ -4408,7 +4408,7 @@ pub struct CThostFtdcInstrumentCommissionRateField {
 }
 #[doc = "深度行情"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcDepthMarketDataField {
     #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
@@ -4507,9 +4507,10 @@ pub struct CThostFtdcDepthMarketDataField {
     #[doc = "下带价"]
     pub BandingLowerPrice: TThostFtdcPriceType,
 }
+
 #[doc = "投资者合约交易权限"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcInstrumentTradingRightField {
     #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
@@ -4526,7 +4527,7 @@ pub struct CThostFtdcInstrumentTradingRightField {
 }
 #[doc = "经纪公司用户"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcBrokerUserField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -4545,7 +4546,7 @@ pub struct CThostFtdcBrokerUserField {
 }
 #[doc = "经纪公司用户口令"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcBrokerUserPasswordField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -4564,7 +4565,7 @@ pub struct CThostFtdcBrokerUserPasswordField {
 }
 #[doc = "经纪公司用户功能权限"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcBrokerUserFunctionField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -4575,7 +4576,7 @@ pub struct CThostFtdcBrokerUserFunctionField {
 }
 #[doc = "交易所交易员报盘机"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcTraderOfferField {
     #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
@@ -4618,7 +4619,7 @@ pub struct CThostFtdcTraderOfferField {
 }
 #[doc = "投资者结算结果"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcSettlementInfoField {
     #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
@@ -4639,7 +4640,7 @@ pub struct CThostFtdcSettlementInfoField {
 }
 #[doc = "合约保证金率调整"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcInstrumentMarginRateAdjustField {
     #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
@@ -4666,7 +4667,7 @@ pub struct CThostFtdcInstrumentMarginRateAdjustField {
 }
 #[doc = "交易所保证金率"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcExchangeMarginRateField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -4689,7 +4690,7 @@ pub struct CThostFtdcExchangeMarginRateField {
 }
 #[doc = "交易所保证金率调整"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcExchangeMarginRateAdjustField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -4726,7 +4727,7 @@ pub struct CThostFtdcExchangeMarginRateAdjustField {
 }
 #[doc = "汇率"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcExchangeRateField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -4741,7 +4742,7 @@ pub struct CThostFtdcExchangeRateField {
 }
 #[doc = "结算引用"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcSettlementRefField {
     #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
@@ -4750,7 +4751,7 @@ pub struct CThostFtdcSettlementRefField {
 }
 #[doc = "当前时间"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcCurrentTimeField {
     #[doc = "当前日期"]
     pub CurrDate: TThostFtdcDateType,
@@ -4763,7 +4764,7 @@ pub struct CThostFtdcCurrentTimeField {
 }
 #[doc = "通讯阶段"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcCommPhaseField {
     #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
@@ -4774,7 +4775,7 @@ pub struct CThostFtdcCommPhaseField {
 }
 #[doc = "登录信息"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcLoginInfoField {
     #[doc = "前置编号"]
     pub FrontID: TThostFtdcFrontIDType,
@@ -4827,7 +4828,7 @@ pub struct CThostFtdcLoginInfoField {
 }
 #[doc = "登录信息"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcLogoutAllField {
     #[doc = "前置编号"]
     pub FrontID: TThostFtdcFrontIDType,
@@ -4838,7 +4839,7 @@ pub struct CThostFtdcLogoutAllField {
 }
 #[doc = "前置状态"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcFrontStatusField {
     #[doc = "前置编号"]
     pub FrontID: TThostFtdcFrontIDType,
@@ -4851,7 +4852,7 @@ pub struct CThostFtdcFrontStatusField {
 }
 #[doc = "用户口令变更"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcUserPasswordUpdateField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -4864,7 +4865,7 @@ pub struct CThostFtdcUserPasswordUpdateField {
 }
 #[doc = "输入报单"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcInputOrderField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -4933,7 +4934,7 @@ pub struct CThostFtdcInputOrderField {
 }
 #[doc = "报单"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcOrderField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -5070,7 +5071,7 @@ pub struct CThostFtdcOrderField {
 }
 #[doc = "交易所报单"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcExchangeOrderField {
     #[doc = "报单价格条件"]
     pub OrderPriceType: TThostFtdcOrderPriceTypeType,
@@ -5169,7 +5170,7 @@ pub struct CThostFtdcExchangeOrderField {
 }
 #[doc = "交易所报单插入失败"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcExchangeOrderInsertErrorField {
     #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
@@ -5188,7 +5189,7 @@ pub struct CThostFtdcExchangeOrderInsertErrorField {
 }
 #[doc = "输入报单操作"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcInputOrderActionField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -5231,7 +5232,7 @@ pub struct CThostFtdcInputOrderActionField {
 }
 #[doc = "报单操作"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcOrderActionField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -5298,7 +5299,7 @@ pub struct CThostFtdcOrderActionField {
 }
 #[doc = "交易所报单操作"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcExchangeOrderActionField {
     #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
@@ -5343,7 +5344,7 @@ pub struct CThostFtdcExchangeOrderActionField {
 }
 #[doc = "交易所报单操作失败"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcExchangeOrderActionErrorField {
     #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
@@ -5364,7 +5365,7 @@ pub struct CThostFtdcExchangeOrderActionErrorField {
 }
 #[doc = "交易所成交"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcExchangeTradeField {
     #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
@@ -5415,7 +5416,7 @@ pub struct CThostFtdcExchangeTradeField {
 }
 #[doc = "成交"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcTradeField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -5486,7 +5487,7 @@ pub struct CThostFtdcTradeField {
 }
 #[doc = "用户会话"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcUserSessionField {
     #[doc = "前置编号"]
     pub FrontID: TThostFtdcFrontIDType,
@@ -5517,7 +5518,7 @@ pub struct CThostFtdcUserSessionField {
 }
 #[doc = "查询最大报单数量"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryMaxOrderVolumeField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -5542,7 +5543,7 @@ pub struct CThostFtdcQryMaxOrderVolumeField {
 }
 #[doc = "投资者结算结果确认信息"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcSettlementInfoConfirmField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -5561,7 +5562,7 @@ pub struct CThostFtdcSettlementInfoConfirmField {
 }
 #[doc = "出入金同步"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcSyncDepositField {
     #[doc = "出入金流水号"]
     pub DepositSeqNo: TThostFtdcDepositSeqNoType,
@@ -5582,7 +5583,7 @@ pub struct CThostFtdcSyncDepositField {
 }
 #[doc = "货币质押同步"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcSyncFundMortgageField {
     #[doc = "货币质押流水号"]
     pub MortgageSeqNo: TThostFtdcDepositSeqNoType,
@@ -5599,14 +5600,14 @@ pub struct CThostFtdcSyncFundMortgageField {
 }
 #[doc = "经纪公司同步"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcBrokerSyncField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
 }
 #[doc = "正在同步中的投资者"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcSyncingInvestorField {
     #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
@@ -5637,7 +5638,7 @@ pub struct CThostFtdcSyncingInvestorField {
 }
 #[doc = "正在同步中的交易代码"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcSyncingTradingCodeField {
     #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
@@ -5654,7 +5655,7 @@ pub struct CThostFtdcSyncingTradingCodeField {
 }
 #[doc = "正在同步中的投资者分组"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcSyncingInvestorGroupField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -5665,7 +5666,7 @@ pub struct CThostFtdcSyncingInvestorGroupField {
 }
 #[doc = "正在同步中的交易账号"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcSyncingTradingAccountField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -5766,7 +5767,7 @@ pub struct CThostFtdcSyncingTradingAccountField {
 }
 #[doc = "正在同步中的投资者持仓"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcSyncingInvestorPositionField {
     #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
@@ -5871,7 +5872,7 @@ pub struct CThostFtdcSyncingInvestorPositionField {
 }
 #[doc = "正在同步中的合约保证金率"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcSyncingInstrumentMarginRateField {
     #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
@@ -5898,7 +5899,7 @@ pub struct CThostFtdcSyncingInstrumentMarginRateField {
 }
 #[doc = "正在同步中的合约手续费率"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcSyncingInstrumentCommissionRateField {
     #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
@@ -5925,7 +5926,7 @@ pub struct CThostFtdcSyncingInstrumentCommissionRateField {
 }
 #[doc = "正在同步中的合约交易权限"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcSyncingInstrumentTradingRightField {
     #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
@@ -5942,7 +5943,7 @@ pub struct CThostFtdcSyncingInstrumentTradingRightField {
 }
 #[doc = "查询报单"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryOrderField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -5965,7 +5966,7 @@ pub struct CThostFtdcQryOrderField {
 }
 #[doc = "查询成交"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryTradeField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -5988,7 +5989,7 @@ pub struct CThostFtdcQryTradeField {
 }
 #[doc = "查询投资者持仓"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryInvestorPositionField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -6005,7 +6006,7 @@ pub struct CThostFtdcQryInvestorPositionField {
 }
 #[doc = "查询资金账户"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryTradingAccountField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -6020,7 +6021,7 @@ pub struct CThostFtdcQryTradingAccountField {
 }
 #[doc = "查询投资者"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryInvestorField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -6029,7 +6030,7 @@ pub struct CThostFtdcQryInvestorField {
 }
 #[doc = "查询交易编码"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryTradingCodeField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -6046,14 +6047,14 @@ pub struct CThostFtdcQryTradingCodeField {
 }
 #[doc = "查询投资者组"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryInvestorGroupField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
 }
 #[doc = "查询合约保证金率"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryInstrumentMarginRateField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -6072,7 +6073,7 @@ pub struct CThostFtdcQryInstrumentMarginRateField {
 }
 #[doc = "查询手续费率"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryInstrumentCommissionRateField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -6089,7 +6090,7 @@ pub struct CThostFtdcQryInstrumentCommissionRateField {
 }
 #[doc = "查询合约交易权限"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryInstrumentTradingRightField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -6102,14 +6103,14 @@ pub struct CThostFtdcQryInstrumentTradingRightField {
 }
 #[doc = "查询经纪公司"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryBrokerField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
 }
 #[doc = "查询交易员"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryTraderField {
     #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
@@ -6120,14 +6121,14 @@ pub struct CThostFtdcQryTraderField {
 }
 #[doc = "查询管理用户功能权限"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQrySuperUserFunctionField {
     #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
 }
 #[doc = "查询用户会话"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryUserSessionField {
     #[doc = "前置编号"]
     pub FrontID: TThostFtdcFrontIDType,
@@ -6140,7 +6141,7 @@ pub struct CThostFtdcQryUserSessionField {
 }
 #[doc = "查询经纪公司会员代码"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryPartBrokerField {
     #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
@@ -6151,14 +6152,14 @@ pub struct CThostFtdcQryPartBrokerField {
 }
 #[doc = "查询前置状态"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryFrontStatusField {
     #[doc = "前置编号"]
     pub FrontID: TThostFtdcFrontIDType,
 }
 #[doc = "查询交易所报单"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryExchangeOrderField {
     #[doc = "会员代码"]
     pub ParticipantID: TThostFtdcParticipantIDType,
@@ -6175,7 +6176,7 @@ pub struct CThostFtdcQryExchangeOrderField {
 }
 #[doc = "查询报单操作"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryOrderActionField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -6186,7 +6187,7 @@ pub struct CThostFtdcQryOrderActionField {
 }
 #[doc = "查询交易所报单操作"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryExchangeOrderActionField {
     #[doc = "会员代码"]
     pub ParticipantID: TThostFtdcParticipantIDType,
@@ -6199,21 +6200,21 @@ pub struct CThostFtdcQryExchangeOrderActionField {
 }
 #[doc = "查询管理用户"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQrySuperUserField {
     #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
 }
 #[doc = "查询交易所"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryExchangeField {
     #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
 }
 #[doc = "查询产品"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryProductField {
     #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
@@ -6226,7 +6227,7 @@ pub struct CThostFtdcQryProductField {
 }
 #[doc = "查询合约"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryInstrumentField {
     #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
@@ -6245,7 +6246,7 @@ pub struct CThostFtdcQryInstrumentField {
 }
 #[doc = "查询行情"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryDepthMarketDataField {
     #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
@@ -6256,7 +6257,7 @@ pub struct CThostFtdcQryDepthMarketDataField {
 }
 #[doc = "查询经纪公司用户"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryBrokerUserField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -6265,7 +6266,7 @@ pub struct CThostFtdcQryBrokerUserField {
 }
 #[doc = "查询经纪公司用户权限"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryBrokerUserFunctionField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -6274,7 +6275,7 @@ pub struct CThostFtdcQryBrokerUserFunctionField {
 }
 #[doc = "查询交易员报盘机"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryTraderOfferField {
     #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
@@ -6285,7 +6286,7 @@ pub struct CThostFtdcQryTraderOfferField {
 }
 #[doc = "查询出入金流水"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQrySyncDepositField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -6294,7 +6295,7 @@ pub struct CThostFtdcQrySyncDepositField {
 }
 #[doc = "查询投资者结算结果"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQrySettlementInfoField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -6309,7 +6310,7 @@ pub struct CThostFtdcQrySettlementInfoField {
 }
 #[doc = "查询交易所保证金率"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryExchangeMarginRateField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -6324,7 +6325,7 @@ pub struct CThostFtdcQryExchangeMarginRateField {
 }
 #[doc = "查询交易所调整保证金率"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryExchangeMarginRateAdjustField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -6337,7 +6338,7 @@ pub struct CThostFtdcQryExchangeMarginRateAdjustField {
 }
 #[doc = "查询汇率"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryExchangeRateField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -6348,7 +6349,7 @@ pub struct CThostFtdcQryExchangeRateField {
 }
 #[doc = "查询货币质押流水"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQrySyncFundMortgageField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -6357,7 +6358,7 @@ pub struct CThostFtdcQrySyncFundMortgageField {
 }
 #[doc = "查询报单"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryHisOrderField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -6382,7 +6383,7 @@ pub struct CThostFtdcQryHisOrderField {
 }
 #[doc = "当前期权合约最小保证金"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcOptionInstrMiniMarginField {
     #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
@@ -6403,7 +6404,7 @@ pub struct CThostFtdcOptionInstrMiniMarginField {
 }
 #[doc = "当前期权合约保证金调整系数"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcOptionInstrMarginAdjustField {
     #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
@@ -6436,7 +6437,7 @@ pub struct CThostFtdcOptionInstrMarginAdjustField {
 }
 #[doc = "当前期权合约手续费的详细内容"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcOptionInstrCommRateField {
     #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
@@ -6471,7 +6472,7 @@ pub struct CThostFtdcOptionInstrCommRateField {
 }
 #[doc = "期权交易成本"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcOptionInstrTradeCostField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -6500,7 +6501,7 @@ pub struct CThostFtdcOptionInstrTradeCostField {
 }
 #[doc = "期权交易成本查询"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryOptionInstrTradeCostField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -6523,7 +6524,7 @@ pub struct CThostFtdcQryOptionInstrTradeCostField {
 }
 #[doc = "期权手续费率查询"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryOptionInstrCommRateField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -6540,7 +6541,7 @@ pub struct CThostFtdcQryOptionInstrCommRateField {
 }
 #[doc = "股指现货指数"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcIndexPriceField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -6553,7 +6554,7 @@ pub struct CThostFtdcIndexPriceField {
 }
 #[doc = "输入的执行宣告"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcInputExecOrderField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -6604,7 +6605,7 @@ pub struct CThostFtdcInputExecOrderField {
 }
 #[doc = "输入执行宣告操作"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcInputExecOrderActionField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -6643,7 +6644,7 @@ pub struct CThostFtdcInputExecOrderActionField {
 }
 #[doc = "执行宣告"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcExecOrderField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -6742,7 +6743,7 @@ pub struct CThostFtdcExecOrderField {
 }
 #[doc = "执行宣告操作"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcExecOrderActionField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -6807,7 +6808,7 @@ pub struct CThostFtdcExecOrderActionField {
 }
 #[doc = "执行宣告查询"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryExecOrderField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -6828,7 +6829,7 @@ pub struct CThostFtdcQryExecOrderField {
 }
 #[doc = "交易所执行宣告信息"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcExchangeExecOrderField {
     #[doc = "数量"]
     pub Volume: TThostFtdcVolumeType,
@@ -6897,7 +6898,7 @@ pub struct CThostFtdcExchangeExecOrderField {
 }
 #[doc = "交易所执行宣告查询"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryExchangeExecOrderField {
     #[doc = "会员代码"]
     pub ParticipantID: TThostFtdcParticipantIDType,
@@ -6914,7 +6915,7 @@ pub struct CThostFtdcQryExchangeExecOrderField {
 }
 #[doc = "执行宣告操作查询"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryExecOrderActionField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -6925,7 +6926,7 @@ pub struct CThostFtdcQryExecOrderActionField {
 }
 #[doc = "交易所执行宣告操作"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcExchangeExecOrderActionField {
     #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
@@ -6974,7 +6975,7 @@ pub struct CThostFtdcExchangeExecOrderActionField {
 }
 #[doc = "交易所执行宣告操作查询"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryExchangeExecOrderActionField {
     #[doc = "会员代码"]
     pub ParticipantID: TThostFtdcParticipantIDType,
@@ -6987,7 +6988,7 @@ pub struct CThostFtdcQryExchangeExecOrderActionField {
 }
 #[doc = "错误执行宣告"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcErrExecOrderField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -7042,7 +7043,7 @@ pub struct CThostFtdcErrExecOrderField {
 }
 #[doc = "查询错误执行宣告"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryErrExecOrderField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -7051,7 +7052,7 @@ pub struct CThostFtdcQryErrExecOrderField {
 }
 #[doc = "错误执行宣告操作"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcErrExecOrderActionField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -7094,7 +7095,7 @@ pub struct CThostFtdcErrExecOrderActionField {
 }
 #[doc = "查询错误执行宣告操作"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryErrExecOrderActionField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -7103,7 +7104,7 @@ pub struct CThostFtdcQryErrExecOrderActionField {
 }
 #[doc = "投资者期权合约交易权限"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcOptionInstrTradingRightField {
     #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
@@ -7122,7 +7123,7 @@ pub struct CThostFtdcOptionInstrTradingRightField {
 }
 #[doc = "查询期权合约交易权限"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryOptionInstrTradingRightField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -7137,7 +7138,7 @@ pub struct CThostFtdcQryOptionInstrTradingRightField {
 }
 #[doc = "输入的询价"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcInputForQuoteField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -7164,7 +7165,7 @@ pub struct CThostFtdcInputForQuoteField {
 }
 #[doc = "询价"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcForQuoteField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -7221,7 +7222,7 @@ pub struct CThostFtdcForQuoteField {
 }
 #[doc = "询价查询"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryForQuoteField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -7242,7 +7243,7 @@ pub struct CThostFtdcQryForQuoteField {
 }
 #[doc = "交易所询价信息"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcExchangeForQuoteField {
     #[doc = "本地询价编号"]
     pub ForQuoteLocalID: TThostFtdcOrderLocalIDType,
@@ -7275,7 +7276,7 @@ pub struct CThostFtdcExchangeForQuoteField {
 }
 #[doc = "交易所询价查询"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryExchangeForQuoteField {
     #[doc = "会员代码"]
     pub ParticipantID: TThostFtdcParticipantIDType,
@@ -7292,7 +7293,7 @@ pub struct CThostFtdcQryExchangeForQuoteField {
 }
 #[doc = "输入的报价"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcInputQuoteField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -7349,7 +7350,7 @@ pub struct CThostFtdcInputQuoteField {
 }
 #[doc = "输入报价操作"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcInputQuoteActionField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -7390,7 +7391,7 @@ pub struct CThostFtdcInputQuoteActionField {
 }
 #[doc = "报价"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQuoteField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -7503,7 +7504,7 @@ pub struct CThostFtdcQuoteField {
 }
 #[doc = "报价操作"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQuoteActionField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -7566,7 +7567,7 @@ pub struct CThostFtdcQuoteActionField {
 }
 #[doc = "报价查询"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryQuoteField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -7589,7 +7590,7 @@ pub struct CThostFtdcQryQuoteField {
 }
 #[doc = "交易所报价信息"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcExchangeQuoteField {
     #[doc = "卖价格"]
     pub AskPrice: TThostFtdcPriceType,
@@ -7666,7 +7667,7 @@ pub struct CThostFtdcExchangeQuoteField {
 }
 #[doc = "交易所报价查询"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryExchangeQuoteField {
     #[doc = "会员代码"]
     pub ParticipantID: TThostFtdcParticipantIDType,
@@ -7683,7 +7684,7 @@ pub struct CThostFtdcQryExchangeQuoteField {
 }
 #[doc = "报价操作查询"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryQuoteActionField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -7694,7 +7695,7 @@ pub struct CThostFtdcQryQuoteActionField {
 }
 #[doc = "交易所报价操作"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcExchangeQuoteActionField {
     #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
@@ -7733,7 +7734,7 @@ pub struct CThostFtdcExchangeQuoteActionField {
 }
 #[doc = "交易所报价操作查询"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryExchangeQuoteActionField {
     #[doc = "会员代码"]
     pub ParticipantID: TThostFtdcParticipantIDType,
@@ -7746,7 +7747,7 @@ pub struct CThostFtdcQryExchangeQuoteActionField {
 }
 #[doc = "期权合约delta值"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcOptionInstrDeltaField {
     #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
@@ -7763,7 +7764,7 @@ pub struct CThostFtdcOptionInstrDeltaField {
 }
 #[doc = "发给做市商的询价请求"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcForQuoteRspField {
     #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
@@ -7782,7 +7783,7 @@ pub struct CThostFtdcForQuoteRspField {
 }
 #[doc = "当前期权合约执行偏移值的详细内容"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcStrikeOffsetField {
     #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
@@ -7801,7 +7802,7 @@ pub struct CThostFtdcStrikeOffsetField {
 }
 #[doc = "期权执行偏移值查询"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryStrikeOffsetField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -7814,7 +7815,7 @@ pub struct CThostFtdcQryStrikeOffsetField {
 }
 #[doc = "输入批量报单操作"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcInputBatchOrderActionField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -7843,7 +7844,7 @@ pub struct CThostFtdcInputBatchOrderActionField {
 }
 #[doc = "批量报单操作"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcBatchOrderActionField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -7892,7 +7893,7 @@ pub struct CThostFtdcBatchOrderActionField {
 }
 #[doc = "交易所批量报单操作"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcExchangeBatchOrderActionField {
     #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
@@ -7925,7 +7926,7 @@ pub struct CThostFtdcExchangeBatchOrderActionField {
 }
 #[doc = "查询批量报单操作"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryBatchOrderActionField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -7936,7 +7937,7 @@ pub struct CThostFtdcQryBatchOrderActionField {
 }
 #[doc = "组合合约安全系数"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcCombInstrumentGuardField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -7951,7 +7952,7 @@ pub struct CThostFtdcCombInstrumentGuardField {
 }
 #[doc = "组合合约安全系数查询"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryCombInstrumentGuardField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -7964,7 +7965,7 @@ pub struct CThostFtdcQryCombInstrumentGuardField {
 }
 #[doc = "输入的申请组合"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcInputCombActionField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -8003,7 +8004,7 @@ pub struct CThostFtdcInputCombActionField {
 }
 #[doc = "申请组合"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcCombActionField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -8074,7 +8075,7 @@ pub struct CThostFtdcCombActionField {
 }
 #[doc = "申请组合查询"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryCombActionField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -8091,7 +8092,7 @@ pub struct CThostFtdcQryCombActionField {
 }
 #[doc = "交易所申请组合信息"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcExchangeCombActionField {
     #[doc = "买卖方向"]
     pub Direction: TThostFtdcDirectionType,
@@ -8140,7 +8141,7 @@ pub struct CThostFtdcExchangeCombActionField {
 }
 #[doc = "交易所申请组合查询"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryExchangeCombActionField {
     #[doc = "会员代码"]
     pub ParticipantID: TThostFtdcParticipantIDType,
@@ -8157,7 +8158,7 @@ pub struct CThostFtdcQryExchangeCombActionField {
 }
 #[doc = "产品报价汇率"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcProductExchRateField {
     #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
@@ -8172,7 +8173,7 @@ pub struct CThostFtdcProductExchRateField {
 }
 #[doc = "产品报价汇率查询"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryProductExchRateField {
     #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
@@ -8183,7 +8184,7 @@ pub struct CThostFtdcQryProductExchRateField {
 }
 #[doc = "查询询价价差参数"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryForQuoteParamField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -8196,7 +8197,7 @@ pub struct CThostFtdcQryForQuoteParamField {
 }
 #[doc = "询价价差参数"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcForQuoteParamField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -8213,7 +8214,7 @@ pub struct CThostFtdcForQuoteParamField {
 }
 #[doc = "当前做市商期权合约手续费的详细内容"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcMMOptionInstrCommRateField {
     #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
@@ -8244,7 +8245,7 @@ pub struct CThostFtdcMMOptionInstrCommRateField {
 }
 #[doc = "做市商期权手续费率查询"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryMMOptionInstrCommRateField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -8257,7 +8258,7 @@ pub struct CThostFtdcQryMMOptionInstrCommRateField {
 }
 #[doc = "做市商合约手续费率"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcMMInstrumentCommissionRateField {
     #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
@@ -8284,7 +8285,7 @@ pub struct CThostFtdcMMInstrumentCommissionRateField {
 }
 #[doc = "查询做市商合约手续费率"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryMMInstrumentCommissionRateField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -8297,7 +8298,7 @@ pub struct CThostFtdcQryMMInstrumentCommissionRateField {
 }
 #[doc = "当前报单手续费的详细内容"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcInstrumentOrderCommRateField {
     #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
@@ -8326,7 +8327,7 @@ pub struct CThostFtdcInstrumentOrderCommRateField {
 }
 #[doc = "报单手续费率查询"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryInstrumentOrderCommRateField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -8339,7 +8340,7 @@ pub struct CThostFtdcQryInstrumentOrderCommRateField {
 }
 #[doc = "交易参数"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcTradeParamField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -8352,7 +8353,7 @@ pub struct CThostFtdcTradeParamField {
 }
 #[doc = "合约保证金率调整"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcInstrumentMarginRateULField {
     #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
@@ -8377,7 +8378,7 @@ pub struct CThostFtdcInstrumentMarginRateULField {
 }
 #[doc = "期货持仓限制参数"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcFutureLimitPosiParamField {
     #[doc = "投资者范围"]
     pub InvestorRange: TThostFtdcInvestorRangeType,
@@ -8398,7 +8399,7 @@ pub struct CThostFtdcFutureLimitPosiParamField {
 }
 #[doc = "禁止登录IP"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcLoginForbiddenIPField {
     #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldIPAddressType,
@@ -8407,7 +8408,7 @@ pub struct CThostFtdcLoginForbiddenIPField {
 }
 #[doc = "IP列表"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcIPListField {
     #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldIPAddressType,
@@ -8418,7 +8419,7 @@ pub struct CThostFtdcIPListField {
 }
 #[doc = "输入的期权自对冲"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcInputOptionSelfCloseField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -8461,7 +8462,7 @@ pub struct CThostFtdcInputOptionSelfCloseField {
 }
 #[doc = "输入期权自对冲操作"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcInputOptionSelfCloseActionField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -8500,7 +8501,7 @@ pub struct CThostFtdcInputOptionSelfCloseActionField {
 }
 #[doc = "期权自对冲"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcOptionSelfCloseField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -8591,7 +8592,7 @@ pub struct CThostFtdcOptionSelfCloseField {
 }
 #[doc = "期权自对冲操作"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcOptionSelfCloseActionField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -8654,7 +8655,7 @@ pub struct CThostFtdcOptionSelfCloseActionField {
 }
 #[doc = "期权自对冲查询"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryOptionSelfCloseField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -8675,7 +8676,7 @@ pub struct CThostFtdcQryOptionSelfCloseField {
 }
 #[doc = "交易所期权自对冲信息"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcExchangeOptionSelfCloseField {
     #[doc = "数量"]
     pub Volume: TThostFtdcVolumeType,
@@ -8736,7 +8737,7 @@ pub struct CThostFtdcExchangeOptionSelfCloseField {
 }
 #[doc = "期权自对冲操作查询"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryOptionSelfCloseActionField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -8747,7 +8748,7 @@ pub struct CThostFtdcQryOptionSelfCloseActionField {
 }
 #[doc = "交易所期权自对冲操作"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcExchangeOptionSelfCloseActionField {
     #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
@@ -8794,7 +8795,7 @@ pub struct CThostFtdcExchangeOptionSelfCloseActionField {
 }
 #[doc = "延时换汇同步"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcSyncDelaySwapField {
     #[doc = "换汇流水号"]
     pub DelaySwapSeqNo: TThostFtdcDepositSeqNoType,
@@ -8821,7 +8822,7 @@ pub struct CThostFtdcSyncDelaySwapField {
 }
 #[doc = "查询延时换汇同步"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQrySyncDelaySwapField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -8830,7 +8831,7 @@ pub struct CThostFtdcQrySyncDelaySwapField {
 }
 #[doc = "投资单元"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcInvestUnitField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -8853,7 +8854,7 @@ pub struct CThostFtdcInvestUnitField {
 }
 #[doc = "查询投资单元"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryInvestUnitField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -8864,7 +8865,7 @@ pub struct CThostFtdcQryInvestUnitField {
 }
 #[doc = "二级代理商资金校验模式"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcSecAgentCheckModeField {
     #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
@@ -8879,7 +8880,7 @@ pub struct CThostFtdcSecAgentCheckModeField {
 }
 #[doc = "二级代理商信息"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcSecAgentTradeInfoField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -8892,7 +8893,7 @@ pub struct CThostFtdcSecAgentTradeInfoField {
 }
 #[doc = "市场行情"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcMarketDataField {
     #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
@@ -8947,7 +8948,7 @@ pub struct CThostFtdcMarketDataField {
 }
 #[doc = "行情基础属性"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcMarketDataBaseField {
     #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
@@ -8962,7 +8963,7 @@ pub struct CThostFtdcMarketDataBaseField {
 }
 #[doc = "行情静态属性"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcMarketDataStaticField {
     #[doc = "今开盘"]
     pub OpenPrice: TThostFtdcPriceType,
@@ -8983,7 +8984,7 @@ pub struct CThostFtdcMarketDataStaticField {
 }
 #[doc = "行情最新成交属性"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcMarketDataLastMatchField {
     #[doc = "最新价"]
     pub LastPrice: TThostFtdcPriceType,
@@ -8996,7 +8997,7 @@ pub struct CThostFtdcMarketDataLastMatchField {
 }
 #[doc = "行情最优价属性"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcMarketDataBestPriceField {
     #[doc = "申买价一"]
     pub BidPrice1: TThostFtdcPriceType,
@@ -9009,7 +9010,7 @@ pub struct CThostFtdcMarketDataBestPriceField {
 }
 #[doc = "行情申买二、三属性"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcMarketDataBid23Field {
     #[doc = "申买价二"]
     pub BidPrice2: TThostFtdcPriceType,
@@ -9022,7 +9023,7 @@ pub struct CThostFtdcMarketDataBid23Field {
 }
 #[doc = "行情申卖二、三属性"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcMarketDataAsk23Field {
     #[doc = "申卖价二"]
     pub AskPrice2: TThostFtdcPriceType,
@@ -9035,7 +9036,7 @@ pub struct CThostFtdcMarketDataAsk23Field {
 }
 #[doc = "行情申买四、五属性"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcMarketDataBid45Field {
     #[doc = "申买价四"]
     pub BidPrice4: TThostFtdcPriceType,
@@ -9048,7 +9049,7 @@ pub struct CThostFtdcMarketDataBid45Field {
 }
 #[doc = "行情申卖四、五属性"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcMarketDataAsk45Field {
     #[doc = "申卖价四"]
     pub AskPrice4: TThostFtdcPriceType,
@@ -9061,7 +9062,7 @@ pub struct CThostFtdcMarketDataAsk45Field {
 }
 #[doc = "行情更新时间属性"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcMarketDataUpdateTimeField {
     #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
@@ -9076,7 +9077,7 @@ pub struct CThostFtdcMarketDataUpdateTimeField {
 }
 #[doc = "行情上下带价"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcMarketDataBandingPriceField {
     #[doc = "上带价"]
     pub BandingUpperPrice: TThostFtdcPriceType,
@@ -9085,14 +9086,14 @@ pub struct CThostFtdcMarketDataBandingPriceField {
 }
 #[doc = "行情交易所代码属性"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcMarketDataExchangeField {
     #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
 }
 #[doc = "指定的合约"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcSpecificInstrumentField {
     #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
@@ -9101,7 +9102,7 @@ pub struct CThostFtdcSpecificInstrumentField {
 }
 #[doc = "合约状态"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcInstrumentStatusField {
     #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
@@ -9126,7 +9127,7 @@ pub struct CThostFtdcInstrumentStatusField {
 }
 #[doc = "查询合约状态"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryInstrumentStatusField {
     #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
@@ -9137,7 +9138,7 @@ pub struct CThostFtdcQryInstrumentStatusField {
 }
 #[doc = "投资者账户"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcInvestorAccountField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -9150,7 +9151,7 @@ pub struct CThostFtdcInvestorAccountField {
 }
 #[doc = "浮动盈亏算法"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcPositionProfitAlgorithmField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -9165,7 +9166,7 @@ pub struct CThostFtdcPositionProfitAlgorithmField {
 }
 #[doc = "会员资金折扣"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcDiscountField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -9178,7 +9179,7 @@ pub struct CThostFtdcDiscountField {
 }
 #[doc = "查询转帐银行"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryTransferBankField {
     #[doc = "银行代码"]
     pub BankID: TThostFtdcBankIDType,
@@ -9187,7 +9188,7 @@ pub struct CThostFtdcQryTransferBankField {
 }
 #[doc = "转帐银行"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcTransferBankField {
     #[doc = "银行代码"]
     pub BankID: TThostFtdcBankIDType,
@@ -9200,7 +9201,7 @@ pub struct CThostFtdcTransferBankField {
 }
 #[doc = "查询投资者持仓明细"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryInvestorPositionDetailField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -9217,7 +9218,7 @@ pub struct CThostFtdcQryInvestorPositionDetailField {
 }
 #[doc = "投资者持仓明细"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcInvestorPositionDetailField {
     #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
@@ -9284,7 +9285,7 @@ pub struct CThostFtdcInvestorPositionDetailField {
 }
 #[doc = "资金账户口令域"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcTradingAccountPasswordField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -9297,7 +9298,7 @@ pub struct CThostFtdcTradingAccountPasswordField {
 }
 #[doc = "交易所行情报盘机"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcMDTraderOfferField {
     #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
@@ -9340,7 +9341,7 @@ pub struct CThostFtdcMDTraderOfferField {
 }
 #[doc = "查询行情报盘机"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryMDTraderOfferField {
     #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
@@ -9351,14 +9352,14 @@ pub struct CThostFtdcQryMDTraderOfferField {
 }
 #[doc = "查询客户通知"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryNoticeField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
 }
 #[doc = "客户通知"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcNoticeField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -9369,7 +9370,7 @@ pub struct CThostFtdcNoticeField {
 }
 #[doc = "用户权限"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcUserRightField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -9382,7 +9383,7 @@ pub struct CThostFtdcUserRightField {
 }
 #[doc = "查询结算信息确认域"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQrySettlementInfoConfirmField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -9395,14 +9396,14 @@ pub struct CThostFtdcQrySettlementInfoConfirmField {
 }
 #[doc = "装载结算信息"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcLoadSettlementInfoField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
 }
 #[doc = "经纪公司可提资金算法表"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcBrokerWithdrawAlgorithmField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -9427,7 +9428,7 @@ pub struct CThostFtdcBrokerWithdrawAlgorithmField {
 }
 #[doc = "资金账户口令变更域"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcTradingAccountPasswordUpdateV1Field {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -9440,7 +9441,7 @@ pub struct CThostFtdcTradingAccountPasswordUpdateV1Field {
 }
 #[doc = "资金账户口令变更域"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcTradingAccountPasswordUpdateField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -9455,7 +9456,7 @@ pub struct CThostFtdcTradingAccountPasswordUpdateField {
 }
 #[doc = "查询组合合约分腿"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryCombinationLegField {
     #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
@@ -9470,14 +9471,14 @@ pub struct CThostFtdcQryCombinationLegField {
 }
 #[doc = "查询组合合约分腿"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQrySyncStatusField {
     #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
 }
 #[doc = "组合交易合约的单腿"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcCombinationLegField {
     #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
@@ -9498,7 +9499,7 @@ pub struct CThostFtdcCombinationLegField {
 }
 #[doc = "数据同步状态"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcSyncStatusField {
     #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
@@ -9507,7 +9508,7 @@ pub struct CThostFtdcSyncStatusField {
 }
 #[doc = "查询联系人"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryLinkManField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -9516,7 +9517,7 @@ pub struct CThostFtdcQryLinkManField {
 }
 #[doc = "联系人"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcLinkManField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -9545,7 +9546,7 @@ pub struct CThostFtdcLinkManField {
 }
 #[doc = "查询经纪公司用户事件"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryBrokerUserEventField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -9556,7 +9557,7 @@ pub struct CThostFtdcQryBrokerUserEventField {
 }
 #[doc = "查询经纪公司用户事件"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcBrokerUserEventField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -9581,7 +9582,7 @@ pub struct CThostFtdcBrokerUserEventField {
 }
 #[doc = "查询签约银行请求"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryContractBankField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -9592,7 +9593,7 @@ pub struct CThostFtdcQryContractBankField {
 }
 #[doc = "查询签约银行响应"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcContractBankField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -9605,7 +9606,7 @@ pub struct CThostFtdcContractBankField {
 }
 #[doc = "投资者组合持仓明细"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcInvestorPositionCombineDetailField {
     #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
@@ -9656,7 +9657,7 @@ pub struct CThostFtdcInvestorPositionCombineDetailField {
 }
 #[doc = "预埋单"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcParkedOrderField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -9735,7 +9736,7 @@ pub struct CThostFtdcParkedOrderField {
 }
 #[doc = "输入预埋单操作"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcParkedOrderActionField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -9788,7 +9789,7 @@ pub struct CThostFtdcParkedOrderActionField {
 }
 #[doc = "查询预埋单"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryParkedOrderField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -9805,7 +9806,7 @@ pub struct CThostFtdcQryParkedOrderField {
 }
 #[doc = "查询预埋撤单"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryParkedOrderActionField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -9822,7 +9823,7 @@ pub struct CThostFtdcQryParkedOrderActionField {
 }
 #[doc = "删除预埋单"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcRemoveParkedOrderField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -9835,7 +9836,7 @@ pub struct CThostFtdcRemoveParkedOrderField {
 }
 #[doc = "删除预埋撤单"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcRemoveParkedOrderActionField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -9848,7 +9849,7 @@ pub struct CThostFtdcRemoveParkedOrderActionField {
 }
 #[doc = "经纪公司可提资金算法表"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcInvestorWithdrawAlgorithmField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -9865,7 +9866,7 @@ pub struct CThostFtdcInvestorWithdrawAlgorithmField {
 }
 #[doc = "查询组合持仓明细"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryInvestorPositionCombineDetailField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -9882,14 +9883,14 @@ pub struct CThostFtdcQryInvestorPositionCombineDetailField {
 }
 #[doc = "成交均价"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcMarketDataAveragePriceField {
     #[doc = "当日均价"]
     pub AveragePrice: TThostFtdcPriceType,
 }
 #[doc = "校验投资者密码"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcVerifyInvestorPasswordField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -9900,7 +9901,7 @@ pub struct CThostFtdcVerifyInvestorPasswordField {
 }
 #[doc = "用户IP"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcUserIPField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -9919,7 +9920,7 @@ pub struct CThostFtdcUserIPField {
 }
 #[doc = "用户事件通知信息"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcTradingNoticeInfoField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -9938,7 +9939,7 @@ pub struct CThostFtdcTradingNoticeInfoField {
 }
 #[doc = "用户事件通知"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcTradingNoticeField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -9961,7 +9962,7 @@ pub struct CThostFtdcTradingNoticeField {
 }
 #[doc = "查询交易事件通知"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryTradingNoticeField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -9972,7 +9973,7 @@ pub struct CThostFtdcQryTradingNoticeField {
 }
 #[doc = "查询错误报单"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryErrOrderField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -9981,7 +9982,7 @@ pub struct CThostFtdcQryErrOrderField {
 }
 #[doc = "错误报单"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcErrOrderField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -10054,7 +10055,7 @@ pub struct CThostFtdcErrOrderField {
 }
 #[doc = "查询错误报单操作"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcErrorConditionalOrderField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -10195,7 +10196,7 @@ pub struct CThostFtdcErrorConditionalOrderField {
 }
 #[doc = "查询错误报单操作"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryErrOrderActionField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -10204,7 +10205,7 @@ pub struct CThostFtdcQryErrOrderActionField {
 }
 #[doc = "错误报单操作"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcErrOrderActionField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -10275,14 +10276,14 @@ pub struct CThostFtdcErrOrderActionField {
 }
 #[doc = "查询交易所状态"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryExchangeSequenceField {
     #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
 }
 #[doc = "交易所状态"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcExchangeSequenceField {
     #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
@@ -10293,7 +10294,7 @@ pub struct CThostFtdcExchangeSequenceField {
 }
 #[doc = "根据价格查询最大报单数量"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryMaxOrderVolumeWithPriceField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -10320,7 +10321,7 @@ pub struct CThostFtdcQryMaxOrderVolumeWithPriceField {
 }
 #[doc = "查询经纪公司交易参数"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryBrokerTradingParamsField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -10333,7 +10334,7 @@ pub struct CThostFtdcQryBrokerTradingParamsField {
 }
 #[doc = "经纪公司交易参数"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcBrokerTradingParamsField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -10354,7 +10355,7 @@ pub struct CThostFtdcBrokerTradingParamsField {
 }
 #[doc = "查询经纪公司交易算法"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryBrokerTradingAlgosField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -10367,7 +10368,7 @@ pub struct CThostFtdcQryBrokerTradingAlgosField {
 }
 #[doc = "经纪公司交易算法"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcBrokerTradingAlgosField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -10386,7 +10387,7 @@ pub struct CThostFtdcBrokerTradingAlgosField {
 }
 #[doc = "查询经纪公司资金"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQueryBrokerDepositField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -10395,7 +10396,7 @@ pub struct CThostFtdcQueryBrokerDepositField {
 }
 #[doc = "经纪公司资金"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcBrokerDepositField {
     #[doc = "交易日期"]
     pub TradingDay: TThostFtdcTradeDateType,
@@ -10426,14 +10427,14 @@ pub struct CThostFtdcBrokerDepositField {
 }
 #[doc = "查询保证金监管系统经纪公司密钥"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryCFMMCBrokerKeyField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
 }
 #[doc = "保证金监管系统经纪公司密钥"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcCFMMCBrokerKeyField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -10452,7 +10453,7 @@ pub struct CThostFtdcCFMMCBrokerKeyField {
 }
 #[doc = "保证金监管系统经纪公司资金账户密钥"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcCFMMCTradingAccountKeyField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -10467,7 +10468,7 @@ pub struct CThostFtdcCFMMCTradingAccountKeyField {
 }
 #[doc = "请求查询保证金监管系统经纪公司资金账户密钥"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryCFMMCTradingAccountKeyField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -10476,7 +10477,7 @@ pub struct CThostFtdcQryCFMMCTradingAccountKeyField {
 }
 #[doc = "用户动态令牌参数"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcBrokerUserOTPParamField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -10497,7 +10498,7 @@ pub struct CThostFtdcBrokerUserOTPParamField {
 }
 #[doc = "手工同步用户动态令牌"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcManualSyncBrokerUserOTPField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -10512,7 +10513,7 @@ pub struct CThostFtdcManualSyncBrokerUserOTPField {
 }
 #[doc = "投资者手续费率模板"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcCommRateModelField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -10523,7 +10524,7 @@ pub struct CThostFtdcCommRateModelField {
 }
 #[doc = "请求查询投资者手续费率模板"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryCommRateModelField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -10532,7 +10533,7 @@ pub struct CThostFtdcQryCommRateModelField {
 }
 #[doc = "投资者保证金率模板"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcMarginModelField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -10543,7 +10544,7 @@ pub struct CThostFtdcMarginModelField {
 }
 #[doc = "请求查询投资者保证金率模板"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryMarginModelField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -10552,7 +10553,7 @@ pub struct CThostFtdcQryMarginModelField {
 }
 #[doc = "仓单折抵信息"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcEWarrantOffsetField {
     #[doc = "交易日期"]
     pub TradingDay: TThostFtdcTradeDateType,
@@ -10577,7 +10578,7 @@ pub struct CThostFtdcEWarrantOffsetField {
 }
 #[doc = "查询仓单折抵信息"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryEWarrantOffsetField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -10594,7 +10595,7 @@ pub struct CThostFtdcQryEWarrantOffsetField {
 }
 #[doc = "查询投资者品种/跨品种保证金"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryInvestorProductGroupMarginField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -10613,7 +10614,7 @@ pub struct CThostFtdcQryInvestorProductGroupMarginField {
 }
 #[doc = "投资者品种/跨品种保证金"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcInvestorProductGroupMarginField {
     #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
@@ -10678,7 +10679,7 @@ pub struct CThostFtdcInvestorProductGroupMarginField {
 }
 #[doc = "查询监控中心用户令牌"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQueryCFMMCTradingAccountTokenField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -10689,7 +10690,7 @@ pub struct CThostFtdcQueryCFMMCTradingAccountTokenField {
 }
 #[doc = "监控中心用户令牌"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcCFMMCTradingAccountTokenField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -10704,7 +10705,7 @@ pub struct CThostFtdcCFMMCTradingAccountTokenField {
 }
 #[doc = "查询产品组"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryProductGroupField {
     #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
@@ -10715,7 +10716,7 @@ pub struct CThostFtdcQryProductGroupField {
 }
 #[doc = "投资者品种/跨品种保证金产品组"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcProductGroupField {
     #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
@@ -10730,7 +10731,7 @@ pub struct CThostFtdcProductGroupField {
 }
 #[doc = "交易所公告"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcBulletinField {
     #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
@@ -10759,7 +10760,7 @@ pub struct CThostFtdcBulletinField {
 }
 #[doc = "查询交易所公告"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryBulletinField {
     #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
@@ -10774,7 +10775,7 @@ pub struct CThostFtdcQryBulletinField {
 }
 #[doc = "MulticastInstrument"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcMulticastInstrumentField {
     #[doc = "主题号"]
     pub TopicID: TThostFtdcInstallIDType,
@@ -10793,7 +10794,7 @@ pub struct CThostFtdcMulticastInstrumentField {
 }
 #[doc = "QryMulticastInstrument"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryMulticastInstrumentField {
     #[doc = "主题号"]
     pub TopicID: TThostFtdcInstallIDType,
@@ -10804,7 +10805,7 @@ pub struct CThostFtdcQryMulticastInstrumentField {
 }
 #[doc = "App客户端权限分配"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcAppIDAuthAssignField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -10815,7 +10816,7 @@ pub struct CThostFtdcAppIDAuthAssignField {
 }
 #[doc = "转帐开户请求"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcReqOpenAccountField {
     #[doc = "业务功能码"]
     pub TradeCode: TThostFtdcTradeCodeType,
@@ -10910,7 +10911,7 @@ pub struct CThostFtdcReqOpenAccountField {
 }
 #[doc = "转帐销户请求"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcReqCancelAccountField {
     #[doc = "业务功能码"]
     pub TradeCode: TThostFtdcTradeCodeType,
@@ -11005,7 +11006,7 @@ pub struct CThostFtdcReqCancelAccountField {
 }
 #[doc = "变更银行账户请求"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcReqChangeAccountField {
     #[doc = "业务功能码"]
     pub TradeCode: TThostFtdcTradeCodeType,
@@ -11092,7 +11093,7 @@ pub struct CThostFtdcReqChangeAccountField {
 }
 #[doc = "转账请求"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcReqTransferField {
     #[doc = "业务功能码"]
     pub TradeCode: TThostFtdcTradeCodeType,
@@ -11185,7 +11186,7 @@ pub struct CThostFtdcReqTransferField {
 }
 #[doc = "银行发起银行资金转期货响应"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcRspTransferField {
     #[doc = "业务功能码"]
     pub TradeCode: TThostFtdcTradeCodeType,
@@ -11282,7 +11283,7 @@ pub struct CThostFtdcRspTransferField {
 }
 #[doc = "冲正请求"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcReqRepealField {
     #[doc = "冲正时间间隔"]
     pub RepealTimeInterval: TThostFtdcRepealTimeIntervalType,
@@ -11389,7 +11390,7 @@ pub struct CThostFtdcReqRepealField {
 }
 #[doc = "冲正响应"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcRspRepealField {
     #[doc = "冲正时间间隔"]
     pub RepealTimeInterval: TThostFtdcRepealTimeIntervalType,
@@ -11500,7 +11501,7 @@ pub struct CThostFtdcRspRepealField {
 }
 #[doc = "查询账户信息请求"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcReqQueryAccountField {
     #[doc = "业务功能码"]
     pub TradeCode: TThostFtdcTradeCodeType,
@@ -11579,7 +11580,7 @@ pub struct CThostFtdcReqQueryAccountField {
 }
 #[doc = "查询账户信息响应"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcRspQueryAccountField {
     #[doc = "业务功能码"]
     pub TradeCode: TThostFtdcTradeCodeType,
@@ -11662,7 +11663,7 @@ pub struct CThostFtdcRspQueryAccountField {
 }
 #[doc = "期商签到签退"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcFutureSignIOField {
     #[doc = "业务功能码"]
     pub TradeCode: TThostFtdcTradeCodeType,
@@ -11709,7 +11710,7 @@ pub struct CThostFtdcFutureSignIOField {
 }
 #[doc = "期商签到响应"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcRspFutureSignInField {
     #[doc = "业务功能码"]
     pub TradeCode: TThostFtdcTradeCodeType,
@@ -11764,7 +11765,7 @@ pub struct CThostFtdcRspFutureSignInField {
 }
 #[doc = "期商签退请求"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcReqFutureSignOutField {
     #[doc = "业务功能码"]
     pub TradeCode: TThostFtdcTradeCodeType,
@@ -11811,7 +11812,7 @@ pub struct CThostFtdcReqFutureSignOutField {
 }
 #[doc = "期商签退响应"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcRspFutureSignOutField {
     #[doc = "业务功能码"]
     pub TradeCode: TThostFtdcTradeCodeType,
@@ -11862,7 +11863,7 @@ pub struct CThostFtdcRspFutureSignOutField {
 }
 #[doc = "查询指定流水号的交易结果请求"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcReqQueryTradeResultBySerialField {
     #[doc = "业务功能码"]
     pub TradeCode: TThostFtdcTradeCodeType,
@@ -11921,7 +11922,7 @@ pub struct CThostFtdcReqQueryTradeResultBySerialField {
 }
 #[doc = "查询指定流水号的交易结果响应"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcRspQueryTradeResultBySerialField {
     #[doc = "业务功能码"]
     pub TradeCode: TThostFtdcTradeCodeType,
@@ -11978,7 +11979,7 @@ pub struct CThostFtdcRspQueryTradeResultBySerialField {
 }
 #[doc = "日终文件就绪请求"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcReqDayEndFileReadyField {
     #[doc = "业务功能码"]
     pub TradeCode: TThostFtdcTradeCodeType,
@@ -12011,7 +12012,7 @@ pub struct CThostFtdcReqDayEndFileReadyField {
 }
 #[doc = "返回结果"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcReturnResultField {
     #[doc = "返回代码"]
     pub ReturnCode: TThostFtdcReturnCodeType,
@@ -12020,7 +12021,7 @@ pub struct CThostFtdcReturnResultField {
 }
 #[doc = "验证期货资金密码"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcVerifyFuturePasswordField {
     #[doc = "业务功能码"]
     pub TradeCode: TThostFtdcTradeCodeType,
@@ -12063,7 +12064,7 @@ pub struct CThostFtdcVerifyFuturePasswordField {
 }
 #[doc = "验证客户信息"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcVerifyCustInfoField {
     #[doc = "客户姓名"]
     pub CustomerName: TThostFtdcIndividualNameType,
@@ -12078,7 +12079,7 @@ pub struct CThostFtdcVerifyCustInfoField {
 }
 #[doc = "验证期货资金密码和客户信息"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcVerifyFuturePasswordAndCustInfoField {
     #[doc = "客户姓名"]
     pub CustomerName: TThostFtdcIndividualNameType,
@@ -12099,7 +12100,7 @@ pub struct CThostFtdcVerifyFuturePasswordAndCustInfoField {
 }
 #[doc = "验证期货资金密码和客户信息"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcDepositResultInformField {
     #[doc = "出入金流水号，该流水号为银期报盘返回的流水号"]
     pub DepositSeqNo: TThostFtdcDepositSeqNoType,
@@ -12118,7 +12119,7 @@ pub struct CThostFtdcDepositResultInformField {
 }
 #[doc = "交易核心向银期报盘发出密钥同步请求"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcReqSyncKeyField {
     #[doc = "业务功能码"]
     pub TradeCode: TThostFtdcTradeCodeType,
@@ -12163,7 +12164,7 @@ pub struct CThostFtdcReqSyncKeyField {
 }
 #[doc = "交易核心向银期报盘发出密钥同步响应"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcRspSyncKeyField {
     #[doc = "业务功能码"]
     pub TradeCode: TThostFtdcTradeCodeType,
@@ -12212,7 +12213,7 @@ pub struct CThostFtdcRspSyncKeyField {
 }
 #[doc = "查询账户信息通知"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcNotifyQueryAccountField {
     #[doc = "业务功能码"]
     pub TradeCode: TThostFtdcTradeCodeType,
@@ -12299,7 +12300,7 @@ pub struct CThostFtdcNotifyQueryAccountField {
 }
 #[doc = "银期转账交易流水表"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcTransferSerialField {
     #[doc = "平台流水号"]
     pub PlateSerial: TThostFtdcPlateSerialType,
@@ -12360,7 +12361,7 @@ pub struct CThostFtdcTransferSerialField {
 }
 #[doc = "请求查询转帐流水"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryTransferSerialField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -12373,7 +12374,7 @@ pub struct CThostFtdcQryTransferSerialField {
 }
 #[doc = "期商签到通知"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcNotifyFutureSignInField {
     #[doc = "业务功能码"]
     pub TradeCode: TThostFtdcTradeCodeType,
@@ -12428,7 +12429,7 @@ pub struct CThostFtdcNotifyFutureSignInField {
 }
 #[doc = "期商签退通知"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcNotifyFutureSignOutField {
     #[doc = "业务功能码"]
     pub TradeCode: TThostFtdcTradeCodeType,
@@ -12479,7 +12480,7 @@ pub struct CThostFtdcNotifyFutureSignOutField {
 }
 #[doc = "交易核心向银期报盘发出密钥同步处理结果的通知"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcNotifySyncKeyField {
     #[doc = "业务功能码"]
     pub TradeCode: TThostFtdcTradeCodeType,
@@ -12528,7 +12529,7 @@ pub struct CThostFtdcNotifySyncKeyField {
 }
 #[doc = "请求查询银期签约关系"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryAccountregisterField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -12543,7 +12544,7 @@ pub struct CThostFtdcQryAccountregisterField {
 }
 #[doc = "客户开销户信息表"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcAccountregisterField {
     #[doc = "交易日期"]
     pub TradeDay: TThostFtdcTradeDateType,
@@ -12584,7 +12585,7 @@ pub struct CThostFtdcAccountregisterField {
 }
 #[doc = "银期开户信息"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcOpenAccountField {
     #[doc = "业务功能码"]
     pub TradeCode: TThostFtdcTradeCodeType,
@@ -12683,7 +12684,7 @@ pub struct CThostFtdcOpenAccountField {
 }
 #[doc = "银期销户信息"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcCancelAccountField {
     #[doc = "业务功能码"]
     pub TradeCode: TThostFtdcTradeCodeType,
@@ -12782,7 +12783,7 @@ pub struct CThostFtdcCancelAccountField {
 }
 #[doc = "银期变更银行账号信息"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcChangeAccountField {
     #[doc = "业务功能码"]
     pub TradeCode: TThostFtdcTradeCodeType,
@@ -12873,7 +12874,7 @@ pub struct CThostFtdcChangeAccountField {
 }
 #[doc = "二级代理操作员银期权限"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcSecAgentACIDMapField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -12888,7 +12889,7 @@ pub struct CThostFtdcSecAgentACIDMapField {
 }
 #[doc = "二级代理操作员银期权限查询"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQrySecAgentACIDMapField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -12901,7 +12902,7 @@ pub struct CThostFtdcQrySecAgentACIDMapField {
 }
 #[doc = "灾备中心交易权限"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcUserRightsAssignField {
     #[doc = "应用单元代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -12912,7 +12913,7 @@ pub struct CThostFtdcUserRightsAssignField {
 }
 #[doc = "经济公司是否有在本标示的交易权限"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcBrokerUserRightAssignField {
     #[doc = "应用单元代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -12923,7 +12924,7 @@ pub struct CThostFtdcBrokerUserRightAssignField {
 }
 #[doc = "灾备交易转换报文"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcDRTransferField {
     #[doc = "原交易中心代码"]
     pub OrigDRIdentityID: TThostFtdcDRIdentityIDType,
@@ -12936,7 +12937,7 @@ pub struct CThostFtdcDRTransferField {
 }
 #[doc = "Fens用户信息"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcFensUserInfoField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -12947,14 +12948,14 @@ pub struct CThostFtdcFensUserInfoField {
 }
 #[doc = "当前银期所属交易中心"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcCurrTransferIdentityField {
     #[doc = "交易中心代码"]
     pub IdentityID: TThostFtdcDRIdentityIDType,
 }
 #[doc = "禁止登录用户"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcLoginForbiddenUserField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -12967,7 +12968,7 @@ pub struct CThostFtdcLoginForbiddenUserField {
 }
 #[doc = "查询禁止登录用户"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryLoginForbiddenUserField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -12976,7 +12977,7 @@ pub struct CThostFtdcQryLoginForbiddenUserField {
 }
 #[doc = "资金账户基本准备金"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcTradingAccountReserveField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -12989,7 +12990,7 @@ pub struct CThostFtdcTradingAccountReserveField {
 }
 #[doc = "查询禁止登录IP"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryLoginForbiddenIPField {
     #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldIPAddressType,
@@ -12998,7 +12999,7 @@ pub struct CThostFtdcQryLoginForbiddenIPField {
 }
 #[doc = "查询IP列表"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryIPListField {
     #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldIPAddressType,
@@ -13007,7 +13008,7 @@ pub struct CThostFtdcQryIPListField {
 }
 #[doc = "查询用户下单权限分配表"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryUserRightsAssignField {
     #[doc = "应用单元代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -13016,7 +13017,7 @@ pub struct CThostFtdcQryUserRightsAssignField {
 }
 #[doc = "银期预约开户确认请求"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcReserveOpenAccountConfirmField {
     #[doc = "业务功能码"]
     pub TradeCode: TThostFtdcTradeCodeType,
@@ -13103,7 +13104,7 @@ pub struct CThostFtdcReserveOpenAccountConfirmField {
 }
 #[doc = "银期预约开户"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcReserveOpenAccountField {
     #[doc = "业务功能码"]
     pub TradeCode: TThostFtdcTradeCodeType,
@@ -13182,7 +13183,7 @@ pub struct CThostFtdcReserveOpenAccountField {
 }
 #[doc = "银行账户属性"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcAccountPropertyField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -13215,21 +13216,21 @@ pub struct CThostFtdcAccountPropertyField {
 }
 #[doc = "查询当前交易中心"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryCurrDRIdentityField {
     #[doc = "交易中心代码"]
     pub DRIdentityID: TThostFtdcDRIdentityIDType,
 }
 #[doc = "当前交易中心"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcCurrDRIdentityField {
     #[doc = "交易中心代码"]
     pub DRIdentityID: TThostFtdcDRIdentityIDType,
 }
 #[doc = "查询二级代理商资金校验模式"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQrySecAgentCheckModeField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -13238,7 +13239,7 @@ pub struct CThostFtdcQrySecAgentCheckModeField {
 }
 #[doc = "查询二级代理商信息"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQrySecAgentTradeInfoField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -13247,7 +13248,7 @@ pub struct CThostFtdcQrySecAgentTradeInfoField {
 }
 #[doc = "用户发出获取安全安全登陆方法请求"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcReqUserAuthMethodField {
     #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
@@ -13258,14 +13259,14 @@ pub struct CThostFtdcReqUserAuthMethodField {
 }
 #[doc = "用户发出获取安全安全登陆方法回复"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcRspUserAuthMethodField {
     #[doc = "当前可以用的认证模式"]
     pub UsableAuthMethod: TThostFtdcCurrentAuthMethodType,
 }
 #[doc = "用户发出获取安全安全登陆方法请求"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcReqGenUserCaptchaField {
     #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
@@ -13276,7 +13277,7 @@ pub struct CThostFtdcReqGenUserCaptchaField {
 }
 #[doc = "生成的图片验证码信息"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcRspGenUserCaptchaField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -13289,7 +13290,7 @@ pub struct CThostFtdcRspGenUserCaptchaField {
 }
 #[doc = "用户发出获取安全安全登陆方法请求"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcReqGenUserTextField {
     #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
@@ -13300,14 +13301,14 @@ pub struct CThostFtdcReqGenUserTextField {
 }
 #[doc = "短信验证码生成的回复"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcRspGenUserTextField {
     #[doc = "短信验证码序号"]
     pub UserTextSeq: TThostFtdcUserTextSeqType,
 }
 #[doc = "用户发出带图形验证码的登录请求请求"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcReqUserLoginWithCaptchaField {
     #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
@@ -13338,7 +13339,7 @@ pub struct CThostFtdcReqUserLoginWithCaptchaField {
 }
 #[doc = "用户发出带短信验证码的登录请求请求"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcReqUserLoginWithTextField {
     #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
@@ -13369,7 +13370,7 @@ pub struct CThostFtdcReqUserLoginWithTextField {
 }
 #[doc = "用户发出带动态验证码的登录请求请求"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcReqUserLoginWithOTPField {
     #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
@@ -13400,14 +13401,14 @@ pub struct CThostFtdcReqUserLoginWithOTPField {
 }
 #[doc = "api握手请求"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcReqApiHandshakeField {
     #[doc = "api与front通信密钥版本号"]
     pub CryptoKeyVersion: TThostFtdcCryptoKeyVersionType,
 }
 #[doc = "front发给api的握手回复"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcRspApiHandshakeField {
     #[doc = "握手回复数据长度"]
     pub FrontHandshakeDataLen: TThostFtdcHandshakeDataLenType,
@@ -13418,7 +13419,7 @@ pub struct CThostFtdcRspApiHandshakeField {
 }
 #[doc = "api给front的验证key的请求"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcReqVerifyApiKeyField {
     #[doc = "握手回复数据长度"]
     pub ApiHandshakeDataLen: TThostFtdcHandshakeDataLenType,
@@ -13427,7 +13428,7 @@ pub struct CThostFtdcReqVerifyApiKeyField {
 }
 #[doc = "操作员组织架构关系"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcDepartmentUserField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -13440,28 +13441,28 @@ pub struct CThostFtdcDepartmentUserField {
 }
 #[doc = "查询频率，每秒查询比数"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQueryFreqField {
     #[doc = "查询频率"]
     pub QueryFreq: TThostFtdcQueryFreqType,
 }
 #[doc = "禁止认证IP"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcAuthForbiddenIPField {
     #[doc = "IP地址"]
     pub IPAddress: TThostFtdcIPAddressType,
 }
 #[doc = "查询禁止认证IP"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryAuthForbiddenIPField {
     #[doc = "IP地址"]
     pub IPAddress: TThostFtdcIPAddressType,
 }
 #[doc = "换汇可提冻结"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcSyncDelaySwapFrozenField {
     #[doc = "换汇流水号"]
     pub DelaySwapSeqNo: TThostFtdcDepositSeqNoType,
@@ -13478,7 +13479,7 @@ pub struct CThostFtdcSyncDelaySwapFrozenField {
 }
 #[doc = "用户系统信息"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcUserSystemInfoField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -13503,7 +13504,7 @@ pub struct CThostFtdcUserSystemInfoField {
 }
 #[doc = "终端用户绑定信息"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcAuthUserIDField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -13516,7 +13517,7 @@ pub struct CThostFtdcAuthUserIDField {
 }
 #[doc = "用户IP绑定信息"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcAuthIPField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -13527,7 +13528,7 @@ pub struct CThostFtdcAuthIPField {
 }
 #[doc = "查询分类合约"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryClassifiedInstrumentField {
     #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
@@ -13544,7 +13545,7 @@ pub struct CThostFtdcQryClassifiedInstrumentField {
 }
 #[doc = "查询组合优惠比例"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryCombPromotionParamField {
     #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
@@ -13553,7 +13554,7 @@ pub struct CThostFtdcQryCombPromotionParamField {
 }
 #[doc = "组合优惠比例"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcCombPromotionParamField {
     #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
@@ -13566,7 +13567,7 @@ pub struct CThostFtdcCombPromotionParamField {
 }
 #[doc = "投资者风险结算持仓查询"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryRiskSettleInvstPositionField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -13577,14 +13578,14 @@ pub struct CThostFtdcQryRiskSettleInvstPositionField {
 }
 #[doc = "风险结算产品查询"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcQryRiskSettleProductStatusField {
     #[doc = "产品代码"]
     pub ProductID: TThostFtdcInstrumentIDType,
 }
 #[doc = "投资者风险结算持仓"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcRiskSettleInvstPositionField {
     #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
@@ -13687,7 +13688,7 @@ pub struct CThostFtdcRiskSettleInvstPositionField {
 }
 #[doc = "风险品种"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcRiskSettleProductStatusField {
     #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
@@ -13698,7 +13699,7 @@ pub struct CThostFtdcRiskSettleProductStatusField {
 }
 #[doc = "风险结算追平信息"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcSyncDeltaInfoField {
     #[doc = "追平序号"]
     pub SyncDeltaSequenceNo: TThostFtdcSequenceNoType,
@@ -13711,7 +13712,7 @@ pub struct CThostFtdcSyncDeltaInfoField {
 }
 #[doc = "风险结算追平产品信息"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcSyncDeltaProductStatusField {
     #[doc = "追平序号"]
     pub SyncDeltaSequenceNo: TThostFtdcSequenceNoType,
@@ -13724,7 +13725,7 @@ pub struct CThostFtdcSyncDeltaProductStatusField {
 }
 #[doc = "风险结算追平持仓明细"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcSyncDeltaInvstPosDtlField {
     #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
@@ -13789,7 +13790,7 @@ pub struct CThostFtdcSyncDeltaInvstPosDtlField {
 }
 #[doc = "风险结算追平组合持仓明细"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcSyncDeltaInvstPosCombDtlField {
     #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
@@ -13836,7 +13837,7 @@ pub struct CThostFtdcSyncDeltaInvstPosCombDtlField {
 }
 #[doc = "风险结算追平资金"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcSyncDeltaTradingAccountField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -13939,7 +13940,7 @@ pub struct CThostFtdcSyncDeltaTradingAccountField {
 }
 #[doc = "投资者风险结算总保证金"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcSyncDeltaInitInvstMarginField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -13974,7 +13975,7 @@ pub struct CThostFtdcSyncDeltaInitInvstMarginField {
 }
 #[doc = "风险结算追平组合优先级"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcSyncDeltaDceCombInstrumentField {
     #[doc = "合约代码"]
     pub CombInstrumentID: TThostFtdcInstrumentIDType,
@@ -14001,7 +14002,7 @@ pub struct CThostFtdcSyncDeltaDceCombInstrumentField {
 }
 #[doc = "风险结算追平投资者期货保证金率"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcSyncDeltaInvstMarginRateField {
     #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
@@ -14030,7 +14031,7 @@ pub struct CThostFtdcSyncDeltaInvstMarginRateField {
 }
 #[doc = "风险结算追平交易所期货保证金率"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcSyncDeltaExchMarginRateField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -14053,7 +14054,7 @@ pub struct CThostFtdcSyncDeltaExchMarginRateField {
 }
 #[doc = "风险结算追平中金现货期权交易所保证金率"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcSyncDeltaOptExchMarginField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -14082,7 +14083,7 @@ pub struct CThostFtdcSyncDeltaOptExchMarginField {
 }
 #[doc = "风险结算追平中金现货期权投资者保证金率"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcSyncDeltaOptInvstMarginField {
     #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
@@ -14117,7 +14118,7 @@ pub struct CThostFtdcSyncDeltaOptInvstMarginField {
 }
 #[doc = "风险结算追平期权标的调整保证金率"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcSyncDeltaInvstMarginRateULField {
     #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
@@ -14144,7 +14145,7 @@ pub struct CThostFtdcSyncDeltaInvstMarginRateULField {
 }
 #[doc = "风险结算追平期权手续费率"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcSyncDeltaOptInvstCommRateField {
     #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
@@ -14177,7 +14178,7 @@ pub struct CThostFtdcSyncDeltaOptInvstCommRateField {
 }
 #[doc = "风险结算追平期货手续费率"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcSyncDeltaInvstCommRateField {
     #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
@@ -14206,7 +14207,7 @@ pub struct CThostFtdcSyncDeltaInvstCommRateField {
 }
 #[doc = "风险结算追平交叉汇率"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcSyncDeltaProductExchRateField {
     #[doc = "产品代码"]
     pub ProductID: TThostFtdcInstrumentIDType,
@@ -14221,7 +14222,7 @@ pub struct CThostFtdcSyncDeltaProductExchRateField {
 }
 #[doc = "风险结算追平行情"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcSyncDeltaDepthMarketDataField {
     #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
@@ -14322,7 +14323,7 @@ pub struct CThostFtdcSyncDeltaDepthMarketDataField {
 }
 #[doc = "风险结算追平现货指数"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcSyncDeltaIndexPriceField {
     #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
@@ -14337,7 +14338,7 @@ pub struct CThostFtdcSyncDeltaIndexPriceField {
 }
 #[doc = "风险结算追平仓单折抵"]
 #[repr(C)]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcSyncDeltaEWarrantOffsetField {
     #[doc = "交易日期"]
     pub TradingDay: TThostFtdcTradeDateType,
@@ -14368,7 +14369,7 @@ pub struct CThostFtdcMdSpi {
 }
 #[repr(C)]
 #[repr(align(8))]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcMdApi {
     pub _bindgen_opaque_blob: u64,
 }
@@ -14425,20 +14426,20 @@ extern "C" {
     #[link_name = "\u{1}?GetTradingDay@Rust_CThostFtdcMdApi@@QEAAPEBDXZ"]
     pub fn Rust_CThostFtdcMdApi_GetTradingDay(
         this: *mut Rust_CThostFtdcMdApi,
-    ) -> *const ::std::os::raw::c_char;
+    ) -> *const ::std::os::raw::c_uchar;
 }
 extern "C" {
     #[link_name = "\u{1}?RegisterFront@Rust_CThostFtdcMdApi@@QEAAXPEAD@Z"]
     pub fn Rust_CThostFtdcMdApi_RegisterFront(
         this: *mut Rust_CThostFtdcMdApi,
-        pszFrontAddress: *mut ::std::os::raw::c_char,
+        pszFrontAddress: *mut ::std::os::raw::c_uchar,
     );
 }
 extern "C" {
     #[link_name = "\u{1}?RegisterNameServer@Rust_CThostFtdcMdApi@@QEAAXPEAD@Z"]
     pub fn Rust_CThostFtdcMdApi_RegisterNameServer(
         this: *mut Rust_CThostFtdcMdApi,
-        pszNsAddress: *mut ::std::os::raw::c_char,
+        pszNsAddress: *mut ::std::os::raw::c_uchar,
     );
 }
 extern "C" {
@@ -14459,7 +14460,7 @@ extern "C" {
     #[link_name = "\u{1}?SubscribeMarketData@Rust_CThostFtdcMdApi@@QEAAHQEAPEADH@Z"]
     pub fn Rust_CThostFtdcMdApi_SubscribeMarketData(
         this: *mut Rust_CThostFtdcMdApi,
-        ppInstrumentID: *mut *mut ::std::os::raw::c_char,
+        ppInstrumentID: *mut *mut ::std::os::raw::c_uchar,
         nCount: ::std::os::raw::c_int,
     ) -> ::std::os::raw::c_int;
 }
@@ -14467,7 +14468,7 @@ extern "C" {
     #[link_name = "\u{1}?UnSubscribeMarketData@Rust_CThostFtdcMdApi@@QEAAHQEAPEADH@Z"]
     pub fn Rust_CThostFtdcMdApi_UnSubscribeMarketData(
         this: *mut Rust_CThostFtdcMdApi,
-        ppInstrumentID: *mut *mut ::std::os::raw::c_char,
+        ppInstrumentID: *mut *mut ::std::os::raw::c_uchar,
         nCount: ::std::os::raw::c_int,
     ) -> ::std::os::raw::c_int;
 }
@@ -14475,7 +14476,7 @@ extern "C" {
     #[link_name = "\u{1}?SubscribeForQuoteRsp@Rust_CThostFtdcMdApi@@QEAAHQEAPEADH@Z"]
     pub fn Rust_CThostFtdcMdApi_SubscribeForQuoteRsp(
         this: *mut Rust_CThostFtdcMdApi,
-        ppInstrumentID: *mut *mut ::std::os::raw::c_char,
+        ppInstrumentID: *mut *mut ::std::os::raw::c_uchar,
         nCount: ::std::os::raw::c_int,
     ) -> ::std::os::raw::c_int;
 }
@@ -14483,7 +14484,7 @@ extern "C" {
     #[link_name = "\u{1}?UnSubscribeForQuoteRsp@Rust_CThostFtdcMdApi@@QEAAHQEAPEADH@Z"]
     pub fn Rust_CThostFtdcMdApi_UnSubscribeForQuoteRsp(
         this: *mut Rust_CThostFtdcMdApi,
-        ppInstrumentID: *mut *mut ::std::os::raw::c_char,
+        ppInstrumentID: *mut *mut ::std::os::raw::c_uchar,
         nCount: ::std::os::raw::c_int,
     ) -> ::std::os::raw::c_int;
 }
@@ -14536,15 +14537,15 @@ impl Rust_CThostFtdcMdApi {
         Rust_CThostFtdcMdApi_Join(self)
     }
     #[inline]
-    pub unsafe fn GetTradingDay(&mut self) -> *const ::std::os::raw::c_char {
+    pub unsafe fn GetTradingDay(&mut self) -> *const ::std::os::raw::c_uchar {
         Rust_CThostFtdcMdApi_GetTradingDay(self)
     }
     #[inline]
-    pub unsafe fn RegisterFront(&mut self, pszFrontAddress: *mut ::std::os::raw::c_char) {
+    pub unsafe fn RegisterFront(&mut self, pszFrontAddress: *mut ::std::os::raw::c_uchar) {
         Rust_CThostFtdcMdApi_RegisterFront(self, pszFrontAddress)
     }
     #[inline]
-    pub unsafe fn RegisterNameServer(&mut self, pszNsAddress: *mut ::std::os::raw::c_char) {
+    pub unsafe fn RegisterNameServer(&mut self, pszNsAddress: *mut ::std::os::raw::c_uchar) {
         Rust_CThostFtdcMdApi_RegisterNameServer(self, pszNsAddress)
     }
     #[inline]
@@ -14558,7 +14559,7 @@ impl Rust_CThostFtdcMdApi {
     #[inline]
     pub unsafe fn SubscribeMarketData(
         &mut self,
-        ppInstrumentID: *mut *mut ::std::os::raw::c_char,
+        ppInstrumentID: *mut *mut ::std::os::raw::c_uchar,
         nCount: ::std::os::raw::c_int,
     ) -> ::std::os::raw::c_int {
         Rust_CThostFtdcMdApi_SubscribeMarketData(self, ppInstrumentID, nCount)
@@ -14566,7 +14567,7 @@ impl Rust_CThostFtdcMdApi {
     #[inline]
     pub unsafe fn UnSubscribeMarketData(
         &mut self,
-        ppInstrumentID: *mut *mut ::std::os::raw::c_char,
+        ppInstrumentID: *mut *mut ::std::os::raw::c_uchar,
         nCount: ::std::os::raw::c_int,
     ) -> ::std::os::raw::c_int {
         Rust_CThostFtdcMdApi_UnSubscribeMarketData(self, ppInstrumentID, nCount)
@@ -14574,7 +14575,7 @@ impl Rust_CThostFtdcMdApi {
     #[inline]
     pub unsafe fn SubscribeForQuoteRsp(
         &mut self,
-        ppInstrumentID: *mut *mut ::std::os::raw::c_char,
+        ppInstrumentID: *mut *mut ::std::os::raw::c_uchar,
         nCount: ::std::os::raw::c_int,
     ) -> ::std::os::raw::c_int {
         Rust_CThostFtdcMdApi_SubscribeForQuoteRsp(self, ppInstrumentID, nCount)
@@ -14582,7 +14583,7 @@ impl Rust_CThostFtdcMdApi {
     #[inline]
     pub unsafe fn UnSubscribeForQuoteRsp(
         &mut self,
-        ppInstrumentID: *mut *mut ::std::os::raw::c_char,
+        ppInstrumentID: *mut *mut ::std::os::raw::c_uchar,
         nCount: ::std::os::raw::c_int,
     ) -> ::std::os::raw::c_int {
         Rust_CThostFtdcMdApi_UnSubscribeForQuoteRsp(self, ppInstrumentID, nCount)
@@ -14770,7 +14771,7 @@ pub struct CThostFtdcTraderSpi {
 }
 #[repr(C)]
 #[repr(align(8))]
-#[derive(Debug, Copy, Clone)]
+#[derive(Copy, Clone)]
 pub struct CThostFtdcTraderApi {
     pub _bindgen_opaque_blob: u64,
 }
@@ -14780,7 +14781,7 @@ extern "C" {
     #[doc = "@return 创建出的UserApi"]
     #[link_name = "\u{1}?CreateFtdcTraderApi@CThostFtdcTraderApi@@SAPEAV1@PEBD@Z"]
     pub fn CThostFtdcTraderApi_CreateFtdcTraderApi(
-        pszFlowPath: *const ::std::os::raw::c_char,
+        pszFlowPath: *const ::std::os::raw::c_uchar,
     ) -> *mut CThostFtdcTraderApi;
 }
 extern "C" {
@@ -14792,7 +14793,7 @@ extern "C" {
 impl CThostFtdcTraderApi {
     #[inline]
     pub unsafe fn CreateFtdcTraderApi(
-        pszFlowPath: *const ::std::os::raw::c_char,
+        pszFlowPath: *const ::std::os::raw::c_uchar,
     ) -> *mut CThostFtdcTraderApi {
         CThostFtdcTraderApi_CreateFtdcTraderApi(pszFlowPath)
     }
@@ -14824,20 +14825,20 @@ extern "C" {
     #[link_name = "\u{1}?GetTradingDay@Rust_CThostFtdcTraderApi@@QEAAPEBDXZ"]
     pub fn Rust_CThostFtdcTraderApi_GetTradingDay(
         this: *mut Rust_CThostFtdcTraderApi,
-    ) -> *const ::std::os::raw::c_char;
+    ) -> *const ::std::os::raw::c_uchar;
 }
 extern "C" {
     #[link_name = "\u{1}?RegisterFront@Rust_CThostFtdcTraderApi@@QEAAXPEAD@Z"]
     pub fn Rust_CThostFtdcTraderApi_RegisterFront(
         this: *mut Rust_CThostFtdcTraderApi,
-        pszFrontAddress: *mut ::std::os::raw::c_char,
+        pszFrontAddress: *mut ::std::os::raw::c_uchar,
     );
 }
 extern "C" {
     #[link_name = "\u{1}?RegisterNameServer@Rust_CThostFtdcTraderApi@@QEAAXPEAD@Z"]
     pub fn Rust_CThostFtdcTraderApi_RegisterNameServer(
         this: *mut Rust_CThostFtdcTraderApi,
-        pszNsAddress: *mut ::std::os::raw::c_char,
+        pszNsAddress: *mut ::std::os::raw::c_uchar,
     );
 }
 extern "C" {
@@ -15597,15 +15598,15 @@ impl Rust_CThostFtdcTraderApi {
         Rust_CThostFtdcTraderApi_Join(self)
     }
     #[inline]
-    pub unsafe fn GetTradingDay(&mut self) -> *const ::std::os::raw::c_char {
+    pub unsafe fn GetTradingDay(&mut self) -> *const ::std::os::raw::c_uchar {
         Rust_CThostFtdcTraderApi_GetTradingDay(self)
     }
     #[inline]
-    pub unsafe fn RegisterFront(&mut self, pszFrontAddress: *mut ::std::os::raw::c_char) {
+    pub unsafe fn RegisterFront(&mut self, pszFrontAddress: *mut ::std::os::raw::c_uchar) {
         Rust_CThostFtdcTraderApi_RegisterFront(self, pszFrontAddress)
     }
     #[inline]
-    pub unsafe fn RegisterNameServer(&mut self, pszNsAddress: *mut ::std::os::raw::c_char) {
+    pub unsafe fn RegisterNameServer(&mut self, pszNsAddress: *mut ::std::os::raw::c_uchar) {
         Rust_CThostFtdcTraderApi_RegisterNameServer(self, pszNsAddress)
     }
     #[inline]

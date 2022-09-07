@@ -131,14 +131,14 @@ impl MDApi {
             TradingDay:           Default::default(),
             BrokerID:             Default::default(),
             UserID:               Default::default(),
-            Password:             [0i8; 41],
+            Password:             [0u8; 41],
             UserProductInfo:      Default::default(),
             InterfaceProductInfo: Default::default(),
             ProtocolInfo:         Default::default(),
             MacAddress:           Default::default(),
-            OneTimePassword:      [0i8; 41],
-            ClientIPAddress:      [0i8; 33],
-            LoginRemark:          [0i8; 36],
+            OneTimePassword:      [0u8; 41],
+            ClientIPAddress:      [0u8; 33],
+            LoginRemark:          [0u8; 36],
             ClientIPPort:         Default::default(),
             reserve1: Default::default(),
         };
@@ -198,8 +198,8 @@ impl MDApi {
     pub fn subscribe_market_data(&mut self, codes: &[&str], is_unsub: bool) -> Result<(), String> {
         let len = codes.len() as c_int;
         let arr_cstring: Vec<CString> = codes.iter().map(|s| CString::new(s.as_bytes()).unwrap()).collect();
-        let arr_cstr: Vec<*mut c_char> = arr_cstring.iter().map(|s| s.as_ptr() as *mut c_char).collect();
-        let ptr = arr_cstr.as_ptr() as *mut *mut c_char;
+        let arr_cstr: Vec<*mut c_uchar> = arr_cstring.iter().map(|s| s.as_ptr() as *mut c_uchar).collect();
+        let ptr = arr_cstr.as_ptr() as *mut *mut c_uchar;
         let rtn = if is_unsub {
             unsafe { self.api.UnSubscribeMarketData(ptr, len) }
         } else {
@@ -255,8 +255,8 @@ pub fn main() {
         flowpath: "".into(),
 
         // simnow - full
-        //front_addr: "tcp://180.168.146.187:10211".into(),
-        front_addr: "tcp://180.168.146.187:10131".into(), //7*24 交易阶段(服务时间)：交易日，16：00～次日09：00；非交易日，16：00～次日15：00。
+        front_addr: "tcp://180.168.146.187:10211".into(),
+        //front_addr: "tcp://180.168.146.187:10131".into(), //7*24 交易阶段(服务时间)：交易日，16：00～次日09：00；非交易日，16：00～次日15：00。
 
         ..Default::default()
     });
