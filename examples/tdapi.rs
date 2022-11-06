@@ -1,7 +1,6 @@
 #![allow(non_upper_case_globals)]
 #![allow(non_camel_case_types)]
 #![allow(non_snake_case)]
-
 #![allow(warnings, unused)]
 #![allow(dead_code)]
 #![allow(unused_imports)]
@@ -9,17 +8,20 @@
 
 use ctp_rs::generated::*;
 
-use std::time::{Duration, Instant};
-use std::io::{Write, Read};
-use std::os::raw::*;
-use std::ffi::{CStr, CString};
 use std::collections::{HashMap, HashSet};
+use std::ffi::{CStr, CString};
+use std::io::{Read, Write};
+use std::os::raw::*;
 use std::path::Path;
-use std::sync::{Arc, Mutex, Condvar};
+use std::sync::{Arc, Condvar, Mutex};
+use std::time::{Duration, Instant};
 
+use crossbeam::{
+    channel::{self, Receiver, Sender},
+    select,
+};
 use log::*;
-use crossbeam::{channel::{self, Sender, Receiver}, select};
-use serde::{Serialize, Deserialize};
+use serde::{Deserialize, Serialize};
 
 #[derive(Debug, Serialize, Deserialize, Copy, Clone, Eq, PartialEq)]
 pub enum Resume {
@@ -51,13 +53,13 @@ pub struct Config {
 pub struct TDApi {
     api: Rust_CThostFtdcTraderApi,
     spi: Option<*mut Rust_CThostFtdcTraderSpi>,
-    rx:  Option<Receiver<String>>,
+    rx: Option<Receiver<String>>,
 
     pub(crate) config: Config,
 }
 
 struct Spi {
-    tx: Sender<String>
+    tx: Sender<String>,
 }
 
 impl Rust_CThostFtdcTraderSpi_Trait for Spi {
@@ -78,13 +80,20 @@ impl TDApi {
         let api = unsafe {
             Rust_CThostFtdcTraderApi::new(CThostFtdcTraderApi_CreateFtdcTraderApi(cs.as_ptr()))
         };
-        Self { api, spi: None, config: config.clone(), rx: None }
+        Self {
+            api,
+            spi: None,
+            config: config.clone(),
+            rx: None,
+        }
     }
 
     /// destory `self.spi`, which created by `TDApi`
     fn drop_spi(spi: *mut Rust_CThostFtdcTraderSpi) {
         let mut spi = unsafe { Box::from_raw(spi) };
-        unsafe { spi.destruct(); }
+        unsafe {
+            spi.destruct();
+        }
     }
 
     fn register<S: Rust_CThostFtdcTraderSpi_Trait>(&mut self, spi: S) {
@@ -127,9 +136,11 @@ impl TDApi {
         //
         // Because original code move spi_stub into self.spi after RegisterSpi, which cause original
         // address invalid.
-        let spi_stub = unsafe { Rust_CThostFtdcTraderSpi::new(ptr) } ;
+        let spi_stub = unsafe { Rust_CThostFtdcTraderSpi::new(ptr) };
         let spi: *mut Rust_CThostFtdcTraderSpi = Box::into_raw(Box::new(spi_stub));
-        unsafe { self.api.RegisterSpi(spi as _); }
+        unsafe {
+            self.api.RegisterSpi(spi as _);
+        }
 
         self.spi = Some(spi);
     }
@@ -143,20 +154,24 @@ impl TDApi {
         if self.config.front_addr.len() > 0 {
             debug!("cs is: {}", self.config.front_addr);
             let cs = CString::new(self.config.front_addr.as_bytes()).unwrap();
-            unsafe { self.api.RegisterFront(cs.as_ptr() as *mut _); }
+            unsafe {
+                self.api.RegisterFront(cs.as_ptr() as *mut _);
+            }
         }
 
         unsafe {
-            self.api.SubscribePrivateTopic(self.config.private_resume as _);
-            self.api.SubscribePublicTopic(self.config.public_resume as _);
+            self.api
+                .SubscribePrivateTopic(self.config.private_resume as _);
+            self.api
+                .SubscribePublicTopic(self.config.public_resume as _);
         }
 
-        unsafe { self.api.Init(); }
+        unsafe {
+            self.api.Init();
+        }
 
         Ok(())
     }
-
-
 }
 
 impl Default for Resume {
@@ -168,7 +183,9 @@ impl Default for Resume {
 impl Drop for TDApi {
     fn drop(&mut self) {
         debug!("drop api");
-        unsafe { self.api.destruct(); }
+        unsafe {
+            self.api.destruct();
+        }
         if let Some(spi) = self.spi {
             debug!("drop spi");
             Self::drop_spi(spi);
@@ -207,5 +224,4 @@ pub fn main() {
             debug!("Got event: {}", event);
         }
     }
-
 }

@@ -1,7 +1,6 @@
 #![allow(non_upper_case_globals)]
 #![allow(non_camel_case_types)]
 #![allow(non_snake_case)]
-
 #![allow(warnings, unused)]
 #![allow(dead_code)]
 #![allow(unused_imports)]
@@ -9,17 +8,20 @@
 
 use ctp_rs::generated::*;
 
-use std::time::{Duration, Instant};
-use std::io::{Write, Read};
-use std::os::raw::*;
-use std::ffi::{CStr, CString};
 use std::collections::{HashMap, HashSet};
+use std::ffi::{CStr, CString};
+use std::io::{Read, Write};
+use std::os::raw::*;
 use std::path::Path;
-use std::sync::{Arc, Mutex, Condvar};
+use std::sync::{Arc, Condvar, Mutex};
+use std::time::{Duration, Instant};
 
+use crossbeam::{
+    channel::{self, Receiver, Sender},
+    select,
+};
 use log::*;
-use crossbeam::{channel::{self, Sender, Receiver}, select};
-use serde::{Serialize, Deserialize};
+use serde::{Deserialize, Serialize};
 
 #[derive(Debug, Clone, Serialize, Deserialize, Default)]
 pub struct Config {
@@ -36,7 +38,7 @@ pub struct Config {
 pub struct MDApi {
     api: Rust_CThostFtdcMdApi,
     spi: Option<*mut Rust_CThostFtdcMdSpi>,
-    rx:  Option<Receiver<Event>>,
+    rx: Option<Receiver<Event>>,
 
     pub(crate) config: Config,
 }
@@ -51,7 +53,7 @@ pub enum Event {
 }
 
 struct Spi {
-    tx: Sender<Event>
+    tx: Sender<Event>,
 }
 
 impl Rust_CThostFtdcMdSpi_Trait for Spi {
@@ -60,7 +62,13 @@ impl Rust_CThostFtdcMdSpi_Trait for Spi {
         self.tx.send(Event::Connected).unwrap();
     }
 
-    fn on_rsp_user_login(&mut self, pRspUserLogin: *mut CThostFtdcRspUserLoginField, pRspInfo: *mut CThostFtdcRspInfoField, nRequestID: ::std::os::raw::c_int, bIsLast: bool) {
+    fn on_rsp_user_login(
+        &mut self,
+        pRspUserLogin: *mut CThostFtdcRspUserLoginField,
+        pRspInfo: *mut CThostFtdcRspInfoField,
+        nRequestID: ::std::os::raw::c_int,
+        bIsLast: bool,
+    ) {
         debug!("user login");
         self.tx.send(Event::UserLogin).unwrap();
     }
@@ -73,7 +81,12 @@ impl Rust_CThostFtdcMdSpi_Trait for Spi {
         debug!("heart_beating");
     }
 
-    fn on_rsp_error(&mut self, pRspInfo: *mut CThostFtdcRspInfoField, nRequestID: ::std::os::raw::c_int, bIsLast: bool) {
+    fn on_rsp_error(
+        &mut self,
+        pRspInfo: *mut CThostFtdcRspInfoField,
+        nRequestID: ::std::os::raw::c_int,
+        bIsLast: bool,
+    ) {
         debug!("rsp_error");
     }
 
@@ -84,7 +97,6 @@ impl Rust_CThostFtdcMdSpi_Trait for Spi {
             let pDepthMarketData = unsafe { &mut *pDepthMarketData };
             debug!("got depth data: {:?}", pDepthMarketData);
         }
-
     }
 }
 
@@ -97,9 +109,18 @@ impl MDApi {
     pub fn new(config: &Config) -> Self {
         let cs = std::ffi::CString::new(config.flowpath.as_bytes()).unwrap();
         let api = unsafe {
-            Rust_CThostFtdcMdApi::new(CThostFtdcMdApi::CreateFtdcMdApi(cs.as_ptr(), config.is_udp, config.is_multicast))
+            Rust_CThostFtdcMdApi::new(CThostFtdcMdApi::CreateFtdcMdApi(
+                cs.as_ptr(),
+                config.is_udp,
+                config.is_multicast,
+            ))
         };
-        Self { api, spi: None, config: config.clone(), rx: None }
+        Self {
+            api,
+            spi: None,
+            config: config.clone(),
+            rx: None,
+        }
     }
 
     fn req_init(&mut self) -> Result<(), String> {
@@ -111,16 +132,22 @@ impl MDApi {
         if self.config.front_addr.len() > 0 {
             debug!("front_addr is: {}", self.config.front_addr);
             let cs = CString::new(self.config.front_addr.as_bytes()).unwrap();
-            unsafe { self.api.RegisterFront(cs.as_ptr() as *mut _); }
+            unsafe {
+                self.api.RegisterFront(cs.as_ptr() as *mut _);
+            }
         }
 
         if self.config.nm_addr.len() > 0 {
             debug!("nm_addr is: {}", self.config.front_addr);
             let cs = CString::new(self.config.nm_addr.as_bytes()).unwrap();
-            unsafe { self.api.RegisterNameServer(cs.as_ptr() as *mut _); }
+            unsafe {
+                self.api.RegisterNameServer(cs.as_ptr() as *mut _);
+            }
         }
 
-        unsafe { self.api.Init(); }
+        unsafe {
+            self.api.Init();
+        }
 
         Ok(())
     }
@@ -128,22 +155,24 @@ impl MDApi {
     fn req_user_login(&mut self) -> Result<(), String> {
         // let loginfield : CThostFtdcReqUserLoginField = todo!();
         let mut loginfield: CThostFtdcReqUserLoginField = CThostFtdcReqUserLoginField {
-            TradingDay:           Default::default(),
-            BrokerID:             Default::default(),
-            UserID:               Default::default(),
-            Password:             [0u8; 41],
-            UserProductInfo:      Default::default(),
+            TradingDay: Default::default(),
+            BrokerID: Default::default(),
+            UserID: Default::default(),
+            Password: [0u8; 41],
+            UserProductInfo: Default::default(),
             InterfaceProductInfo: Default::default(),
-            ProtocolInfo:         Default::default(),
-            MacAddress:           Default::default(),
-            OneTimePassword:      [0u8; 41],
-            ClientIPAddress:      [0u8; 33],
-            LoginRemark:          [0u8; 36],
-            ClientIPPort:         Default::default(),
+            ProtocolInfo: Default::default(),
+            MacAddress: Default::default(),
+            OneTimePassword: [0u8; 41],
+            ClientIPAddress: [0u8; 33],
+            LoginRemark: [0u8; 36],
+            ClientIPPort: Default::default(),
             reserve1: Default::default(),
         };
 
-        unsafe { self.api.ReqUserLogin(&mut loginfield, 1); }
+        unsafe {
+            self.api.ReqUserLogin(&mut loginfield, 1);
+        }
         Ok(())
     }
 
@@ -197,8 +226,14 @@ impl MDApi {
 
     pub fn subscribe_market_data(&mut self, codes: &[&str], is_unsub: bool) -> Result<(), String> {
         let len = codes.len() as c_int;
-        let arr_cstring: Vec<CString> = codes.iter().map(|s| CString::new(s.as_bytes()).unwrap()).collect();
-        let arr_cstr: Vec<*mut c_uchar> = arr_cstring.iter().map(|s| s.as_ptr() as *mut c_uchar).collect();
+        let arr_cstring: Vec<CString> = codes
+            .iter()
+            .map(|s| CString::new(s.as_bytes()).unwrap())
+            .collect();
+        let arr_cstr: Vec<*mut c_uchar> = arr_cstring
+            .iter()
+            .map(|s| s.as_ptr() as *mut c_uchar)
+            .collect();
         let ptr = arr_cstr.as_ptr() as *mut *mut c_uchar;
         let rtn = if is_unsub {
             unsafe { self.api.UnSubscribeMarketData(ptr, len) }
@@ -206,7 +241,10 @@ impl MDApi {
             unsafe { self.api.SubscribeMarketData(ptr, len) }
         };
         if rtn != 0 {
-            return Err(format!("Fail to req `md_api_subscribe_market_data`: {}", rtn))
+            return Err(format!(
+                "Fail to req `md_api_subscribe_market_data`: {}",
+                rtn
+            ));
         }
 
         Ok(())
@@ -221,23 +259,29 @@ impl MDApi {
         let spi: Box<Box<dyn Rust_CThostFtdcMdSpi_Trait>> = Box::new(Box::new(spi));
         let ptr = Box::into_raw(spi) as *mut _ as *mut c_void;
 
-        let spi_stub = unsafe { Rust_CThostFtdcMdSpi::new(ptr) } ;
+        let spi_stub = unsafe { Rust_CThostFtdcMdSpi::new(ptr) };
         let spi: *mut Rust_CThostFtdcMdSpi = Box::into_raw(Box::new(spi_stub));
-        unsafe { self.api.RegisterSpi(spi as _); }
+        unsafe {
+            self.api.RegisterSpi(spi as _);
+        }
 
         self.spi = Some(spi);
     }
 
     fn drop_spi(spi: *mut Rust_CThostFtdcMdSpi) {
         let mut spi = unsafe { Box::from_raw(spi) };
-        unsafe { spi.destruct(); }
+        unsafe {
+            spi.destruct();
+        }
     }
 }
 
 impl Drop for MDApi {
     fn drop(&mut self) {
         debug!("drop api");
-        unsafe { self.api.destruct(); }
+        unsafe {
+            self.api.destruct();
+        }
         if let Some(spi) = self.spi {
             debug!("drop spi");
             Self::drop_spi(spi);
@@ -255,8 +299,8 @@ pub fn main() {
         flowpath: "".into(),
 
         // simnow - full
-        front_addr: "tcp://180.168.146.187:10211".into(),
-        //front_addr: "tcp://180.168.146.187:10131".into(), //7*24 交易阶段(服务时间)：交易日，16：00～次日09：00；非交易日，16：00～次日15：00。
+        //front_addr: "tcp://180.168.146.187:10211".into(),
+        front_addr: "tcp://180.168.146.187:10131".into(), //7*24 交易阶段(服务时间)：交易日，16：00～次日09：00；非交易日，16：00～次日15：00。
 
         ..Default::default()
     });
@@ -270,7 +314,9 @@ pub fn main() {
         while let Ok(event) = rx.recv() {
             count += 1;
             debug!("Got event: {:?}", event);
-            if count >= 5 { break; }
+            if count >= 5 {
+                break;
+            }
         }
     }
 }
