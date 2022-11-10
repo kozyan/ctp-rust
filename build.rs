@@ -102,7 +102,7 @@ fn main() {
     //     .expect("Fail to write converted bindings!");
     //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-    copy_resource_file_to_output(format!("{}.{}", platform, arch));
+    //copy_resource_file_to_output(format!("{}.{}", platform, arch));
 }
 
 fn camel_to_snake<'t>(name: &'t str) -> String {
