@@ -299,14 +299,14 @@ pub fn main() {
         flowpath: "".into(),
 
         // simnow - full
-        //front_addr: "tcp://180.168.146.187:10211".into(),
-        front_addr: "tcp://180.168.146.187:10131".into(), //7*24 交易阶段(服务时间)：交易日，16：00～次日09：00；非交易日，16：00～次日15：00。
+        front_addr: "tcp://180.168.146.187:10211".into(),
+        //front_addr: "tcp://180.168.146.187:10131".into(), //7*24 交易阶段(服务时间)：交易日，16：00～次日09：00；非交易日，16：00～次日15：00。
 
         ..Default::default()
     });
 
     mdapi.start().unwrap();
-    mdapi.subscribe_market_data(&["sn2301"], false).unwrap();
+    mdapi.subscribe_market_data(&["sn2305"], false).unwrap();
     let mut count = 0;
 
     eprintln!("mk api success");

@@ -14406,7 +14406,7 @@ impl CThostFtdcMdApi {
     }
 }
 #[repr(C)]
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 pub struct Rust_CThostFtdcMdApi {
     pub m_member: *mut CThostFtdcMdApi,
 }
@@ -14624,7 +14624,7 @@ impl Rust_CThostFtdcMdApi {
     }
 }
 #[repr(C)]
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 pub struct Rust_CThostFtdcMdSpi {
     pub _base: CThostFtdcMdSpi,
     pub m_rust: *mut ::std::os::raw::c_void,
