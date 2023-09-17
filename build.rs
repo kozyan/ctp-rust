@@ -71,7 +71,7 @@ fn main() {
         .header("src/wrapper.cpp")
         // Tell cargo to invalidate the built crate whenever any of the
         // included header files changed.
-        .derive_debug(true)
+        // .derive_debug(true)
         .derive_default(false)
         // make output smaller
         .layout_tests(false)
@@ -89,10 +89,10 @@ fn main() {
         .expect("Unable to generate bindings");
 
     //NOTE: 产生 bindgen 文件，由于 rust-bindgen 有 bug，先 mark 掉这段代码以使 generated/mod.rs 不会被覆盖。+++++++++++++
-    //let outdir = PathBuf::from("src").join("generated");
-    //std::fs::create_dir_all(outdir).expect("Couldn't create dir generated!");
-    //let outfile = PathBuf::from("src").join("generated/mod.rs");
-    //std::fs::write(&outfile, &output).expect("Couldn't write bindings!");
+    // let outdir = PathBuf::from("src").join("generated");
+    // std::fs::create_dir_all(outdir).expect("Couldn't create dir generated!");
+    // let outfile = PathBuf::from("src").join("generated/mod123.rs");
+    // // std::fs::write(&outfile, &output).expect("Couldn't write bindings!");
     // bindings
     //     .write_to_file(&outfile)
     //     .expect("Couldn't write bindings!");
